@@ -68,6 +68,6 @@ and Biomedicine (BIBM) Next Generation Sequencing Workshop, 561-566.
 
 
 ## Questions, Comments, Problems 
-Email: ewijaya@gmail.com or p-horton@aist.go.jp
+Emails: ewijaya@gmail.com or p-horton@aist.go.jp
 If reporting the problem, please describe exactly how to trigger
 the problem.
