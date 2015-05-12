@@ -1,0 +1,19 @@
+# Author: Paul B. Horton
+# Organization: Computational Biology Research Center, AIST, Japan
+# Copyright (C) 2007, Paul B. Horton, All rights reserved.
+# Creation Date: 2007.6.17
+# Last Modified: $Date: 2007/06/16 23:58:15 $
+#
+This directory contains code to try out the ArgvParser class.
+
+
+COMPILATION
+
+use cbrcCompile.
+
+
+EXECUTION
+
+See Example Command lines in file "exampleCommandLines" in this directory.
+
+

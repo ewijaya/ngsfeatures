@@ -1,0 +1,15 @@
+#CBRC_CPP_HOME = /home/paulh/cbrcRepos/C++
+SRCS = $(CBRC_CPP_HOME)/utils/perlish/perlish.cc
+
+HEADERS = $(CBRC_CPP_HOME)/utils/perlish/perlish.hh
+
+CPP = g++
+CPP_OPT = -O3
+CPP_DEBUG = -g
+WARN = -Wall
+
+smoothMinSampleSize : ../smoothing.cc ../smoothing.hh smoothMinSampleSize.cc $(SRC) $(HEADERS)
+	$(CPP) $(WARN) $(CPP_DEBUG) $(CPP_OPT) -o $@ smoothMinSampleSize.cc ../smoothing.cc -I$(CBRC_CPP_HOME) $(SRCS)
+
+#xxx : $(SRCS) $(HEADERS) xxx.cc
+#	$(CPP) $(WARN) $(CPP_DEBUG) $(CPP_OPT) -o $@ xxx.cc $(SRCS) -I$(CBRC_CPP_HOME)

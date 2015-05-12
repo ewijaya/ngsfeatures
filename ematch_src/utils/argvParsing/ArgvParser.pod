@@ -1,0 +1,622 @@
+# Author: Paul Horton
+# Organization: Computational Biology Research Center, AIST, Japan
+# Copyright (C) 2009, Paul Horton, All rights reserved.
+# Creation Date: 2009.5.12
+# Last Modified: $Date: 2009/06/20 03:25:04 $
+#
+# Description: perldoc documentation for ArgvParser.hh
+#
+=pod
+
+=head1 NAME
+
+ArgvParser
+
+=head1 SYNOPSIS
+
+Class for command line argument parsing
+
+=head1 DESCRIPTION
+
+B<ArgvParser> is a class intended to ease the task of parsing command line arguments
+and setting variables from the information contained in such arguments. Its
+creation was inspired by what the author saw as limitations in the getopt libraries
+available for C++. Whether it is actually more useful than getopt or simply
+embedding sscanf in a while loop may be more a matter of style than substance.
+
+=head1 WERE TO START
+
+You can get started by reading just these sections: L<"CONSTRUCTOR">, L<"PASSING FLAGS TO METHODS">
+and L<"SETTING VARIABLE VALUES FROM COMMAND LINE">. If you want to provide a help or
+options message in addition to a usage message, you should also look at L<"DOC FLAGS">.
+
+=head1 TERMINOLOGY
+
+Defining a few terms here will simplify the description and make the methods
+names easier to understand.
+
+Three terms refer to strings in the command line: I<arg>, I<opt>, and I<flag>.
+The following command line will be used as an example to illustrate the definitions.
+
+  % program 34 -v --doAnneal --schedule exponential
+
+=over 4
+
+=item argv
+
+Argument vector. Originally what is passed to the constructor, which
+typically is the same as what the operating system passed to main, as in:
+
+    int main( int argc, const char* argv[] ){
+        cbrc::ArgvParser args( argc, argv,...
+
+Some methods, such as B<hasFlagDelete> alter argv.
+
+=item arg
+
+Short for "argument", arg is defined positionally. All of the
+strings on the command line:
+
+  ("program", "34", "-v", "--doAnneal", "--schedule", "exponential")
+
+are args. Note however that the first string "program", or the
+0th arg, is not counted by the method L<numArgs|size_t numArgs()> nor
+included in methods like B<argsAsStrings>.
+
+=item flag
+
+Flags are args whose absolute position in the command line is
+unimportant (except that the 0th arg, e.g. I<program name> is
+never considered to be a flag.
+The presence (or absence) of a flag is important
+as is the subsequent arg, i.e. L<"opt">
+
+By convention flags are either '-' followed by one character or '--'
+followed by two or more characters -- but this is not enforced by the
+software. Any string can be passed to methods expected flags.
+
+In our running example, "-v", "--doAnneal", and "--schedule" are
+intended to be flags.
+
+Currently B<ArgvParser> does not support packing multiple flags into a
+single string, as in "tar -xzfv foo.tgz" or "tar xzfv foo.tgz". At the
+present time (2007/05) there are no plans to add support for this in
+the future.
+
+=item opt
+
+Short for "option", an opt is an arg directly following a flag. In
+our running example, the sole opt is "exponential" -- flagged by
+"-schedule".
+
+=back
+
+Another term is "die", which is used as in Perl, meaning to abort
+with some kind of error message. B<ArgvParser> is designed to
+"die" upon encountering problems rather than throwing exceptions.
+
+
+=head1 API
+
+=head2 CONSTRUCTOR
+
+ Usage: int main( int argc, const char* argv[] ){
+              cbrc::ArgvParser args( argc, argv, "[OPTIONS]..." );
+
+ Args:  int argc                             argument count
+        const char* argv[]                   argument vector
+	const std::string                    usage message
+        std::ostream& errorOut = std::cout   stream to print messages to
+
+=head2 USAGE MESSAGE
+
+"$0" in usage is replaced with argv[0]. If usage is just one line, "Usage: $0" is prepended to it.
+
+=head1 METHODS
+
+=head2 PASSING FLAGS TO METHODS
+
+The methods in B<ArgvParser> which accept flags have two signatures. They
+can accept a single std::string I<flagSpec>, or a 
+std::vector<std::string> of flags. I<flagSpec> is split on '|' to produce a
+vector of flags.
+
+=head3 Example
+
+Call with vector of flags:
+    // string vector
+    ArgvParser args( argv, argc, "[-d|--daylight-savings-time]" );
+
+    std::vector<std::string> dstFlags(2);
+    heightFlags.push_back( "-d" );
+    heightFlags.push_back( "--daylight-savings-time" );
+    bool useDaylightSavingsTime(   args.hasFlag( dstFlags )   );
+
+Call with I<flagSpec>. This example illustrates how the C preprocessor
+can be used with I<flagSpec> to write the flag name in just one place
+in the source code.
+
+    #define DST_FLAGS  -d|--daylight-savings-time
+    #define QQ(x) #x
+    #define Q(x) QQ(x)
+
+    ArgvParser args( argv, argc, "["Q(DST_FLAGS)"]" );
+
+    // flagSpec as single string.
+    bool useDaylightSavings(   args.hasFlag( Q(DST_FLAGS) )   );
+
+
+=head2 PRESENCE OF FLAGS OR OPTIONS
+
+  bool hasFlag( const std::vector<std::string> flags )
+  bool hasFlag( const std::string& flagSpec )
+  bool hasFlag( const std::string& flag, const std::string& flagAlias )
+  bool hasFlagDelete( const std::vector<std::string> flags )
+  bool hasFlagDelete( const std::string& flag, [const std::string& flagAlias] )
+  bool hasOpt( const std::vector<std::string>& flags )
+  bool hasFlag( const std::string& flagSpec )
+  bool hasOpt( const std::string& flag, const std::string& flagAlias )
+
+=over 4
+
+=item hasFlag
+
+B<hasFlag> returns true iff the command line has one of the I<flags>.
+
+=item hasFlagDelete
+
+The return value of B<hasFlagDelete> is the same as B<hasFlag> but
+B<hasFlagDelete> has a side effect when a matching flag is found. In
+this case the matched flag is deleted from argv. This can be useful in
+conjunction with the L<SHIFT FUNCTIONS> or methods which access args
+positionally, to parse an optional flag or
+opt before positionally defined args.
+
+Example:
+
+    cbrc::ArgvParser args( argc, argv, "[-v] surname" );
+    bool verbose = args.hasFlagDelete( "-v" );
+    std::string surname = args.shift();
+    ...
+
+=item hasOpt
+
+B<hasOpt> is the same as B<hasFlag> except that the matching flag is
+not allowed to be the last arg, since in that case there is not
+following arg to serve as the value of the opt. To get the value of
+the opt use B<getOpt>
+
+=back
+
+See also L<"Determine if set succeeded idiom">.
+
+=head2 ACCESS BY FLAG
+
+=over 4
+
+=item getOpt, getOptOrDie
+
+    std::string getOpt( const std::string&              flagSpec,
+			const std::string               defaultValue = nullString )
+
+    std::string getOpt( const std::vector<std::string>& flags,
+			const std::string               defaultValue = nullString )
+
+    std::string getOptOrDie( const std::string&              flagSpec )
+    std::string getOptOrDie( const std::vector<std::string>& flags )
+
+Iff any arg (excluding the last one) match one of the I<flags>,
+B<getOpt> returns the succeeding arg as a std::string.
+
+If none of I<flags> matches, B<getOpt> returns I<defaultValue> and
+B<getOptOrDie> prints error and exits.
+
+I<flagSpec> and I<possibleValuesSpec> are split on "|" into a vector of flags.
+
+=item getEnumOpt
+
+    std::string getEnumOpt( const std::string&              flagSpec,
+			    const std::string&              possibleValuesSpec,
+			    const std::string               defaultValue = nullString )
+
+    std::string getEnumOpt( const std::string&              flagSpec,
+			    const std::vector<std::string>& possibleValues,
+			    const std::string               defaultValue = nullString )
+
+    std::string getEnumOpt( const std::vector<std::string>& flags,
+			    const std::string&              possibleValuesSpec,
+			    const std::string               defaultValue = nullString )
+
+
+    std::string getEnumOpt( const std::vector<std::string>& flags,
+			    const std::vector<std::string>& possibleValues,
+			    const std::string               defaultValue = nullString )
+
+Similar to getOpt, but only accepts option values from a stipulated
+list I<possibleValues>. Note that although intentinally mnemonic with C/C++ enum, this
+method does not involve any C/C++ enum variables.
+
+An error is given if the option flag is found on the command line but
+its value is not found in I<possibleValues>.
+
+=item getEnumOpt
+
+
+    std::string getEnumOrDie( const int&          posArgIndex,
+	                      const std::string&  possibleValuesSpec );
+
+
+Return I<posArgIndex>th unused arg as string. Die if I<posArgIndex>th is out
+of range, or the value is not found in I<possibleValuesSpec>.
+
+
+=back
+
+
+=head2 SETTING VARIABLE VALUES FROM COMMAND LINE
+
+   // ***** optional set *****
+   std::string set( T& lhs, const int& posArgIndex ); // from positional arg
+
+   // set from flag
+   std::string set( T& lhs, const std::string& flagSpec );
+   std::string set( T& lhs, const std::string& flag, const std::string& flagAlias );
+   std::string set( T& lhs, const std::vector<std::string>& flags );
+
+
+   // ***** mandatory set *****
+   std::string setOrDie( T& lhs, const int& posArgIndex );
+
+   std::string setOrDie( T& lhs, const std::string& flagSpec );
+   std::string setOrDie( T& lhs, const std::string& flag, const std::string& flagAlias );
+   std::string setOrDie( T& lhs, const std::vector<std::string>& flags );
+
+These are template functions, the variable of type I<T> referred to by I<lhs> is set according
+to the command line contents. Currently supported values of I<T> are:
+
+   double
+   int
+   unsigned int
+   std::ifstream
+   std::istream*
+   std::string
+   bool
+
+If the requested positional or flagged argument is found, it is converted to type
+I<T>, and I<lhs> is set. If the argument was found it is returned in string form as the
+return value of B<set> (B<setOrDie>). If the argument is not found, the B<setOrDie>
+versions die with error message, The B<set> versions return the empty string.
+
+When given as a single string argument, I<flagSpec> is split on "|" to obtain
+a vector of flag strings.
+
+=head3 Defaulting to std:cin
+
+  std::string setOrDie( T& lhs, const std::string& flagSpec );
+  std::istream& getIstream   ( const int& posArgIndex );
+  std::istream* getIstreamPtr( const int& posArgIndex );
+
+The methods both interpret a pathname equal to "-" to mean B<std::cin>.
+B<getIstream> also returns a reference to B<std::cin> if B<posArgIndex>
+is past the last argument given.
+
+=head3 EXAMPLES
+
+   double temperature = 270.0; // default value.
+   args.set( temperature, "-t|--temperature" );
+
+   int numIterations;  // no default, must be stipulated in command line.
+   args.setOrDie( numIterations, 1 );
+
+=head4 Determine if set succeeded idiom
+
+The following idiom is useful to set a boolean variable to reflect whether
+or not an optional set succeeded
+
+  int limit;
+  bool limitGiven = (args.set( limit, 1 )).size();
+
+
+=head3 SET OFSTREAM CAUTIOUSLY
+
+   std::string setCautiously( std::ofstream& ofs,
+			      const int& posArgIndex );
+
+   std::string setCautiously( std::ofstream& ofs,
+			      const std::string& flag );
+
+   std::string setCautiously( std::ofstream& ofs,
+			      const std::string& flag, const std::string& flagAlias );
+
+   std::string setCautiously( std::ofstream& ofs,
+			      const std::vector<std::string>& flags );
+
+Like B<set>, but die with warning if the file already exists. In that case the original
+file is left untouched. B<setCautiouslyOrDie> (analogous to B<setOrDie>) is also
+defined with the same argument types as those for B<setCautiously> listed above.
+
+=head4 EXAMPLES
+
+  // Usage: filename1 --filename2 filename2
+
+  // open file from positional arg
+  std::ofstream file1;
+  std::string filename1 = args.setCautiously( file1, 1 );
+
+  // open file from flagged arg
+  std::ofstream file2;
+  std::string filename2 = args.setCautiously( file2, "--filename2" );
+
+=head3 C<getIstream>
+
+  std::istream& getIstream(      const int& posArgIndex );
+  std::istream& getIstreamOrDie( const int& posArgIndex );
+
+  std::istream& getIstream(      const std::string& flagSpec ){
+  std::istream& getIstreamOrDie( const std::string& flagSpec ){
+
+  std::istream& getIstream(      const std::vector<std::string>& flags );
+  std::istream& getIstreamOrDie( const std::vector<std::string>& flags );
+
+
+Like C<set( std::istream&,...)> methods, except that a reference to
+C<std::cin> is returned when "-" is given for the filename. If the
+specified arg or flag is not found the B<getIstreamOrDie> methods die
+with error, but the B<getIstream> methods return a reference to
+C<std::cin>.
+
+
+=head2 SEMI-PRIVATE SET METHODS
+
+Although mainly for internal use, We left these method in the public
+API because it could conceivably be useful to call them directly.
+
+=head3 looksLike Methods
+
+These methods check if the contents of a string looks like a particular numerical
+type
+
+  static bool looksLikeInt(         const std::string& s );
+  static bool looksLikeUnsignedInt( const std::string& s );
+  static bool looksLikeDouble(      const std::string& s );
+
+  static bool looksLikeInt(         const char* const& s );
+  static bool looksLikeUnsignedInt( const char* const& s );
+  static bool looksLikeDouble(      const char* const& s );
+
+=head3 setFromString
+
+The set methods internally use specializations of the
+template function B<setFromString>:
+
+  bool setFromString<T>( T& lhs,
+		         const std::string& rhsString,
+		         std::ostringstream& errorMessageSStream );
+
+This converts a std::string I<rhsString> into type I<T> and
+assigns the value to I<lhs>. If the conversion fails B<false>
+is returned with an error message in errorMessageSStream.
+
+As example of a call which will generate an error is:
+
+  int intParam;
+  setFromString( intParam, "3.14", errorMessageSStream );
+
+For a list of the support types
+for I<T>, see L<"SETTING VARIABLE VALUES FROM COMMAND LINE">.
+
+
+=head3 OPENING FILES BY DIRECTLY PASSING PATHNAME
+
+The usual way to open a file is with the set methods:
+described in L<"SETTING VARIABLE VALUES FROM COMMAND LINE">. In
+those methods the pathname is extracted from the command line.
+
+Sometimes it is useful to pass the pathname directly. These
+methods are provided:
+
+  void open( std::ifstream& ifs, const std::string& pathname );
+  void openCautiously( std::ofstream& ofs, const std::string& pathname );
+
+These methods exit after printing an error message when the attempt to
+open the file fails. B<openCautiously> also exists with error if the
+file corresponding to I<pathname>. See also L<"SET OFSTREAM CAUTIOUSLY">.
+
+
+=head4 OPENING ISTREAMS WHICH MAY BE FILES OR STD::CIN
+
+  std::istream* openIstream( const std::string& pathname );
+
+  void closeIstream( std::istream* ifsPtr );
+
+B<openIstream> is similar to I<getIstreamOrDie>. If pathname
+is "-" a pointer to std::cin is returned, otherwise the file
+indicated by I<pathname> is opened. This method dies with error
+message if the file open fails.
+
+B<closeIstream> frees any resources allocated by B<openIstream>.
+
+
+=head4 EXAMPLES
+
+  std::string outputFilestem = args.getOptOrDie( "-o", "--output-filestem" );
+
+  std::ofstream outStreamSlow;
+  args.openCautiously( outStreamSlow, outputFilestem + "_slow.out" );
+
+  std::ofstream outStreamFast;
+  args.openCautiously( outStreamSlow, outputFilestem + "_fast.out" );
+
+
+=head2 ACCESS TO COMMAND LINE
+
+  std::string commandLine() const
+  void logCommandLine( const std::string& pathname ) const
+  std::vector<const char*> argsAsStrings() const
+  std::vector<std::string> unusedArgs() const;  
+
+B<commandLine> returns the command line arguments as a std::string with each
+command line argument separated by a single space character. B<logCommandLine>
+appends that string to the file stipulated by I<pathname>.
+
+B<argsAsStrings> returns a std::vector holding the arguments as std::string.
+except the program name (the 0th argument). The arguments are I<not> marked
+as used.
+
+B<unusedArgs> returns a vector of the arguments which have not been marked
+as used (e.g. accessed by accessors such as "set".
+
+=head2 ACCESS FUNCTIONS FOR I<args>
+
+=head3 Running Example
+
+  % program 34 -v --doAnneal --schedule exponential
+
+=head3 operator[]( const int& index )
+
+returns index_th arg. Dies if index is negative or out of range.
+In our running example, args[2] --> "-v"
+
+=head3 size_t size()
+
+Returns the number of args, including the program name. The value
+for our running example would be six.
+
+=head3 size_t numArgs()
+
+Returns the number or options, excluding the program name. In other words: 1-size().
+
+=head2 SHIFT FUNCTIONS
+
+  std::string shift()
+  std::string shiftOrDie()
+
+The shift functions: B<shift>,  B<shiftOrDie>
+
+  Args:        no arguments
+  Returns:     next available command line argument as std:string,
+               or an empty string if no argument available.
+  Side Effect: The returned argument is removed from argv.
+
+B<shiftOrDie> dies with error message if no argument is available.
+
+=head2 DOC FLAGS
+
+The following methods are convenient for separating flags, such as
+"--help", "--options", "--man" etc., asking for basic documentation:
+
+  void setDoc( const std::string& optionName,
+	       std::string optionValue, 
+	       const std::string& locale = "C" );
+
+  void printDoc( const std::string& locale = "" ) const;
+
+  void printOptionDoc( const std::string& optionName,
+		       const std::string& locale = "" ) const;
+
+  std::string getDoc( const std::string& optionName,
+		      std::string locale = "" ) const;
+
+
+These methods can print messages in different languages conditioned
+on the locale. The methods B<setDoc> and B<printDoc> are the most
+commonly used.
+
+=head3 setDoc( optionName, optionValue, locale = "C" )
+
+B<setDoc> sets the value of I<optionName> to I<optionValue> for use
+with I<locale>.
+
+=head3 printDoc( locale = "" )
+
+Call B<printOptionDoc> with first command line argument as
+I<optionName>. Do nothing if no command line arguments are present.
+
+=head3 printOptionDoc( optionName, locale = "" )
+
+If documentation is available (due to previous calls to B<setDoc>) for
+I<optionName> print the one appropriate for the locale. The locale is
+determined by I<locale> or the environment variable B<LANG> in that order.
+If neither of those are set, the locale defaults to "C".
+B<printOptionDoc> does nothing if no documentation is available for
+I<optionName>.
+
+
+=head3 std::string getDoc( optionName, locale = "" )
+
+Returns documentation of I<optionName> for the locale, or
+the empty string if none available. The locale is determined
+as by B<printOptionDoc>.
+
+=head3 Example
+
+  cbrc::ArgvParser args( argc, argv, "[-v] -s textSeqFile -q querySeqFile -o outputFilestem" );
+
+  args.setDoc( "--help", 
+  "Usage: $0 [-v] -s textSeqFile -q querySeqFile -o outputFilestem\n\
+  \n\
+  OPTIONS\n\
+      [-v|--verbose]\n\
+\n\
+\n\
+FLAGGED ARGUMENTS\n\
+    -s|--text-seq-file TEXT-SEQ-FILE\n\
+\n\
+        sequence of text file in fasta format\n\
+  ...
+      " );
+
+  args.setDoc( "--help", 
+  "Usage: $0 [-v] -s textSeqFile -q querySeqFile -o outputFilestem\n\
+  \n\
+  OPTIONS\n\
+      [-v|--verbose]\n\
+  \n\
+  \n\
+  FLAGGED ARGUMENTS\n\
+      -s|--text-seq-file TEXT-SEQ-FILE\n\
+  \n\
+          入力配列のfasta形式ファイル\n",
+  	       "ja_JP.utf8" );
+
+  args.printDoc();
+
+
+This example does nothing unless "--help" is given as the first
+command line argument. If "--help" is found a help message will be
+printed and the program will exit. The message printed will be
+the Japanese one if the environment variable B<LANG> is set to "ja_JP.utf8",
+otherwise the English one.
+
+
+=head2 SUNDRY
+
+=head3 isMember
+
+    bool static isMember( const std::string& pipeSeparatedList,
+		          const std::string& element );
+
+return true iff I<element> is element of I<pipeSeparatedList>.
+
+Example:
+
+    #define QQ(x) #x
+    #define Q(x) QQ(x)
+    #define POSSIBLE_VALUES text|html
+    #define DEFAULT_VALUE   text
+
+    assert(   ArgvParser::isMember( Q(POSSIBLE_VALUES), Q(DEFAULT_VALUE) )   );
+
+=head3 std::string die( const std::string message = "" ) const
+
+Print I<message> and usage, then exit.
+
+=head1 AUTHOR
+
+Paul B. Horton
+
+=cut
+
+#endif // ** end of pod **
+
+

@@ -1,0 +1,114 @@
+=pod
+
+=head1 NAME
+
+B<FastaRecordReader>
+
+=head1 SYNOPSIS
+
+Reader of (multi)fasta streams.
+
+=head1 DESCRIPTION
+
+Reader of (multi)fasta streams.
+
+=head1 Definitions
+
+By our definition of the fasta file format, a fasta stream consists of a series
+of I<records>, possibly interspersed with I<comment lines>. A record consists
+of a I<head>, which is one line starting with the character '>'. The first field
+of the head is the I<name> of the sequence, which is sometimes considered mandatory.
+The detailed format definition can be customized with the L<FastaInputOptions>
+class.
+
+
+=head1 Typedefs
+
+  typedef int (*seqCharFilterT)(int);
+
+Unary predicate used to filter characters to allowed to appear in a sequence.
+
+=head1 Constructor
+
+  FastaRecordReader(
+       /***/ std::istream&       defaultIstream  =  std::cin,
+       const FastaInputOptions&  inputOptions    =  defaultFastaInputOptions
+  );
+
+Construct B<FastaRecordReader> object. Subsequence methods read from
+*defaultIstream*, unless they are explicitly passed a different input
+stream. I<inputOptions> can be stipulated to customize handling of
+fasta records (see L<FastaInputOptions>).
+
+
+=head1 Relation to other classes
+
+L<FastaSeqSlurper> uses this class to provide high level, convienent
+methods.
+
+=head1 Reading Records
+
+For all this methods, the input stream B<iStream> can be ommitted,
+in which case C<defaultIstream()> is used.
+
+  const FastaRecord*  nextRecord();
+  const FastaRecord*  nextRecord(  std::istream& iStream  );
+
+  const FastaRecord*  nextRecordOrDie(  const char* const  errorMessage  =  ""  );
+  const FastaRecord*  nextRecordOrDie(  /***/ std::istream& iStream,
+                                        const char* const  errorMessage  =  ""  );
+
+
+Return pointer to next record in B<iStream> as L<FastaReadRecord> object.
+Upon invocation, if no more records remain in the input stream B<iStream>,
+nextRecord returns null and nextRecordOrDie exits with message B<errormessage>.
+
+These methods remove the terminal '*' character sometimes found appended to the end of sequences in fasta files.
+
+
+=head1 ACCESSORS
+
+  const FastaInputOptions&  inputOptions() const;
+
+  std::istream& defaultIstream() const;
+
+These do what you expect.
+
+  const std::string& defaultName(){
+
+Returns name given for sequences with no name given in fasta record.
+
+
+=head2 Accessors for current record
+
+  const FastaRecord& curRecord() const;
+
+  const std::string& seq() const;
+  /***/ std::string& seqRef();
+
+
+=head1 Other Methods
+
+  void freeCurRecord();
+
+Free memory holding current record data. Invalidates
+subsequence calls to current record accessors, until
+a new record is read.
+
+
+=head1 AUTHOR
+
+Paul Horton
+
+
+=head1 COPYRIGHT
+
+Copyright (C) 2007-2009 Paul Horton, All rights reserved.
+
+=cut
+
+
+
+
+  
+

@@ -1,0 +1,7 @@
+keys:  dan fred marry ted
+values:
+  dan ted 1
+  fred marry 1
+  marry dan 1
+  marry ted 1
+  ted larry 1

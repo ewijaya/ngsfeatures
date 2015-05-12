@@ -1,0 +1,11 @@
+apple	orange
+orange	blue
+blue	tan
+singleton1
+spades	clubs
+clubs	hearts
+apple	grape
+orange	grape
+pig	dog
+cat	pig
+singleton2

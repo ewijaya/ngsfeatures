@@ -1,0 +1,241 @@
+# Author: Paul Horton
+# Organization: Computational Biology Research Center, AIST, Japan
+# Copyright (C) 2003, Paul Horton, All rights reserved.
+# Creation Date: 2009.5.12
+# Last Modified: $Date: 2009/05/12 13:40:57 $
+#
+# Description: perldoc documentation for perlish.hh
+#
+=pod
+
+=head1 NAME
+
+perlish
+
+=head1 SYNOPSIS
+
+Namespace containing functions similar to some of Perl's builtin functions
+
+=head1 DESCRIPTION
+
+perlish provides some functions familiar with Perl users for C++. stringVecT
+is used to mimic the lists of strings commonly found in Perl scripts.
+
+This is not a complete or exact reimplementation of Perl's builtin, but
+rather started as a collection of functions that are associated with Perl in
+the author's mind and later some additional functions which complement them.
+
+One important difference between these functions and Perl's builtins is that there
+is no concept of a global default argument such as '$_' in Perl.
+
+=head1 CAVEAT
+
+This pod documentation is currently far from complete. You must read the code to
+get all of the functions.
+
+=head1 STRING LIST FUNCTIONS
+
+=head2 join
+
+  std::string join( const std::string& delimiter,
+                    const stringVecT& sVec );
+
+returns elements of sVec concatenated together, separated by delimiter. Delimiter may be the empty string.
+
+example: 
+
+  // print content of file ifstream to standard out
+  stringVecT ifstreamContent = cbrc::perlish::slurpLines( ifstream );
+  std::cout << "Contents of ifstream:\n";
+  std::cout << cbrc::perlish::join( "\n", ifstreamContent ) << std::endl;
+
+=head2 split
+
+  stringVecT split( const boost::regex& pattern,
+		    const std::string& s );
+
+  stringVecT split( const boost::regex& pattern,
+                    const std::string::const_iterator& beg,
+		    const std::string::const_iterator& end );
+
+  stringVecT split( const std::string pattern,
+                    const std::string s );
+
+  stringVecT split( const std::string pattern,
+                    const std::string s,
+                    const size_t limit );
+
+Mostly Like perl B<split> except I<limit> cannot be negative and when I<limit> = 0 an empty list is returned.
+
+example:
+
+  std::string s;
+  stringVecT fields;
+
+  fields = split( ' ', s );       // splits on each space
+  fields = split( "[ \t]+", s );  // splits on continguous blocks of space or tab characters
+
+
+
+=head1 IO FUNCTIONS
+
+=head2 slurpLine(s) functions
+
+  std::string
+      slurpLine( std::istream& is = std::cin,
+                 bool ignoreLine(std::string) = isSharpCommentOrEmpty )
+  
+  std::string
+      slurpLine( FILE* ifp,
+                 bool ignoreLine(std::string) = isSharpCommentOrEmpty )
+  
+  stringVecT 
+      slurpLines( std::istream& is = std::cin, 
+                  bool ignoreLine(std::string) = isSharpCommentOrEmpty )
+
+  stringVecT
+      slurpNLines( std::istream& is,
+                   bool ignoreLine(std::string), int n )
+
+The B<slurpLine> functions read a line from a stream or file and
+returns that line (without the newline char) as a std::string. While
+reading each line is passed to the function argument I<ignoreLine> and
+skipped if I<ignoreLine> returns true.  I<ignoreLine> defaults to
+L<"isSharpCommentOrEmpty">.
+
+The B<slurpLines> functions do the same thing but for every line in the file --
+returning the results as a string list. B<slurpNLines> stops gathering lines
+after I<n> lines have been read.
+
+
+=head1 STRING OR CHARACTER PROPERTIES
+
+=head2 Character Properties
+
+    inline bool isNumeric( const char& c ){  return(  (c >= 0) && (c <= 9)  );  }
+
+=head2 String Properties
+
+    bool looksLikeUnsignedIntCstring( const char* const s ); // must be null terminated!
+    bool looksLikeUnsignedInt( const std::string& s, const size_t startIndex = 0 );
+    bool looksLikeUnsignedInts( const stringVecT& sVec ); // true if all strings look like unsigned ints.
+
+    bool looksLikeIntCstring( const char* const s ); // must be null terminated!
+    bool looksLikeInt( const std::string& s, const size_t startIndex = 0 );
+
+    bool looksLikeRealCstring( const char* const s ); // must be null terminated!
+    bool looksLikeReal( const std::string& s );
+
+    // checks for errors but aborts instead of throwing an error.
+    unsigned int toUnsignedInt( const char* const s );
+    unsigned int toUnsignedInt( const std::string s, size_t startIndex = 0 );
+    std::vector<unsigned int> toUnsignedInts( const stringVecT& sVec );
+
+    int toInt( const char* const s );
+    int toInt( const std::string s, size_t startIndex = 0 );
+
+    // checks for errors but aborts instead of throwing an error.
+    double toDouble( const char* const s );
+    double toDouble( const std::string s );
+
+    std::string toString( const double val, const char* format="%g" );
+    std::string toString( const double val, const std::string& format );
+    std::string toString( const int val, const char* const format="%d" );
+    std::string toString( const int val, const std::string& format );
+    std::string toString( const unsigned int val, const char* const format="%u" );
+    std::string toString( const long unsigned int val, const char* const format="%lu" );
+    std::string toString( const long unsigned int val, const std::string& format );
+    std::string toString( const unsigned int val, const std::string& format );
+
+    void fromString( unsigned int& lhs, const char* valueCString );
+    void fromString( unsigned int& lhs, const std::string& valueString );
+    void fromString( long unsigned int& lhs, const char* valueCString );
+    void fromString( long unsigned int& lhs, const std::string& valueString );
+
+
+=head1 OTHER PERLISH FUNCTIONS
+
+=head2 die
+
+  void die( const std::string& filename,
+	    const int& line,
+	    const std::string& errorMessage );
+
+  void die( const std::string& filename,
+	    const int& line,
+	    const std::ostringstream& errorMessageStringStream );
+
+Print error message to both std::cout and std::cerr and then exit with function
+B<gdbExit> defined in "utils/std/gdb.hh".
+
+
+=head1 VARIOUS FUNCTIONS
+
+This section describes various functions, many of which to not
+have close Perl analogs
+
+=head2 size
+
+  std::ifstream::pos_type size( std::ifstream& ifs );
+
+Returns the size of file string I<ifs>.
+
+=head2 toSeconds
+
+  double toSeconds( const std::string& timeString );
+
+B<toSeconds> converts I<timeString> to seconds. The
+format of I<timeString> is a real number value followed
+by one of the following one letter codes {smhdwy}. 'm'
+stands for I<minutes> NOT months.
+
+=head3 Examples
+
+  toSeconds( "10s"  )  --> returns 10
+  toSeconds( "-5m"  )  --> returns -300
+  toSeconds( "0.5w" )  --> returns 0.5 * 60 * 60 * 24 * 7
+
+=head2 min
+
+  template <typename T> min( val0, val1,... )
+
+Return mininum value. Currently 2-4 values may be given.
+  
+=head1 UTILITY FUNCTIONS
+
+This section describes functions which are in the API but are mainly
+useful for other perlish functions.
+
+=head2 isSharpCommentOrEmpty
+
+  bool
+      isSharpCommentOrEmpty( const std::string s )
+
+Useful in combination with L<"slurpLines(s) functions">. Return true iff
+B<s> starts with '#' or is an empty string.
+
+
+
+=head1 BUG REPORTS
+
+Send bug reports to horton-p at aist.go.jp
+Please put 'perlish' in the email subject line.
+
+
+
+=head1 AUTHOR
+
+Paul Horton
+
+
+
+=head1 COPYRIGHT
+
+Copyright (C) 2003-2009
+
+
+
+=cut
+
+
+

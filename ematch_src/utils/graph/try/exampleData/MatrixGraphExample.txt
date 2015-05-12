@@ -1,0 +1,4 @@
+# example graph in continuous integer node format
+10	14
+10	13	14
+11	12

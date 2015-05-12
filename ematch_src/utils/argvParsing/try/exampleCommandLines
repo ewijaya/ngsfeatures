@@ -1,0 +1,8 @@
+# Author: Paul B. Horton
+# Organization: Computational Biology Research Center, AIST, Japan
+# Copyright (C) 2007, Paul B. Horton, All rights reserved.
+# Creation Date: 2007.6.17
+# Last Modified: $Date: 2007/06/17 00:04:16 $
+#
+
+./tryArgvParserSetOrDie_ifstream data/aaa --filename2 data/bbb

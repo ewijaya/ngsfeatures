@@ -1,0 +1,28 @@
+
+ *  Author: "Paul B. Horton"
+ *  
+ *  Organization: Computational Biology Research Center, Japan
+ *
+ *  Copyright: All rights reserved
+ *  
+ *  Creation Date: 2005.4.18
+ *
+ *  Last Modified: $Date: 2005/04/18 04:58:11 $
+
+
+About FLArray, FLEArray, and MallocArray.
+
+The are all similar. But the requirments for the elements they hold is different.
+
+MallocArray requires elements that:
+  * do not need explicit construction or destruction.
+  * can be correctly copied with memcpy.
+
+FLEArray requires elements that:
+  * provide a null constructor
+  * can be correctly copied with memcpy.
+  * provide a print function by overloading "<<"
+
+FLArray requires elements that:
+  * provide a null constructor
+  * provide a print function by overloading "<<"

@@ -1,0 +1,44 @@
+.\" Author: Paul Horton
+.\" Organization: Computational Biology Research Center
+.\" Created 2005.2.21
+.\" Last Modified $Date: 2005/02/21 04:40:19 $
+.\" Copyright 2005, all rights reserved
+.TH runGlobalAffineAlignmentHtml 1 "February 2005" "CBRC Align Utils" "User Commands"
+.SH NAME
+runGlobalAffineAlignmentHtml \- globally align two sequences and output the results as html.
+.SH SYNOPSIS
+.B runGlobalAffineAlignmentHtml \fP[\fBsame\fP|\fBdifferent\fP]
+.br
+.SH DESCRIPTION
+The CBRC Align utils package contains programs useful for aligning sequences.
+
+.br
+runGlobalAffineAlignmentHtml reads two sequences from a multifasta stream piped in from standard in.
+It output a global alignment based in html format. Currently the score matrix is fixed as PAM120.
+.SH OPTIONS
+.TP 12
+.B \-same
+Columns with identical residues are marked with an asterisk.
+.TP 12
+.B \-different
+Columns with differing residues are marked with an asterisk.
+.SH EXAMPLES
+.nf
+Align the sequences in twoSeqs.fasta and displays the results as text:
+
+    runGlobalAffineAlignmentHtml different < twoSeqs.fasta | w3m -T text/html
+.fi
+.SH FILES
+runGlobalAffineAlignmentHtml.cc and many other .cc and .hh files.
+.SH BUGS
+The score matrix is currently hard coded to PAM120. The is not usually the best matrix and makes no sense at all for nucleic acid sequences. This should be easy to fix but has not been done yet.
+.SH LICENSE
+Rights to the CBRC align programs are held by the Computational Biology Research Center, Tokyo. Please contact horton-p@aist.go.jp for license information.
+.SH AUTHOR
+Paul Horton.
+.SH MAINTAINER
+Paul Horton.
+.SH COPYRIGHT
+\(co 2005 National Institute of Advanced Industrial Science and Technology, Japan
+.SH WARRANTY
+There is no warranty.

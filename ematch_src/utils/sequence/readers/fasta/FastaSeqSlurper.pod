@@ -1,0 +1,196 @@
+=pod
+
+
+=head1 NAME
+
+B<FastaSeqSlurper>
+
+
+=head1 SYNOPSIS
+
+Extension of L<FastaRecordReader> to slurp sequences and associated fields in from (multi)fasta streams.
+
+
+=head1 DESCRIPTION
+
+B<FastaSeqSlurper> provides convenience functions for I<slurping> sequences, similar
+to the way Perl makes it easy to slurp lines in from a file. The methods here may
+not be maximally efficient but they allow for script-like programming in C++
+
+
+=head1 Constructors
+
+  FastaSeqSlurper(
+     /***/ std::istream&       defaultIstream  =  std::cin,
+     const FastaInputOptions&  inputOptions    =  defaultFastaInputOptions
+  );
+
+Construct B<FastaSeqSlurper> object. Subsequence methods read from
+*defaultIstream*, unless they are explicitly passed a different input
+stream. I<inputOptions> can be stipulated to customize handling of
+fasta records (see L<FastaInputOptions>).
+
+
+=head1 Reading an entire stream at once
+
+Several methods are provided to "slurp" an entire fasta stream in at once.
+
+
+=head2 Methods returning copy of data
+
+  std::vector<LabeledAsciiSeq> slurpSeqs();
+  std::vector<LabeledAsciiSeq> slurpSeqs( std::istream& is );
+
+
+  std::vector<LabeledSequence> slurpLabeledSequences();
+
+  std::vector<LabeledSequence> slurpLabeledSequences( std::istream& is );
+
+  std::vector<LabeledSequence> slurpLabeledSequences(
+                                   std::istream& is,
+                                   const ResidueIndexMap& residueIndexMap );
+
+
+=head2 Method assigning to reference
+
+  void slurpLabeledAsciiSeqs( std::vector<LabeledAsciiSeq>& labSeqs,
+			      std::istream& is );
+
+
+  void slurpLabeledSequences( /***/ std::vector<LabeledSequence>& labSeqs,
+			      /***/ std::istream&                 is,
+			      const ResidueIndexMap&              residueIndexMap );
+
+  void  slurpLabeledSequences( /***/ std::vector<LabeledSequence>& labSeqs )
+
+  void  slurpLabeledSequences( /***/ std::vector<LabeledSequence>& labSeqs,
+			       const ResidueIndexMap&              residueIndexMap );
+
+  void slurpLabeledSequences( /***/ std::vector<LabeledSequence>& labSeqs,
+			      /***/ std::istream& is );
+
+  void slurpLabeledSequences( /***/ std::vector<LabeledSequence>& labSeqs,
+			      /***/ std::istream&                 is,
+			      const ResidueIndexMap&              residueIndexMap );
+
+
+L<LabeledAsciiSeq> and L<LabeledSequence> differ in that L<LabeledSequence>
+converts the sequence into a L<ResidueIndexMap>ed form. L<LabeledAsciiSeq> was
+created for the LAST project, while L<LabeledSequence> was created for
+WoLF PSORT. The versions returning "void" append all sequences remaining in
+the stream onto the argument I<labSeqs>. If I<residueIndexMap> is omitted
+FastaRecordReader uses methods in L<ResidueIndexMapPredefined> to try to guess
+the sequence type (i.e. protein, DNA, RNA) from the contents of the sequences
+read in. If C<std::istream&> I<is> is omitted, the defaultIstream of the
+FastaRecordReader object is used.
+
+
+=head1 Pseudo-Accessors to Current Record Data
+
+  LabeledAsciiSeq getLabeledAsciiSeq() const;
+
+  LabeledSequence getLabeledSequence() const;
+  LabeledSequence getLabeledSequence( const ResidueIndexMap& residueIndexMap ) const;
+
+These methods return objects based on the most recently read sequence. The
+methods used to read sequences one record at a time are found in the base
+class L<FastaRecordReader>.
+
+
+=head1 Accessors
+
+=head2 Input stream
+
+  std::istream& defaultIstream() const{  return _defaultIstream;  }
+
+=head2 Record Accessors
+
+=head3 Sequence
+
+  const std::string& sequence() const;
+
+  LabeledAsciiSeq getLabeledAsciiSeq() const;
+  LabeledSequence getLabeledSequence( ResidueIndexMapPredefined::seqTypeT seqType ) const;
+
+These return classes which contain the labels and sequence.
+
+=head3 Other parts of record
+
+  const std::vector<std::string>& commentLinesBeforeHead() const:
+
+Any comment lines found in stream before record head (but after
+and previously read records).
+
+  const std::string& head() const;
+
+Returns the first line of the record as it appeared in the input stream.
+
+  const std::vector<std::string>& bodyLines() const;
+
+Body lines (including comment lines) of record.
+
+  const std::vector< std::string >& labels() const;
+
+Returns the labels for current record as a vector of strings.
+
+  const std::string& name() const;
+  const std::string& ID() const;
+
+Return the first label. C<ID()> is a deprecated synonym for C<name()>.
+
+=head2 Parameter Accessors
+
+=head3 access default values
+
+  std::istream& defaultIstream() const;
+
+returns the default stream, used when the input stream argument
+is omitted when calling record reading methods.
+
+  const std::string& defaultName();
+
+name returned by accessor C<name()> for current record, when
+the name was omitted in the actual record read in. The current
+value is "unknown".
+
+  static const boost::regex&   defaultDelimiterRegex();
+  static const std::string&    defaultCommentMarker();
+  static const seqCharFilterT& defaultSeqCharFilter();
+
+These do what you think.
+
+=head3 get parameter values
+
+  const boost::regex&   delimiterRegex() const;
+  const std::string&    commentMarker()  const;
+  const seqCharFilterT& seqCharFilter()  const;
+
+These do what you think.
+
+  bool commentsAllowed() const;
+
+Returns false when no comments are allowed. Currently this
+is equivalent to C<commentMarker().size()>.
+
+  void setDelimiterRegex( const boost::regex& regex            );
+  void setCommentMarker (  const std::string& commentMarker    );
+  void setSeqCharFilter (  const seqCharFilterT& seqCharFilter );
+
+These do what you think.
+
+=head2 Sundry
+
+  void freeCurRecord();
+
+Can be used to free memory when the current record is no longer needed.
+
+
+=head1 AUTHOR
+
+Paul Horton
+
+=head1 COPYRIGHT
+
+Copyright (C) 2007, 2008 Paul Horton, All rights reserved.
+
+=cut

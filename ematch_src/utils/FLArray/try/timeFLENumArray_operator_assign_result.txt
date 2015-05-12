@@ -1,0 +1,44 @@
+Compiled with loop over iterators:
+    const_iterator flaCurPtr  = fla.begin();
+    for( iterator thisCurPtr = this->begin();
+	 thisCurPtr < this->end();
+	 ++thisCurPtr, ++flaCurPtr ){
+      *thisCurPtr += *flaCurPtr;
+    }
+
+
+time ./timeFLENumArray_operator_assign
+first element of b is: 3140
+final element of b is: 3140
+
+real	0m18.400s
+user	0m18.321s
+sys	0m0.056s
+paulh@seqx61:~/cvs/cbrc/C++/utils/FLArray/try$ time ./timeFLENumArray_operator_assign
+first element of b is: 3140
+final element of b is: 3140
+
+real	0m18.343s
+user	0m18.313s
+sys	0m0.016s
+
+
+
+compiled with index accessing loop
+
+for( size_t i = 0; i < this->size(); ++i ) this->a[i] += fla[i];
+time ./timeFLENumArray_operator_assign
+first element of b is: 3140
+final element of b is: 3140
+
+real	0m18.451s
+user	0m18.401s
+sys	0m0.044s
+paulh@seqx61:~/cvs/cbrc/C++/utils/FLArray/try$ time ./timeFLENumArray_operator_assign
+first element of b is: 3140
+final element of b is: 3140
+
+real	0m18.525s
+user	0m18.497s
+sys	0m0.028s
+

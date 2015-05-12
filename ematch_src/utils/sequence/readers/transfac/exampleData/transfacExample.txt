@@ -1,0 +1,110 @@
+VV  Modified TRANSFAC MATRIX TABLE by AIST,CBRC Sequence Analysis team,2006(using: TRANSFAC MATRIX TABLE, Release 8.4 - licensed - 2004-12-15, (C) Biobase GmbH )
+XX
+//
+AC  M00001
+XX
+NA  MyoD
+XX
+DE  myoblast determination gene product
+XX
+BF  T00526; MyoD; Species: mouse, Mus musculus.
+XX
+P0      A      C      G      T
+01      1      2      2      0      S
+02      2      1      2      0      R
+03      3      0      1      1      A
+04      0      5      0      0      C
+05      5      0      0      0      A
+06      0      0      4      1      G
+07      0      1      4      0      G
+08      0      0      0      5      T
+09      0      0      5      0      G
+10      0      1      2      2      K
+11      0      2      0      3      Y
+12      1      0      3      1      G
+XX
+BA  5 functional elements in 3 genes
+XX
+CC  no comment
+XX
+//
+AC  M00002
+XX
+NA  E47
+XX
+DE  E47
+XX
+BF  T00207; E47; Species: human, Homo sapiens.
+XX
+P0      A      C      G      T
+01      4      4      3      0      V
+02      2      5      4      0      S
+03      3      2      4      2      N
+04      2      0      9      0      G
+05      0     11      0      0      C
+06     11      0      0      0      A
+07      0      0     11      0      G
+08      1      2      8      0      G
+09      0      0      0     11      T
+10      0      0     11      0      G
+11      0      0      4      7      K
+12      1      4      3      3      N
+13      1      6      2      2      C
+14      1      4      4      2      N
+15      1      4      2      3      N
+XX
+BA  11 selected strong binding sites for E47, E47-MyoD, E12+MyoD and (weak) for E12
+XX
+BS  GCTGCAGGTGTTCT; R05108; 3; 15; 17; p.
+BS  AAGGCAGGTGGCCCA; R05109; 1; 15;; p.
+BS  GCAGCAGGTGTTCCC; R05110; 5; 15;; p.
+BS  AGGGCAGGTGTCCGG; R05111; 5; 15;; p.
+BS  GGGGCAGGTGGTGGT; R05112; 8; 15;; p.
+BS  CGTACAGATGTGGAT; R05113; 9; 15;; p.
+BS  ACCGCAGCTGGCCCT; R05114; 8; 15;; p.
+BS  CAAGCAGGTGTATCC; R05115; 7; 15;; p.
+BS  CCCACAGCTGGGATC; R05116; 11; 15;; p.
+BS  CCAGCAGGTGTGTGC; R05117; 5; 15;; p.
+BS  AGGGCAGGTGTCCGG; R05118; 5; 15;; p.
+XX
+CC  Group I in [1]; 5 sites selected in vitro for binding to E12N (=N-terminally truncated E12); matrix corrected according to the published sequences
+XX
+RT  An inhibitory domain of E12 transcription factor prevents DNA binding in E12 homodimers but not in E12 heterodimers
+XX
+//
+AC  M00004
+XX
+NA  c-Myb
+XX
+DE  c-Myb
+XX
+BF  T00138; c-Myb; Species: mouse, Mus musculus.
+XX
+P0      A      C      G      T
+01      1     12      6      8      N
+02      6     15      5      1      C
+03      6     10      9      5      N
+04     16      5     14      3      R
+05     16     11      8      2      N
+06      9     16      8     16      N
+07      8      4     34      5      G
+08     20      1     25      5      R
+09      4     49      2      5      C
+10     18     18     20      4      N
+11      0      0     60      0      G
+12      0      0      0     60      T
+13      0      0      0     60      T
+14     11      1     47      1      G
+15      6      6     21      5      G
+16      1      7     15     11      K
+17      2      2     12      4      G
+18      1      0     11      1      G
+XX
+BA  9 c-Myb binding sites in SV40 DNA + 51 selected single binding sites
+XX
+CC  Matrix of [1] has been inverted to be compatible
+XX
+RT  Nucleotide preferences in sequence-specific recognition of DNA by c-myb protein
+RT  Binding of the c-myb proto-oncogene product to the simian virus 40 enhancer stimulates transcription
+XX
+//
