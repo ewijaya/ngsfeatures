@@ -64,7 +64,7 @@ E.Wijaya, J-F Pessiot, M. C. Frith, W. Fujibuchi, K. Asai and P. Horton, *In
 Search of True Reads: A Classification Approach to Next Generation Sequencing
 Data Selection*, in Proc. 2010 IEEE International Conference on Bioinformatics
 and Biomedicine (BIBM) Next Generation Sequencing Workshop, 561-566.
-[(IEEE)](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5703862&tag=1)
+[(IEEE)](http://bit.ly/1ATrBmR)
 
 
 ## Questions, Comments, Problems 
