@@ -42,18 +42,14 @@ std::string GetPathNameFromFilename( const std::string &filename )
 vector <char> tagnum2acgt(vector<int>arg ) {
 
     vector<char> stringACGT;
+    stringACGT.reserve(arg.size());  // Pre-allocate memory
 
-    map<int,char> lookup;
-        lookup[0] = 'A';
-        lookup[1] = 'C';
-        lookup[2] = 'G';
-        lookup[3] = 'T';
+    // Static const lookup table (created once, reused)
+    static const char lookup[4] = {'A', 'C', 'G', 'T'};
 
     for ( unsigned i=0 ;i<arg.size() ; i++ ) {
-        char alphACGT = lookup[arg[i]];
-        stringACGT.push_back(alphACGT);
+        stringACGT.push_back(lookup[arg[i]]);
     }
-
 
     return stringACGT;
 
@@ -62,18 +58,19 @@ vector <char> tagnum2acgt(vector<int>arg ) {
 vector <int> acgt2tagnum(string arg ) {
 
     vector<int> numAll;
+    numAll.reserve(arg.size());  // Pre-allocate memory
 
-    map<int,char> lookup;
-        lookup['A'] = 0 ;
-        lookup['C'] = 1;
-        lookup['G'] = 2;
-        lookup['T'] = 3;
-
+    // Static const lookup table - faster than map lookup
+    // Using switch for maximum compiler optimization
     for ( unsigned i=0 ;i<arg.size() ; i++ ) {
-        int numTag = lookup[arg[i]];
-        numAll.push_back(numTag);
+        switch(arg[i]) {
+            case 'A': numAll.push_back(0); break;
+            case 'C': numAll.push_back(1); break;
+            case 'G': numAll.push_back(2); break;
+            case 'T': numAll.push_back(3); break;
+            default:  numAll.push_back(0); break;
+        }
     }
-
 
     return numAll;
 
@@ -81,16 +78,18 @@ vector <int> acgt2tagnum(string arg ) {
 
 vector <int> id2tagnum(int id, int tgl ) {
 
-    // replicate
-    vector <int> Rep;
-    Rep.assign(tgl, id-1);
+    // Optimized version using bit operations instead of pow()
+    // Base-4 can be extracted using shifts (4 = 2^2, so 2 bits per digit)
     vector <int> nuMTag;
+    nuMTag.reserve(tgl);  // Pre-allocate memory
 
-    for ( int i=tgl-1; i>=0  ; i-- ) {
-        double pw = pow(4.00, double (i));
-        int fm  = static_cast<int>(double(Rep[i])/pw);
-        int md  = fm % 4;
-        nuMTag.push_back(md);
+    int val = id - 1;
+
+    // Extract base-4 digits from most significant to least significant
+    for ( int i = tgl - 1; i >= 0; i-- ) {
+        int shift = i * 2;  // Each base-4 digit needs 2 bits
+        int digit = (val >> shift) & 3;  // Extract 2 bits
+        nuMTag.push_back(digit);
     }
 
     return nuMTag;

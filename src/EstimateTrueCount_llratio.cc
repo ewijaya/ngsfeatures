@@ -44,10 +44,11 @@ double computeLogLikdebug(std::vector <double> &m, std::vector <double> &p, doub
 
 }
 
-double computeLogLik(std::vector <double> &m, std::vector <double> &p, double &lmbd) {
+// Optimized: pass by const reference
+double computeLogLik(const std::vector <double> &m, const std::vector <double> &p, const double &lmbd) {
 
-        double Result = 0;
-        double pjtotfree=0;
+        double Result = 0.0;
+        double pjtotfree=0.0;
         for (unsigned i = 0; i < p.size(); i++) {
 
             if (p[i] != 0.00) {
@@ -75,18 +76,21 @@ double relative_diff_loglik (double &x, double &y) {
     
 }
 
-vector <double> normalizeP(std::vector <double> &pn) {
-    double tot=0;
+// Optimized: pass by const reference, reserve space, use multiplication
+vector <double> normalizeP(const std::vector <double> &pn) {
+    double tot=0.0;
     for (unsigned i = 0; i < pn.size(); i++) {
          tot += pn[i];
     }
 
     vector <double> nVec;
+    nVec.reserve(pn.size());  // Pre-allocate
+
+    const double inv_tot = 1.0 / tot;  // Multiply is faster than divide
     for (unsigned j = 0; j < pn.size(); j++) {
-        nVec.push_back(pn[j]/tot);
-        
+        nVec.push_back(pn[j] * inv_tot);
     }
-    
+
     return nVec;
 }
 
