@@ -23,9 +23,10 @@ using namespace std;
 
 
 
-double computeLogLik(std::vector <double> &m, std::vector <double> &p, double &lmbd) {
+// Optimized: pass by const reference
+double computeLogLik(const std::vector <double> &m, const std::vector <double> &p, const double &lmbd) {
 
-        double Result = 0;
+        double Result = 0.0;
         for (unsigned i = 0; i < p.size(); i++) {
             Result += m[i] * log(p[i]*lmbd);
         }
@@ -34,52 +35,56 @@ double computeLogLik(std::vector <double> &m, std::vector <double> &p, double &l
 
 }
 
-vector <double> multiplyVecWithVecCorsp(std::vector <double> &Vec1,  std::vector <double> &Vec2) {
+// Optimized: pass by const reference, reserve space
+vector <double> multiplyVecWithVecCorsp(const std::vector <double> &Vec1, const std::vector <double> &Vec2) {
 
     vector<double>  Result;
+    Result.reserve(Vec1.size());  // Pre-allocate
 
     for (unsigned i=0; i<Vec1.size(); i++) {
-        double Res = Vec1[i]*Vec2[i];
-        Result.push_back(Res);
-    }
-
-    return Result;
-}
-vector <double> divideVecWithVecCorsp(std::vector <double> &Vec1,  std::vector <double> &Vec2) {
-
-    vector<double>  Result;
-
-    for (unsigned i=0; i<Vec1.size(); i++) {
-        double Res = Vec1[i]/Vec2[i];
-        Result.push_back(Res);
+        Result.push_back(Vec1[i]*Vec2[i]);
     }
 
     return Result;
 }
 
-vector <double> divideVecWithScalar(std::vector <double> &Vec,  double &theC) {
+// Optimized: pass by const reference, reserve space
+vector <double> divideVecWithVecCorsp(const std::vector <double> &Vec1, const std::vector <double> &Vec2) {
 
     vector<double>  Result;
+    Result.reserve(Vec1.size());  // Pre-allocate
 
+    for (unsigned i=0; i<Vec1.size(); i++) {
+        Result.push_back(Vec1[i]/Vec2[i]);
+    }
+
+    return Result;
+}
+
+// Optimized: pass by const reference, reserve space, use multiplication instead of division
+vector <double> divideVecWithScalar(const std::vector <double> &Vec, const double &theC) {
+
+    vector<double>  Result;
+    Result.reserve(Vec.size());  // Pre-allocate
+
+    const double inv_theC = 1.0 / theC;  // Division is slower than multiplication
     for (unsigned i=0; i<Vec.size(); i++) {
-        double Res = Vec[i]/theC;
-        Result.push_back(Res);
+        Result.push_back(Vec[i] * inv_theC);
     }
 
     return Result;
 }
 
-vector <double> sparseM_vec_prod(vector <double> &p, 
-                        std::vector<int> &rowId, 
-                        std::vector<int> &colId, 
-                        std::vector<double> &realVal) {
+// Optimized: pass by const reference
+vector <double> sparseM_vec_prod(const vector <double> &p,
+                        const std::vector<int> &rowId,
+                        const std::vector<int> &colId,
+                        const std::vector<double> &realVal) {
 
 
-     std::vector <double> Result;
-     Result.assign(p.size(), 0);
+     std::vector <double> Result(p.size(), 0.0);  // More efficient initialization
 
      for (unsigned i= 0; i < rowId.size(); i++) {
-        //cout << realVal[i] << " " << p(colId[i]) << endl;
         Result[rowId[i]] += realVal[i] * p[colId[i]];
      }
 
@@ -87,20 +92,22 @@ vector <double> sparseM_vec_prod(vector <double> &p,
 }
 
 
-double getMainTagPropInit(std::vector < double >&arg) {
+// Optimized: pass by const reference
+double getMainTagPropInit(const std::vector < double>&arg) {
 
-	double mainTagProp = 0;
+	double mainTagProp = 0.0;
 
 	for (unsigned i = 0; i < arg.size(); i++) {
 		mainTagProp += arg[i];
 	}
 
-	return max(0.01,(1 - mainTagProp));
+	return max(0.01,(1.0 - mainTagProp));
 }
 
-double getMainTagPropMeanScaled(std::vector < double >&arg) {
+// Optimized: pass by const reference
+double getMainTagPropMeanScaled(const std::vector < double>&arg) {
 
-	double mainTagProp = 0;
+	double mainTagProp = 0.0;
 
 	for (unsigned i = 0; i < arg.size(); i++) {
 		mainTagProp += arg[i];
@@ -135,18 +142,19 @@ vector <pair <int,int> > getIndexFromVector(std::vector <string> &nbNt, std::vec
 }
 
 
-vector <pair <int,int> > getIndexFromMap(std::vector <string> &nbNt, std::map<string,int>&m) {
+// Optimized: pass by const reference, reserve space
+vector <pair <int,int> > getIndexFromMap(const std::vector <string> &nbNt, const std::map<string,int>&m) {
     vector <pair< int, int> > foundIndex;
+    foundIndex.reserve(nbNt.size());  // Pre-allocate worst case
 
     for (unsigned i=0; i < nbNt.size() ; i++) {
 
-
-        map<string,int>::iterator iter = m.find(nbNt[i]);
+        // Cache the iterator result
+        map<string,int>::const_iterator iter = m.find(nbNt[i]);
 
         if ( iter != m.end()) {
-            int j = iter->second; 
-            pair <int,int> tuple = make_pair(i,j);
-            foundIndex.push_back(tuple); 
+            int j = iter->second;
+            foundIndex.push_back(make_pair(i,j));
         }
 
     }
@@ -154,30 +162,26 @@ vector <pair <int,int> > getIndexFromMap(std::vector <string> &nbNt, std::map<st
     return foundIndex;
 }
 
-vector <double> getPropSum(std::vector < string >&neigb, map<string,double>&m ) {
+// Optimized: pass by const reference, reserve space, cache map lookups
+vector <double> getPropSum(const std::vector < string >&neigb, const map<string,double>&m ) {
 
     vector <double> propVec;
+    propVec.reserve(neigb.size());
 
-    // Find value of a neigbours
-    // from the map, otherwise return zero
-
+    // Find value of a neighbors from the map, otherwise return zero
+    // OPTIMIZATION: Cache the iterator instead of double lookup
     for ( unsigned i= 0; i<neigb.size()  ;i++ ) {
-        map<string,double>::iterator iter = m.find(neigb[i]);
-            double value = 0;
-
-            if ( iter != m.end()  ){
-                value = m[neigb[i]];
-            }
-            propVec.push_back(value);
-            //cout << neigb[i] << " " << value << endl;
+        map<string,double>::const_iterator iter = m.find(neigb[i]);
+        double value = (iter != m.end()) ? iter->second : 0.0;
+        propVec.push_back(value);
     }
-
 
     // Sum the vector in three-three
     // Resulting vector = nofpos
-
     vector <double> pSum;
     int nofPos = neigb.size()/3;
+    pSum.reserve(nofPos);  // Pre-allocate
+
     int b = 0;
     for ( int k=0; k<nofPos ; k++ ) {
        double output = propVec[b] + propVec[b + 1] + propVec[b + 2];
@@ -185,29 +189,23 @@ vector <double> getPropSum(std::vector < string >&neigb, map<string,double>&m ) 
        b += 3;
     }
 
-    
     return pSum;
 }
 
-vector <double> getNumTagProp(std::vector < string >&neigb, map<string,double>&m ) {
+// Optimized: pass by const reference, reserve space, cache map lookups
+vector <double> getNumTagProp(const std::vector < string >&neigb, const map<string,double>&m ) {
 
     vector <double> propVec;
+    propVec.reserve(neigb.size());
 
-    // Find value of a neigbours
-    // from the map, otherwise return zero
-
+    // Find value of neighbors from the map, otherwise return zero
+    // OPTIMIZATION: Cache the iterator instead of double lookup
     for ( unsigned i= 0; i<neigb.size()  ;i++ ) {
-        map<string,double>::iterator iter = m.find(neigb[i]);
-            double value = 0;
-
-            if ( iter != m.end()  ){
-                value = m[neigb[i]];
-            }
-            propVec.push_back(value);
-            //cout << neigb[i] << " " << value << endl;
+        map<string,double>::const_iterator iter = m.find(neigb[i]);
+        double value = (iter != m.end()) ? iter->second : 0.0;
+        propVec.push_back(value);
     }
 
-    
     return propVec;
 }
 
@@ -558,27 +556,49 @@ int main  ( int arg_count, char *arg_vec[] ) {
 
  double lambda = double(lineno_);
  int maxStep = 50;
- 
+
  vector <double> nCount = rawCount;
  vector <double> theM   = rawCount;
+
+ // OPTIMIZATION: Add convergence threshold for early exit
+ const double convergence_threshold = 1e-6;
+ double prev_logLik = -1e100;
+ bool converged = false;
 
  for (int m = 0; m < maxStep; m++) {
      //cout << "Step " << m << endl;
 
-     vector <double> thePM; 
-     vector <double> theP; 
-     vector <double> sparseM_prod_P; 
+     vector <double> thePM;
+     vector <double> theP;
+     vector <double> sparseM_prod_P;
      vector <double> rSums;
      vector <double> tsparseM_prod_rSums;
      double logLik;
-      
+
      thePM               = theM;
-     theP                = divideVecWithScalar(theM,lambda); 
+     theP                = divideVecWithScalar(theM,lambda);
      sparseM_prod_P      = sparseM_vec_prod(theP,IA,JA,RA);
      rSums               = divideVecWithVecCorsp(nCount,sparseM_prod_P);
      tsparseM_prod_rSums = sparseM_vec_prod(rSums,JA,IA,RA);
      theM                = multiplyVecWithVecCorsp(theP, tsparseM_prod_rSums);
      logLik              = computeLogLik(theM, theP, lambda);
+
+     // OPTIMIZATION: Check for convergence and exit early
+     if (m > 0 && fabs(logLik - prev_logLik) < convergence_threshold) {
+         converged = true;
+         //cerr << "Converged at iteration " << m << endl;
+
+         // Output final results
+         for (unsigned i=0; i<theM.size(); i++) {
+            double ExpCount = theM[i];
+            cout << Tags[i] << "\t" << fixed <<  setprecision(3) <<  rawCount[i] << "\t";
+            printf("%.3f", ExpCount);
+            cout << "\t";
+            cout << endl;
+         }
+         break;  // Exit early
+     }
+     prev_logLik = logLik;
 
      /*
      prn_vec_oneval<double>(theP,"\t",3);
@@ -596,7 +616,7 @@ int main  ( int arg_count, char *arg_vec[] ) {
 
      //cout << logLik << endl;
 
-     //Show only the last iteration
+     //Show only the last iteration (if not converged early)
      if ( m == maxStep-1) {
 
          for (unsigned i=0; i<theM.size(); i++) {
