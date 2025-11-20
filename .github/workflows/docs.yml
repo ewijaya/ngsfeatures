@@ -1,0 +1,141 @@
+name: Documentation
+
+on:
+  push:
+    branches: [ master, main ]
+    paths:
+      - '**.cc'
+      - '**.cpp'
+      - '**.h'
+      - '**.hh'
+      - '**.hpp'
+      - '**.md'
+      - 'Doxyfile'
+      - '.github/workflows/docs.yml'
+  pull_request:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  # ============================================================================
+  # Build Doxygen Documentation
+  # ============================================================================
+  doxygen:
+    name: Build Doxygen docs
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install Doxygen and Graphviz
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y doxygen graphviz
+
+    - name: Generate documentation
+      run: doxygen Doxyfile
+
+    - name: Check for warnings
+      run: |
+        if [ -f doxygen_warnings.log ]; then
+          echo "## Doxygen Warnings" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat doxygen_warnings.log >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+          warning_count=$(wc -l < doxygen_warnings.log)
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Total warnings: $warning_count" >> $GITHUB_STEP_SUMMARY
+        fi
+
+    - name: Upload documentation
+      uses: actions/upload-artifact@v4
+      with:
+        name: doxygen-html
+        path: docs/html/
+        retention-days: 30
+
+    - name: Deploy to GitHub Pages (on main branch only)
+      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs/html
+        publish_branch: gh-pages
+
+  # ============================================================================
+  # Check README and Documentation
+  # ============================================================================
+  markdown-lint:
+    name: Lint Markdown files
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Run markdownlint
+      uses: nosborn/github-action-markdown-cli@v3.3.0
+      with:
+        files: .
+        config_file: .markdownlint.json
+        ignore_files: node_modules/
+      continue-on-error: true
+
+  # ============================================================================
+  # Check Links in Documentation
+  # ============================================================================
+  link-check:
+    name: Check links
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Check links in README
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'yes'
+        config-file: '.github/markdown-link-check-config.json'
+      continue-on-error: true
+
+  # ============================================================================
+  # Documentation Coverage Report
+  # ============================================================================
+  doc-coverage:
+    name: Documentation coverage
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install Doxygen
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y doxygen
+
+    - name: Generate documentation
+      run: doxygen Doxyfile
+
+    - name: Analyze documentation coverage
+      run: |
+        echo "## Documentation Coverage" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+
+        # Count total functions/classes
+        total_functions=$(grep -r "^[[:space:]]*[a-zA-Z_].*(" src/*.cc src/*.hh | wc -l)
+        echo "Approximate total functions: $total_functions" >> $GITHUB_STEP_SUMMARY
+
+        # Count warnings about undocumented items
+        if [ -f doxygen_warnings.log ]; then
+          undoc_count=$(grep -c "is not documented" doxygen_warnings.log || echo "0")
+          echo "Undocumented items: $undoc_count" >> $GITHUB_STEP_SUMMARY
+
+          if [ "$total_functions" -gt 0 ]; then
+            coverage=$((100 - (undoc_count * 100 / total_functions)))
+            echo "Estimated documentation coverage: ${coverage}%" >> $GITHUB_STEP_SUMMARY
+          fi
+        fi
