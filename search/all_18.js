@@ -4,7 +4,7 @@ var searchData=
   ['tagid_5fto_5fseq_1',['tagid_to_seq',['../classcbrc_1_1RecountNeighborProbGraphOnDisk.html#a135ef54ce87ef10663dafe6f28bb98fc',1,'cbrc::RecountNeighborProbGraphOnDisk::tagID_to_seq() const'],['../classcbrc_1_1RecountNeighborProbGraphOnDisk.html#a900afd8e62cb76794cc07658c34ff737',1,'cbrc::RecountNeighborProbGraphOnDisk::tagId_to_seq() const']]],
   ['tagidt_2',['tagIdT',['../namespacecbrc.html#a79a96dda321784924bfd82e5360b38fa',1,'cbrc']]],
   ['tagidvect_3',['tagIdVecT',['../namespacecbrc.html#a1ed5513342dfd0ea12bf925cc6e449f8',1,'cbrc']]],
-  ['tagnum2acgt_4',['tagnum2acgt',['../Utilities_8cc.html#a1f4462946d560ad06bdac232bccd1fb0',1,'tagnum2acgt(vector&lt; int &gt;arg):&#160;Utilities.cc'],['../Utilities_8hh.html#a27addec122e6d087da4ffc41c21b922e',1,'tagnum2acgt(const std::vector&lt; int &gt; &amp;arg):&#160;Utilities.hh']]],
+  ['tagnum2acgt_4',['tagnum2acgt',['../Utilities_8cc.html#ad4baeee96b22ebe4ff19d10ba8259ad4',1,'tagnum2acgt(vector&lt; int &gt; arg):&#160;Utilities.cc'],['../Utilities_8hh.html#a27addec122e6d087da4ffc41c21b922e',1,'tagnum2acgt(const std::vector&lt; int &gt; &amp;arg):&#160;Utilities.hh']]],
   ['tagseqt_5',['tagseqt',['../classcbrc_1_1RecountNeighborProbGraphWriter.html#a30f6fd90b20f20f919c6d6d73958eb5f',1,'cbrc::RecountNeighborProbGraphWriter::tagSeqT'],['../classcbrc_1_1SortedTagSet.html#ab6b0bd661ec898f24a24586d078c1e2c',1,'cbrc::SortedTagSet::tagSeqT']]],
   ['tagseqvect_6',['tagSeqVecT',['../classcbrc_1_1SortedTagSet.html#a2c2808aa7122f4bfe3e7da263fd8a1a5',1,'cbrc::SortedTagSet']]],
   ['tagset_7',['tagset',['../classcbrc_1_1TagSet.html',1,'cbrc::TagSet'],['../classcbrc_1_1TagSet.html#a265ec8ad6132c63559613e84ba627c01',1,'cbrc::TagSet::TagSet()']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['tagid_5fto_5fseq_0',['tagid_to_seq',['../classcbrc_1_1RecountNeighborProbGraphOnDisk.html#a900afd8e62cb76794cc07658c34ff737',1,'cbrc::RecountNeighborProbGraphOnDisk::tagId_to_seq() const'],['../classcbrc_1_1RecountNeighborProbGraphOnDisk.html#a135ef54ce87ef10663dafe6f28bb98fc',1,'cbrc::RecountNeighborProbGraphOnDisk::tagID_to_seq() const']]],
-  ['tagnum2acgt_1',['tagnum2acgt',['../Utilities_8hh.html#a27addec122e6d087da4ffc41c21b922e',1,'tagnum2acgt(const std::vector&lt; int &gt; &amp;arg):&#160;Utilities.hh'],['../Utilities_8cc.html#a1f4462946d560ad06bdac232bccd1fb0',1,'tagnum2acgt(vector&lt; int &gt;arg):&#160;Utilities.cc']]],
+  ['tagnum2acgt_1',['tagnum2acgt',['../Utilities_8hh.html#a27addec122e6d087da4ffc41c21b922e',1,'tagnum2acgt(const std::vector&lt; int &gt; &amp;arg):&#160;Utilities.hh'],['../Utilities_8cc.html#ad4baeee96b22ebe4ff19d10ba8259ad4',1,'tagnum2acgt(vector&lt; int &gt; arg):&#160;Utilities.cc']]],
   ['tagset_2',['TagSet',['../classcbrc_1_1TagSet.html#a265ec8ad6132c63559613e84ba627c01',1,'cbrc::TagSet']]],
   ['tagstring_3',['tagString',['../namespacecbrc_1_1htmlStrings.html#a48dad4704c4363d89a4541cb514e8ac7',1,'cbrc::htmlStrings']]],
   ['testcanstatfile_4',['testCanStatFile',['../namespacecbrc.html#ae68b42e25b692d45f0a3a899eca5e6f2',1,'cbrc']]],

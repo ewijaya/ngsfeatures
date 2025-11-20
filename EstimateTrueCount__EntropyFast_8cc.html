@@ -97,20 +97,20 @@ $(document).ready(function(){initNavTree('EstimateTrueCount__EntropyFast_8cc.htm
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>&quot;</code><br />
-<code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;cstdlib&gt;</code><br />
-<code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;iomanip&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
+<code>#include &lt;numeric&gt;</code><br />
 <code>#include &lt;sstream&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
-<code>#include &lt;map&gt;</code><br />
-<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;cmath&gt;</code><br />
+<code>#include &lt;cstdio&gt;</code><br />
+<code>#include &lt;cstdlib&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
 <code>#include &lt;ctime&gt;</code><br />
-<code>#include &lt;numeric&gt;</code><br />
-<code>#include &lt;iomanip&gt;</code><br />
-<code>#include &lt;stdio.h&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for EstimateTrueCount_EntropyFast.cc:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -216,9 +216,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00167">167</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00146">146</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00337">backtrackingLineSearch()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00388">gradient_descent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00300">backtrackingLineSearch()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00347">gradient_descent()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -273,11 +273,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00337">337</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00300">300</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00167">alloc_vect()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00098">compute_dot()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00307">final_f()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00146">alloc_vect()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00088">compute_dot()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00272">final_f()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00388">gradient_descent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00347">gradient_descent()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -321,9 +321,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00098">98</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00088">88</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00337">backtrackingLineSearch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00300">backtrackingLineSearch()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
@@ -350,9 +350,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00063">63</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00060">60</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00116">make_proba()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00133">make_proba_alloc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00102">make_proba()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00117">make_proba_alloc()</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
@@ -379,11 +379,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00080">80</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00074">74</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00028">h()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00029">h()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00275">der_ent_k()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00249">der_f_k()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00217">ent()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00192">f()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00242">der_ent_k()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00220">der_f_k()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00191">ent()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00168">f()</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
@@ -433,9 +433,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00522">522</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00469">469</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00755">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00671">main()</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
@@ -462,7 +462,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00511">511</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00459">459</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
 </div>
 </div>
@@ -482,7 +482,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00500">500</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00449">449</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
 </div>
 </div>
@@ -512,9 +512,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00152">152</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00134">134</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00388">gradient_descent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00347">gradient_descent()</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
@@ -551,11 +551,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00275">275</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00242">242</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00080">compute_sum_hx_vect()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00047">der_h()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00028">h()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00074">compute_sum_hx_vect()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00046">der_h()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00029">h()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00314">final_der()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00279">final_der()</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
@@ -605,11 +605,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00249">249</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00220">220</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00080">compute_sum_hx_vect()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00047">der_h()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00028">h()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00074">compute_sum_hx_vect()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00046">der_h()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00029">h()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00314">final_der()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00279">final_der()</a>.</p>
 <div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
@@ -643,9 +643,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00047">47</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00046">46</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00275">der_ent_k()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00249">der_f_k()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00242">der_ent_k()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00220">der_f_k()</a>.</p>
 <div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-14-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-14-summary" class="dynsummary" style="display:block;">
@@ -682,9 +682,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00559">559</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00501">501</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00755">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00671">main()</a>.</p>
 <div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-15-summary" class="dynsummary" style="display:block;">
@@ -721,9 +721,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00547">547</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00490">490</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00755">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00671">main()</a>.</p>
 <div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-16-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-16-summary" class="dynsummary" style="display:block;">
@@ -750,11 +750,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00217">217</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00191">191</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00080">compute_sum_hx_vect()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00028">h()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00074">compute_sum_hx_vect()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00029">h()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00307">final_f()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00272">final_f()</a>.</p>
 <div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-17-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
@@ -798,11 +798,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00192">192</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00168">168</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00080">compute_sum_hx_vect()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00028">h()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00074">compute_sum_hx_vect()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00029">h()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00307">final_f()</a>, <a class="el" href="Blast8ResultReader_8hh_source.html#l00033">cbrc::Blast8Result::setFields()</a>, and <a class="el" href="testLogFactorial_8cc_source.html#l00017">testLogFactorial()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00272">final_f()</a>, <a class="el" href="Blast8ResultReader_8hh_source.html#l00033">cbrc::Blast8Result::setFields()</a>, and <a class="el" href="testLogFactorial_8cc_source.html#l00017">testLogFactorial()</a>.</p>
 <div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-19-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-19-summary" class="dynsummary" style="display:block;">
@@ -858,11 +858,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00314">314</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00279">279</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00275">der_ent_k()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00249">der_f_k()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00242">der_ent_k()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00220">der_f_k()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00388">gradient_descent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00347">gradient_descent()</a>.</p>
 <div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-21-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-21-summary" class="dynsummary" style="display:block;">
@@ -912,11 +912,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00307">307</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00272">272</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00217">ent()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00192">f()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00191">ent()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00168">f()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00337">backtrackingLineSearch()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00388">gradient_descent()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00462">wrap_gradient_descent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00300">backtrackingLineSearch()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00347">gradient_descent()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00413">wrap_gradient_descent()</a>.</p>
 <div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-23-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-23-summary" class="dynsummary" style="display:block;">
@@ -960,9 +960,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00637">637</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00567">567</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00755">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00671">main()</a>.</p>
 <div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-25-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-25-summary" class="dynsummary" style="display:block;">
@@ -999,7 +999,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00612">612</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00547">547</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
 </div>
 </div>
@@ -1019,9 +1019,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00589">589</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00526">526</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00755">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00671">main()</a>.</p>
 <div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-26-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-26-summary" class="dynsummary" style="display:block;">
@@ -1048,9 +1048,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00600">600</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00536">536</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00755">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00671">main()</a>.</p>
 <div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-27-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-27-summary" class="dynsummary" style="display:block;">
@@ -1087,9 +1087,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00691">691</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00617">617</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00755">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00671">main()</a>.</p>
 <div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-28-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-28-summary" class="dynsummary" style="display:block;">
@@ -1126,9 +1126,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00656">656</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00583">583</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00755">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00671">main()</a>.</p>
 <div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-29-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-29-summary" class="dynsummary" style="display:block;">
@@ -1165,11 +1165,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00388">388</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00347">347</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00167">alloc_vect()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00337">backtrackingLineSearch()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00152">copy_vect()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00314">final_der()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00307">final_f()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00146">alloc_vect()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00300">backtrackingLineSearch()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00134">copy_vect()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00279">final_der()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00272">final_f()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00462">wrap_gradient_descent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00413">wrap_gradient_descent()</a>.</p>
 <div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-30-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-30-summary" class="dynsummary" style="display:block;">
@@ -1203,9 +1203,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00028">28</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00029">29</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Ttable_8hh_source.html#l00036">cbrc::betacf()</a>, <a class="el" href="Ttable-gmp_8hh_source.html#l00037">cbrc::betacf()</a>, <a class="el" href="Ttable-long_8hh_source.html#l00036">cbrc::betacf()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00080">compute_sum_hx_vect()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00275">der_ent_k()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00249">der_f_k()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00217">ent()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00192">f()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00033">h_alloc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Ttable_8hh_source.html#l00036">cbrc::betacf()</a>, <a class="el" href="Ttable-gmp_8hh_source.html#l00037">cbrc::betacf()</a>, <a class="el" href="Ttable-long_8hh_source.html#l00036">cbrc::betacf()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00074">compute_sum_hx_vect()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00242">der_ent_k()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00220">der_f_k()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00191">ent()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00168">f()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00034">h_alloc()</a>.</p>
 <div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-32-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-32-summary" class="dynsummary" style="display:block;">
@@ -1232,11 +1232,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00033">33</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00034">34</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00028">h()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00029">h()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00462">wrap_gradient_descent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00413">wrap_gradient_descent()</a>.</p>
 <div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-33-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-33-summary" class="dynsummary" style="display:block;">
@@ -1280,9 +1280,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00755">755</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00671">671</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00522">computeLogLik()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00559">divideVecWithScalar()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00547">divideVecWithVecCorsp()</a>, <a class="el" href="Utilities_8cc_source.html#l00012">GetBaseNameFromFilename()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00637">getIndexFromMap()</a>, <a class="el" href="ematch__src_2utils_2perlish_2getline_8hh_source.html#l00017">getline()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00589">getMainTagPropInit()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00600">getMainTagPropMeanScaled()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00691">getNumTagProp()</a>, <a class="el" href="Utilities_8cc_source.html#l00023">GetPathNameFromFilename()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00656">getPropSum()</a>, <a class="el" href="Ttable_8hh.html#a53777cb711eeb7e0cc0767d84b734e31">isnan()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00536">multiplyVecWithVecCorsp()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00571">sparseM_vec_prod()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00462">wrap_gradient_descent()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00469">computeLogLik()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00501">divideVecWithScalar()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00490">divideVecWithVecCorsp()</a>, <a class="el" href="Utilities_8cc_source.html#l00015">GetBaseNameFromFilename()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00567">getIndexFromMap()</a>, <a class="el" href="ematch__src_2utils_2perlish_2getline_8hh_source.html#l00017">getline()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00526">getMainTagPropInit()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00536">getMainTagPropMeanScaled()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00617">getNumTagProp()</a>, <a class="el" href="Utilities_8cc_source.html#l00024">GetPathNameFromFilename()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00583">getPropSum()</a>, <a class="el" href="Ttable_8hh.html#a53777cb711eeb7e0cc0767d84b734e31">isnan()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00480">multiplyVecWithVecCorsp()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00512">sparseM_vec_prod()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00413">wrap_gradient_descent()</a>.</p>
 <div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-35-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-35-summary" class="dynsummary" style="display:block;">
@@ -1319,9 +1319,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00116">116</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00102">102</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00063">compute_sum()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00060">compute_sum()</a>.</p>
 <div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-36-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-36-summary" class="dynsummary" style="display:block;">
@@ -1348,11 +1348,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00133">133</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00117">117</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00063">compute_sum()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00060">compute_sum()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00462">wrap_gradient_descent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00413">wrap_gradient_descent()</a>.</p>
 <div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-37-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-37-summary" class="dynsummary" style="display:block;">
@@ -1396,9 +1396,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00536">536</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00480">480</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00755">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00671">main()</a>.</p>
 <div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-39-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-39-summary" class="dynsummary" style="display:block;">
@@ -1447,9 +1447,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00571">571</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00512">512</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00755">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00671">main()</a>.</p>
 <div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-40-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-40-summary" class="dynsummary" style="display:block;">
@@ -1486,11 +1486,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00462">462</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00413">413</a> of file <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html">EstimateTrueCount_EntropyFast.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00307">final_f()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00388">gradient_descent()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00033">h_alloc()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00133">make_proba_alloc()</a>.</p>
+<p class="reference">References <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00272">final_f()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00347">gradient_descent()</a>, <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00034">h_alloc()</a>, and <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00117">make_proba_alloc()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00755">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="EstimateTrueCount__EntropyFast_8cc_source.html#l00671">main()</a>.</p>
 <div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-41-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-41-summary" class="dynsummary" style="display:block;">
@@ -1514,7 +1514,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="EstimateTrueCount__EntropyFast_8cc.html">EstimateTrueCount_EntropyFast.cc</a></li>
-    <li class="footer">Generated on Thu Nov 20 2025 07:47:00 for NGSFeatures by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Nov 20 2025 08:03:12 for NGSFeatures by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
