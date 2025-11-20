@@ -1,5 +1,8 @@
  //=====================================================================================
  // Filename:  Utilities.hh
+ //
+ // IMPORTANT: This is a header file. Never use 'using namespace std;' in headers!
+ // It pollutes the namespace of all files that include this header.
  // =====================================================================================
 #ifndef UTILITIES_HH
 #define UTILITIES_HH
@@ -9,71 +12,67 @@
 #include <iostream>
 #include <map>
 #include <cstdlib>
-using namespace std;
-using std::cout;
-using std::string;
 
-std::string GetBaseNameFromFilename(const std::string &fileName);
-std::string GetPathNameFromFilename( const std::string &filename);
-std::vector<int> id2tagnum(int id, int tgl );
-std::vector <int> acgt2tagnum(string arg );
-vector <char> tagnum2acgt(vector<int>arg ); 
+// Note: Removed 'using namespace std;' to prevent namespace pollution
+// All standard library types now use explicit std:: prefix
+
+std::string GetBaseNameFromFilename(const std::string& fileName);
+std::string GetPathNameFromFilename(const std::string& filename);
+std::vector<int> id2tagnum(int id, int tgl);
+std::vector<int> acgt2tagnum(const std::string& arg);
+std::vector<char> tagnum2acgt(const std::vector<int>& arg); 
 
 
-template <typename T> void  prn_vec_oneval(const std::vector < T >&arg, string sep="", unsigned lim=0)
+template <typename T>
+void prn_vec_oneval(const std::vector<T>& arg, const std::string& sep = "", unsigned lim = 0)
 {
 	for (unsigned n = 0; n < arg.size(); n++) {
-        if (n >= lim && n <=(lim+1)) {
-			cout << arg[n] << sep; 
+        if (n >= lim && n <= (lim + 1)) {
+			std::cout << arg[n] << sep;
         }
 	}
-    return;
 }
 
-template <typename T> void  prn_vec(const std::vector < T >&arg, string sep="")
+template <typename T>
+void prn_vec(const std::vector<T>& arg, const std::string& sep = "")
 {
 	for (unsigned n = 0; n < arg.size(); n++) {
-		cout << arg[n] << sep; 
+		std::cout << arg[n] << sep;
 	}
-    return;
 }
 
-template <typename T> void  prn_vec_binos(const std::vector < T >&arg,ostream
-		&fn,string sep="")
+template <typename T>
+void prn_vec_binos(const std::vector<T>& arg, std::ostream& fn, const std::string& sep = "")
 {
 	for (unsigned n = 0; n < arg.size(); n++) {
-		fn << arg[n] << sep; 
-        //fn.write(&arg[n].front, arg[n].size());
+		fn << arg[n] << sep;
 	}
-    return;
 }
 
 
-template <typename T> void  prn_vec_err(const std::vector < T >&arg, string sep="")
+template <typename T>
+void prn_vec_err(const std::vector<T>& arg, const std::string& sep = "")
 {
-	for (int n = 0; n < arg.size(); n++) {
-		cerr << arg[n] << sep; 
+	for (size_t n = 0; n < arg.size(); n++) {
+		std::cerr << arg[n] << sep;
 	}
-    return;
 }
 
 
-template <typename T1, typename T2> void  prn_map(std::map < T1,T2 >&arg, string sep="")
+template <typename T1, typename T2>
+void prn_map(const std::map<T1, T2>& arg, const std::string& sep = "")
 {
-    for(typename map<T1,T2>::iterator iter = arg.begin();iter!= arg.end();++iter){
-        cout << iter->first << "->" << iter->second << sep;
+    for (typename std::map<T1, T2>::const_iterator iter = arg.begin(); iter != arg.end(); ++iter) {
+        std::cout << iter->first << "->" << iter->second << sep;
     }
-    return;
 }
 
-template <typename T> void  prnf_vec(std::vector < T >&arg)
+template <typename T>
+void prnf_vec(const std::vector<T>& arg)
 {
-	for (int n = 0; n < arg.size(); n++) {
-
-		printf("%.7f\t", arg[n]);
+	for (size_t n = 0; n < arg.size(); n++) {
+		std::printf("%.7f\t", arg[n]);
 	}
-
-    return;
 }
 
 #endif // UTILITIES_HH 
