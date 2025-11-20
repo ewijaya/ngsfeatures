@@ -12,6 +12,5 @@ var searchData=
   ['printrandomrepresentativefromeachconnectedcomponent_2ecc_9',['printrandomrepresentativefromeachconnectedcomponent.cc',['../utils_2graph_2run_2printRandomRepresentativeFromEachConnectedComponent_8cc.html',1,'(Global Namespace)'],['../graph_2run_2printRandomRepresentativeFromEachConnectedComponent_8cc.html',1,'(Global Namespace)']]],
   ['ptrutils_2ehh_10',['ptrUtils.hh',['../ptrUtils_8hh.html',1,'']]],
   ['pushbackliteral_2ehh_11',['pushbackLiteral.hh',['../pushbackLiteral_8hh.html',1,'']]],
-  ['pushbackliteralvariadic_2ehh_12',['pushbackLiteralVariadic.hh',['../pushbackLiteralVariadic_8hh.html',1,'']]],
-  ['python_5fport_5freadme_2emd_13',['PYTHON_PORT_README.md',['../PYTHON__PORT__README_8md.html',1,'']]]
+  ['pushbackliteralvariadic_2ehh_12',['pushbackLiteralVariadic.hh',['../pushbackLiteralVariadic_8hh.html',1,'']]]
 ];

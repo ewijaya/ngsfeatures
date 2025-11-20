@@ -26,33 +26,6 @@ var NAVTREE =
 [
   [ "NGSFeatures", "index.html", [
     [ "Next Generation Sequencing Features Generation Tool", "index.html", "index" ],
-    [ "Python Port of NGS Features Pipeline", "md_PYTHON__PORT__README.html", [
-      [ "Overview", "md_PYTHON__PORT__README.html#autotoc_md50", null ],
-      [ "Ported Scripts", "md_PYTHON__PORT__README.html#autotoc_md51", [
-        [ "Main Pipeline Scripts", "md_PYTHON__PORT__README.html#autotoc_md52", null ],
-        [ "Utility Scripts", "md_PYTHON__PORT__README.html#autotoc_md53", null ]
-      ] ],
-      [ "Key Optimizations", "md_PYTHON__PORT__README.html#autotoc_md54", [
-        [ "1. <strong>ngsfeatgen.py</strong>", "md_PYTHON__PORT__README.html#autotoc_md55", null ],
-        [ "2. <strong>scc.py</strong>", "md_PYTHON__PORT__README.html#autotoc_md56", null ],
-        [ "3. <strong>convert_first_col2atcg.py</strong>", "md_PYTHON__PORT__README.html#autotoc_md57", null ],
-        [ "4. <strong>GenerateTagListFileWithBaseCount.py</strong>", "md_PYTHON__PORT__README.html#autotoc_md58", null ],
-        [ "5. <strong>run_Expmatch.py & recount_capacity.py</strong>", "md_PYTHON__PORT__README.html#autotoc_md59", null ]
-      ] ],
-      [ "Performance Improvements", "md_PYTHON__PORT__README.html#autotoc_md60", null ],
-      [ "Usage", "md_PYTHON__PORT__README.html#autotoc_md61", [
-        [ "Drop-in Replacement", "md_PYTHON__PORT__README.html#autotoc_md62", null ],
-        [ "Examples", "md_PYTHON__PORT__README.html#autotoc_md63", null ],
-        [ "Advanced Usage with Arguments", "md_PYTHON__PORT__README.html#autotoc_md64", null ]
-      ] ],
-      [ "Requirements", "md_PYTHON__PORT__README.html#autotoc_md65", null ],
-      [ "Compatibility", "md_PYTHON__PORT__README.html#autotoc_md66", null ],
-      [ "Benefits Over Perl", "md_PYTHON__PORT__README.html#autotoc_md67", null ],
-      [ "Migration Guide", "md_PYTHON__PORT__README.html#autotoc_md68", null ],
-      [ "Testing", "md_PYTHON__PORT__README.html#autotoc_md69", null ],
-      [ "Author", "md_PYTHON__PORT__README.html#autotoc_md70", null ],
-      [ "License", "md_PYTHON__PORT__README.html#autotoc_md71", null ]
-    ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -119,10 +92,10 @@ var NAVTREEINDEX =
 "fastafmtFunctions_8hh.html#a40814855120066898308a7b9011a42d2",
 "knapsack__src_2utils_2FLArray_2FLEArrayByIndexSortingPredicate_8hh.html#a0498f0fc177d15ccb25e38c06d5685cd",
 "knapsack__src_2utils_2perlish_2perlish_8cc.html#aeeb0df817545ad41f62e032d775f40b3",
-"namespacecbrc.html#a705e6925b48ed6f555b5ea76e06a240d",
-"namespacecbrc_1_1perlish.html#a9ec548121232207238e6018a59aeb1f4",
-"runRecountExpectationMatchingTagCorrector_8cc.html#a44f1425a61cceef37c60106622c7c9d4",
-"testUInt332_8cc_source.html"
+"namespacecbrc.html#a8d76979b3a7836ef936be6283c4daed3",
+"namespacecbrc_1_1perlish.html#adb2ae03f70481d148ef19ad668f3ab7b",
+"sigma4bitPackingUtils_8hh.html",
+"utils_2graph_2Graph_8hh_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
