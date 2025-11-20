@@ -33,6 +33,7 @@ message(STATUS "C++ compiler: ${CMAKE_CXX_COMPILER_ID} ${CMAKE_CXX_COMPILER_VERS
 # ============================================================================
 
 option(BUILD_TESTS "Build test programs" ON)
+option(BUILD_BENCHMARKS "Build performance benchmarks" ON)
 option(BUILD_DOCS "Build documentation with Doxygen" OFF)
 option(ENABLE_LTO "Enable Link-Time Optimization" ON)
 option(ENABLE_NATIVE_ARCH "Enable -march=native optimizations" ON)
@@ -127,6 +128,12 @@ if(BUILD_TESTS)
     add_subdirectory(tests)
 endif()
 
+# Benchmarks (if enabled)
+if(BUILD_BENCHMARKS)
+    message(STATUS "Building benchmarks: ENABLED")
+    add_subdirectory(benchmarks)
+endif()
+
 # ============================================================================
 # Documentation
 # ============================================================================
@@ -192,6 +199,7 @@ message(STATUS "  Native optimizations: ${ENABLE_NATIVE_ARCH}")
 message(STATUS "  Fast math:            ${ENABLE_FAST_MATH}")
 message(STATUS "  LTO:                  ${ENABLE_LTO}")
 message(STATUS "  Build tests:          ${BUILD_TESTS}")
+message(STATUS "  Build benchmarks:     ${BUILD_BENCHMARKS}")
 message(STATUS "  Build docs:           ${BUILD_DOCS}")
 message(STATUS "  Install prefix:       ${CMAKE_INSTALL_PREFIX}")
 message(STATUS "========================================")
