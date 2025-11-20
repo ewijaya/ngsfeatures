@@ -72,10 +72,6 @@ SpacesInCStyleCastParentheses: false
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
 
-# Template formatting
-SpaceAfterTemplateKeyword: true
-AlwaysBreakTemplateDeclarations: Yes
-
 # Comments
 ReflowComments: true
 
