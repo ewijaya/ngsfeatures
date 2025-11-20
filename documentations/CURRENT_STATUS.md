@@ -72,7 +72,7 @@ Installed and active! Every commit automatically:
 
 One command builds everything:
 ```bash
-./build.sh
+./scripts/build.sh
 ```
 
 Features:
@@ -409,7 +409,7 @@ Archived Branches (merged, can be deleted):
 ### Build & Test
 ```bash
 # Build everything
-./build.sh
+./scripts/build.sh
 
 # Build with options
 cmake -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=ON
@@ -423,7 +423,7 @@ ctest --test-dir build
 ### Code Quality
 ```bash
 # Setup pre-commit hooks
-./setup-hooks.sh
+./scripts/setup-hooks.sh
 
 # Format code
 clang-format -i src/*.cc

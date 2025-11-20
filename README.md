@@ -112,22 +112,22 @@ The code takes pre-processed data as input. Format:
 The **Python version** is 2-5x faster and recommended for all new workflows:
 
 ```bash
-python3 ngsfeatgen.py <input>
+python3 scripts/ngsfeatgen.py <input>
 ```
 
 **Example:**
 ```bash
-python3 ngsfeatgen.py small-len10-50.txt
+python3 scripts/ngsfeatgen.py examples/small-len10-50.txt
 ```
 
 **With custom parameters:**
 ```bash
-python3 ngsfeatgen.py input.txt --capacity 20 --min-base-error 0.001
+python3 scripts/ngsfeatgen.py input.txt --capacity 20 --min-base-error 0.001
 ```
 
 **Get help:**
 ```bash
-python3 ngsfeatgen.py --help
+python3 scripts/ngsfeatgen.py --help
 ```
 
 ### Available Python Scripts

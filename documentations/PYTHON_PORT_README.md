@@ -77,19 +77,19 @@ All Python scripts are **drop-in replacements** for Perl versions:
 perl ngsfeatgen.pl input.txt
 
 # New Python way
-python3 ngsfeatgen.py input.txt
+python3 scripts/ngsfeatgen.py input.txt
 # OR (if executable)
-./ngsfeatgen.py input.txt
+./scripts/ngsfeatgen.py input.txt
 ```
 
 ### Examples
 
 ```bash
 # Feature generation pipeline
-python3 ngsfeatgen.py small-len10-50.txt
+python3 scripts/ngsfeatgen.py examples/small-len10-50.txt
 
 # Capacity-based analysis
-python3 recount_capacity.py test5tags.txt 30
+python3 scripts/recount_capacity.py test5tags.txt 30
 
 # Log-likelihood ratio
 python3 src/lr.py input.txt
@@ -106,10 +106,10 @@ echo "0123" | python3 src/convert_first_col2atcg.py
 
 ```bash
 # ngsfeatgen.py with custom parameters
-python3 ngsfeatgen.py input.txt --mm 2 --capacity 20 --min-base-error 0.001
+python3 scripts/ngsfeatgen.py input.txt --mm 2 --capacity 20 --min-base-error 0.001
 
 # Get help for any script
-python3 ngsfeatgen.py --help
+python3 scripts/ngsfeatgen.py --help
 ```
 
 ## Requirements
@@ -144,7 +144,7 @@ To switch from Perl to Python:
 perl ngsfeatgen.pl input.txt
 
 # 2. New pipeline (same results, faster)
-python3 ngsfeatgen.py input.txt
+python3 scripts/ngsfeatgen.py input.txt
 
 # 3. Update your scripts
 sed -i 's/perl \(.*\)\.pl/python3 \1.py/g' your_script.sh
@@ -160,7 +160,7 @@ echo -e "0123\t100" | python3 src/convert_first_col2atcg.py
 # Expected: ACGT	100
 
 # Test SCC script
-python3 src/scc.py small-len10-50.txt | head -3
+python3 src/scc.py examples/small-len10-50.txt | head -3
 # Should produce SCC values for tags
 ```
 
