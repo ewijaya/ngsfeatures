@@ -1,0 +1,5 @@
+# Ignore third-party code and generated files
+ematch_src/utils/boost/*
+build/*
+*.pb.cc
+*.pb.h
