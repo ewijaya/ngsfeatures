@@ -165,21 +165,20 @@ endif()
 
 # Install Python scripts
 install(PROGRAMS
-    ngsfeatgen.py
-    recount_capacity.py
+    scripts/ngsfeatgen.py
+    scripts/recount_capacity.py
     DESTINATION bin
 )
 
 # Install example data
 install(FILES
-    small-len10-50.txt
+    examples/small-len10-50.txt
     DESTINATION share/ngsfeatures/examples
 )
 
 # Install documentation
 install(FILES
     README.md
-    PYTHON_PORT_README.md
     COPYING
     DESTINATION share/doc/ngsfeatures
 )

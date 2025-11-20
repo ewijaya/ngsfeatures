@@ -267,7 +267,7 @@ cd ../knapsack_src && ./compile_knapsack.sh
 **After:**
 ```bash
 # New way - one command
-./build.sh
+./scripts/build.sh
 # Everything just works ✨
 ```
 
@@ -282,8 +282,8 @@ cd ../knapsack_src && ./compile_knapsack.sh
 **Quick Setup:**
 ```bash
 # Complete setup in 3 commands
-./build.sh
-./setup-hooks.sh
+./scripts/build.sh
+./scripts/setup-hooks.sh
 pre-commit install
 # Ready to develop!
 ```

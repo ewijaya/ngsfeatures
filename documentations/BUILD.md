@@ -33,7 +33,7 @@ sudo dnf install cmake gcc-c++ boost-devel python3
 
 **Option 1: Quick build script**
 ```bash
-./build.sh
+./scripts/build.sh
 ```
 
 **Option 2: Manual CMake build**
