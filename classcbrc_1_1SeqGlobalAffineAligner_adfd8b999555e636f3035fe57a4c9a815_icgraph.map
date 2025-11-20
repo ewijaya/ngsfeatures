@@ -1,0 +1,14 @@
+<map id="cbrc::SeqGlobalAffineAligner::score" name="cbrc::SeqGlobalAffineAligner::score">
+<area shape="rect" id="Node000001" title=" " alt="" coords="557,101,764,141"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="708,90,691,83,661,80,634,82,618,87,612,93,615,100,610,102,607,92,615,82,633,77,661,75,692,77,710,85"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1SeqGlobalAffineAligner.html#a49ac9a9c96d531035a8d352d84e98006" title=" " alt="" coords="281,5,488,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="603,98,508,60,469,48,471,43,510,55,605,93"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1SeqGlobalAffineAligner.html#ad64a40c1f61a3c05b0d9d842c7ceedd7" title=" " alt="" coords="281,69,488,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="543,110,488,104,488,99,544,105"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1SeqGlobalAffineAligner.html#aad5c13f8dfac5a1909bb41444513521b" title=" " alt="" coords="281,133,488,173"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="544,138,488,144,488,139,543,132"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1SeqGlobalAffineAligner.html#ac23190ed7b67ffffd77ae8a7edec7a8a" title=" " alt="" coords="260,197,509,237"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="605,150,510,188,471,200,469,195,508,183,603,145"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1SeqGlobalAffineAligner.html#a44df088e82a4e00feccb43761986d334" title=" " alt="" coords="5,197,212,237"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="246,220,212,220,212,215,246,215"/>
+</map>

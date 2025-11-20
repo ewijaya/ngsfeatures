@@ -1,0 +1,36 @@
+<map id="cbrc::SimilaritySearchableSequences::bestMatch" name="cbrc::SimilaritySearchableSequences::bestMatch">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,199,197,239"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEArray.html#a7e5d0d3bc5c41546620ccff95b55b3fa" title=" " alt="" coords="289,5,447,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,198,130,163,160,119,198,76,244,40,274,26,277,31,247,44,202,80,164,123,135,166,115,200"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a8c53878dc57e8f666976e041d146a523" title=" " alt="" coords="295,55,441,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,197,169,143,205,113,244,89,281,76,283,81,246,94,208,118,173,147,121,201"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc.html#a0498f0fc177d15ccb25e38c06d5685cd" title=" " alt="" coords="245,104,491,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="137,197,187,171,244,146,295,130,296,135,246,151,189,176,139,202"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1LabeledSequence.html#a6b558ed61729679eddbbcb4abd8ae365" title=" " alt="" coords="800,199,971,239"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="198,217,786,217,786,222,198,222"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1LabeledSequence.html#a3ed987dbc014de48720535dda84b3796" title=" " alt="" coords="1052,199,1223,239"/>
+<area shape="poly" id="edge14_Node000001_Node000006" title=" " alt="" coords="197,203,245,198,458,179,625,166,705,164,792,166,889,173,1004,185,1054,193,1053,199,1004,190,889,178,791,172,705,170,625,172,459,185,246,203,198,208"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="1063,271,1211,296"/>
+<area shape="poly" id="edge16_Node000001_Node000007" title=" " alt="" coords="125,237,177,282,211,305,247,325,321,357,385,381,443,398,499,410,616,426,767,441,835,452,889,462,915,463,941,461,970,454,1003,441,1043,414,1077,378,1104,340,1122,307,1127,310,1108,343,1081,381,1047,418,1005,446,972,459,942,467,915,469,889,467,834,457,766,446,616,431,498,416,442,404,384,386,319,362,244,330,208,310,174,286,121,241"/>
+<area shape="rect" id="Node000008" href="$classcbrc_1_1LabeledSequence.html#a14086b67123c48d696a9a9556c19d21b" title=" " alt="" coords="283,275,453,315"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="173,237,285,269,283,274,172,242"/>
+<area shape="rect" id="Node000013" href="$classcbrc_1_1SimilaritySearchableSequences.html#acb11beb258bffb1497ced7f6ab874445" title=" " alt="" coords="272,506,464,546"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="110,239,126,289,153,355,193,425,218,457,247,485,265,498,262,502,244,489,214,461,189,428,148,357,121,290,105,240"/>
+<area shape="rect" id="Node000014" href="$classcbrc_1_1SimilaritySearchableSequences.html#a97ffc0abd74a9a75dff88a367796cf6e" title=" " alt="" coords="272,570,464,610"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="108,239,119,301,143,387,161,433,184,478,213,520,247,556,261,566,258,570,244,560,209,523,180,481,156,435,138,389,113,302,102,240"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="971,217,1038,217,1038,222,971,222"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="966,237,1074,265,1073,270,964,242"/>
+<area shape="rect" id="Node000009" href="$classcbrc_1_1LabeledSequence.html#afb7eb56e162e3486ab2cb1fe41968390" title=" " alt="" coords="543,310,714,350"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="454,304,530,314,530,320,453,309"/>
+<area shape="rect" id="Node000010" href="$namespacecbrc.html#aa2100cc65c0fb1ac83fe523e3ef8aca9" title=" " alt="" coords="767,327,1004,367"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="714,333,753,336,753,341,714,338"/>
+<area shape="rect" id="Node000011" href="$classcbrc_1_1LabeledSequence.html#aa6886fb31e820f8c0c30d0fdf6bbc2a6" title=" " alt="" coords="800,391,971,431"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="684,348,767,377,794,385,793,390,766,382,682,353"/>
+<area shape="rect" id="Node000012" href="$classcbrc_1_1LabeledSequence.html#a8b51f934e3c446c7e4fc3a35627ee03c" title=" " alt="" coords="800,263,971,303"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="714,312,785,299,786,304,715,317"/>
+<area shape="poly" id="edge12_Node000012_Node000006" title=" " alt="" coords="964,261,1044,240,1046,245,966,266"/>
+<area shape="poly" id="edge13_Node000012_Node000007" title=" " alt="" coords="971,281,1050,281,1050,286,971,286"/>
+<area shape="rect" id="Node000015" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="539,577,719,603"/>
+<area shape="poly" id="edge18_Node000014_Node000015" title=" " alt="" coords="464,587,525,587,525,593,464,593"/>
+<area shape="poly" id="edge19_Node000015_Node000015" title=" " alt="" coords="587,579,578,569,583,559,600,553,629,551,665,555,675,559,679,565,674,568,672,563,663,560,629,556,601,558,586,563,584,568,591,575"/>
+</map>

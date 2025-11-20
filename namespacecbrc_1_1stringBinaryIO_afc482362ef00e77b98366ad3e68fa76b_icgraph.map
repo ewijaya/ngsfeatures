@@ -1,0 +1,17 @@
+<map id="cbrc::stringBinaryIO::read" name="cbrc::stringBinaryIO::read">
+<area shape="rect" id="Node000001" title=" " alt="" coords="813,95,964,135"/>
+<area shape="poly" id="edge7_Node000001_Node000001" title=" " alt="" coords="928,83,914,76,889,73,866,75,853,80,848,86,850,94,845,95,843,85,850,76,865,70,889,68,916,71,930,78"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1ResidueIndexedSequence.html#ac11f3945771f1db002bb65c6aae55b95" title=" " alt="" coords="276,5,499,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="845,90,807,69,765,53,697,38,628,29,499,24,499,18,628,24,698,33,766,48,809,64,847,85"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1ResidueIndexMap.html#a4786107032b60621400e59800db8c256" title=" " alt="" coords="569,63,743,103"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="800,105,742,97,743,92,800,100"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1SerialNumbersForStrings.html#aa3a5d4fb2ef3db200d9eee1633ab2263" title=" " alt="" coords="547,127,765,167"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="800,129,766,134,765,129,799,124"/>
+<area shape="rect" id="Node000007" href="$namespacecbrc_1_1stringBinaryIO.html#a7cb8da877e08d4d39a0084ae1945c3e1" title=" " alt="" coords="581,191,731,231"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="843,144,766,181,733,193,731,188,764,176,840,139"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1ResidueIndexedSequence.html#ab9f7be97236171a4c6fac58754ee811e" title=" " alt="" coords="5,5,228,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="262,28,228,28,228,23,262,23"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="555,64,481,48,482,43,556,59"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1ResidueIndexMap.html#a9adc37ebbdfc6bcaa564e398153ca7c4" title=" " alt="" coords="301,69,474,109"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="556,88,474,90,474,85,556,82"/>
+</map>

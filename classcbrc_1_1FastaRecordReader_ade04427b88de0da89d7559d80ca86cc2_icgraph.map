@@ -1,0 +1,37 @@
+<map id="cbrc::FastaRecordReader::defaultIstream" name="cbrc::FastaRecordReader::defaultIstream">
+<area shape="rect" id="Node000001" title=" " alt="" coords="467,471,649,511"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FastaRecordReader.html#a06334ca2e2c9aa9a48c40fa4646c9b0f" title=" " alt="" coords="236,229,419,269"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="528,462,417,338,349,271,352,268,421,334,532,458"/>
+<area shape="rect" id="Node000010" href="$classcbrc_1_1FastaRecordReader.html#aa91928166e3222b0d7167c8edbffc095" title=" " alt="" coords="236,372,419,412"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="497,468,418,433,374,414,376,410,420,428,499,463"/>
+<area shape="rect" id="Node000011" href="$classcbrc_1_1FastaSeqSlurper.html#a375016897cf6f746c09d555fc33de121" title=" " alt="" coords="236,511,419,551"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="454,511,419,517,418,512,453,506"/>
+<area shape="rect" id="Node000013" href="$classcbrc_1_1FastaSeqSlurper.html#a5761b845f57cbd4b711c3b8c6af5c056" title=" " alt="" coords="5,453,188,493"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="453,480,419,477,298,473,188,474,188,468,298,468,419,472,453,475"/>
+<area shape="rect" id="Node000014" href="$classcbrc_1_1FastaSeqSlurper.html#aaf8dac5a85144235307f6ea2b42a3f16" title=" " alt="" coords="5,568,188,608"/>
+<area shape="poly" id="edge18_Node000001_Node000014" title=" " alt="" coords="517,520,471,545,419,565,360,579,300,587,188,593,188,588,299,582,359,573,418,560,469,540,514,515"/>
+<area shape="rect" id="Node000015" href="$classcbrc_1_1FastaSeqSlurper.html#a7cd7d99f57bac4424e99383fdf02b473" title=" " alt="" coords="247,649,408,689"/>
+<area shape="poly" id="edge19_Node000001_Node000015" title=" " alt="" coords="525,522,420,609,361,651,358,647,417,605,522,518"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="366,218,353,211,327,208,305,210,292,215,287,221,290,228,284,230,282,220,289,210,304,205,327,203,354,206,369,213"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FastaRecordReader.html#aac6cd70f07513c689e8fe0d451f43815" title=" " alt="" coords="5,197,188,237"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="222,237,188,233,189,227,223,232"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FastaSeqSlurper.html#a5c94169ac6d184adb6d4c31f7e88da3d" title=" " alt="" coords="9,261,184,301"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="223,266,184,272,184,267,222,261"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FastaSeqSlurper.html#a51a4336bd1e3d0ca33b7c7053d138dd2" title=" " alt="" coords="5,325,188,365"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="274,278,189,316,158,328,156,323,187,311,272,273"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FastaSeqSlurper.html#ae2672dd2d90adf77268b5e85ed306de3" title=" " alt="" coords="5,389,188,429"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="297,281,234,341,189,380,166,392,163,387,187,375,231,337,294,277"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1FastaSeqSlurper.html#ae1d8b2f9d38dae7004693cbd4a1767be" title=" " alt="" coords="5,5,188,45"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="308,218,288,181,260,139,226,96,186,59,167,48,169,43,190,55,230,93,265,136,293,179,313,215"/>
+<area shape="rect" id="Node000008" href="$classcbrc_1_1FastaSeqSlurper.html#a127fe72779078650be8249569b0a29e9" title=" " alt="" coords="5,69,188,109"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="298,221,249,171,219,146,187,124,163,112,166,107,189,119,222,142,253,168,302,217"/>
+<area shape="rect" id="Node000009" href="$classcbrc_1_1FastaSeqSlurper.html#ae7736eec0c40b44027d88d681d9916f4" title=" " alt="" coords="16,133,177,173"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="272,226,187,188,156,176,158,171,189,183,274,221"/>
+<area shape="poly" id="edge11_Node000010_Node000010" title=" " alt="" coords="366,360,353,353,327,351,305,353,292,357,287,363,290,371,284,372,282,362,289,353,304,347,327,345,354,348,369,355"/>
+<area shape="poly" id="edge14_Node000011_Node000011" title=" " alt="" coords="366,499,353,492,327,489,305,491,292,496,287,502,290,510,284,511,282,501,289,492,304,486,327,484,354,487,369,494"/>
+<area shape="rect" id="Node000012" href="$allPairsNearestGlobalAffineScore_8cc.html#ac0f2228420376f4db7e1274f2b41667c" title=" " alt="" coords="69,518,124,543"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="222,533,124,533,124,528,222,528"/>
+<area shape="poly" id="edge15_Node000011_Node000013" title=" " alt="" coords="232,510,177,496,178,491,234,505"/>
+<area shape="poly" id="edge16_Node000011_Node000014" title=" " alt="" coords="234,557,178,571,177,565,232,551"/>
+<area shape="poly" id="edge20_Node000015_Node000015" title=" " alt="" coords="366,638,353,631,327,628,305,630,292,635,287,641,290,648,284,650,282,640,289,630,304,625,327,623,354,626,369,633"/>
+</map>

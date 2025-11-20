@@ -1,0 +1,14 @@
+<map id="cbrc::TrivialUnsignedHistogram::TrivialUnsignedHistogram" name="cbrc::TrivialUnsignedHistogram::TrivialUnsignedHistogram">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,49,231,89"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEArray.html#ab4f853671d71b67a4771b5199af8d8f8" title=" " alt="" coords="279,56,429,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,66,265,66,265,71,231,71"/>
+<area shape="poly" id="edge6_Node000002_Node000002" title=" " alt="" coords="319,58,312,48,315,38,330,32,354,29,384,33,395,42,392,46,382,38,354,35,331,37,319,42,317,47,323,54"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a8255bcefe055e10a4fccd3331b450fee" title=" " alt="" coords="489,5,645,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="408,53,499,31,501,36,409,58"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="705,31,853,56"/>
+<area shape="poly" id="edge7_Node000002_Node000004" title=" " alt="" coords="429,62,691,46,692,51,430,67"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="477,131,657,156"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="392,79,518,124,516,129,391,84"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="646,25,692,30,691,36,645,30"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="533,132,525,122,529,112,544,106,567,104,597,108,608,117,605,121,595,113,567,109,545,111,533,116,531,122,537,129"/>
+</map>

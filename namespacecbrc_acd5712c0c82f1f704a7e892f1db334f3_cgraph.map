@@ -1,0 +1,11 @@
+<map id="cbrc::hasHighIdentityToDataset" name="cbrc::hasHighIdentityToDataset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,66,231,91"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1SeqGlobalAffineAligner.html#ae580a1caa6408968a25a6df33815d9bb" title=" " alt="" coords="279,29,485,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,63,265,60,266,65,231,69"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="563,94,711,119"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="231,82,549,99,549,105,231,87"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="335,30,332,20,340,10,356,5,382,3,411,6,427,13,425,18,410,11,382,8,357,10,343,15,337,21,340,28"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1SeqGlobalAffineAligner.html#abfd1556484b4c230c84fe4d1af47003e" title=" " alt="" coords="533,29,740,69"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="485,47,520,47,520,52,485,52"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="472,67,567,88,566,94,471,72"/>
+</map>

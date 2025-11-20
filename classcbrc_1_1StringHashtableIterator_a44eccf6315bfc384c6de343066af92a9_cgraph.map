@@ -1,0 +1,9 @@
+<map id="cbrc::StringHashtableIterator::operator*" name="cbrc::StringHashtableIterator::operator*">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,37,215,77"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1StringHashtableIterator.html#ae31fc9c97e71292a494ccd7e88205b45" title=" " alt="" coords="263,37,472,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,55,249,55,249,60,215,60"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1StringHashtableLink.html#af7ce713053f5f83b26dc3218c1135207" title=" " alt="" coords="531,5,719,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="472,42,517,36,517,41,473,47"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1StringHashtableIterator.html#af5b0cb858f1e2aacadbd64808be387ca" title=" " alt="" coords="520,69,729,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="473,68,507,72,506,77,472,73"/>
+</map>

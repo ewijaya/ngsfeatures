@@ -1,0 +1,39 @@
+<map id="ematch_src/utils/sequence/readers/run/sprotGrepOC.cc" name="ematch_src/utils/sequence/readers/run/sprotGrepOC.cc">
+<area shape="rect" id="Node000001" title=" " alt="" coords="9,5,215,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,240,85,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,48,55,68,36,94,26,129,26,164,31,198,39,226,34,228,26,199,21,165,21,128,31,92,51,64,77,43"/>
+<area shape="rect" id="Node000003" href="$ematch__src_2utils_2argvParsing_2ArgvParser_8hh.html" title=" " alt="" coords="395,93,618,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,43,436,88,435,93,206,48"/>
+<area shape="rect" id="Node000017" href="$SprotReader_8hh.html" title=" " alt="" coords="45,93,179,119"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="115,46,115,79,109,79,109,46"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="396,111,334,116,268,127,201,144,137,169,96,198,64,231,60,227,92,194,135,164,199,139,267,122,334,111,395,106"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="328,167,403,192"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="485,121,402,163,399,158,483,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="427,167,493,192"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="501,120,477,157,473,154,497,118"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="518,167,591,192"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="517,118,542,154,537,157,512,121"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="616,167,691,192"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="531,116,618,158,616,163,529,121"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="709,240,771,265"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="601,116,655,134,681,147,705,165,726,194,737,225,732,227,721,196,701,169,678,152,653,139,599,121"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="936,167,1021,192"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="599,116,747,136,923,164,922,169,746,141,598,121"/>
+<area shape="rect" id="Node000010" href="$ematch__src_2utils_2gdb_2gdbUtils_8hh.html" title=" " alt="" coords="147,167,303,192"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="462,121,285,166,283,161,461,116"/>
+<area shape="rect" id="Node000015" href="$ematch__src_2utils_2stl_2stlTypes_8hh.html" title=" " alt="" coords="765,167,912,192"/>
+<area shape="poly" id="edge16_Node000003_Node000015" title=" " alt="" coords="561,116,772,161,771,166,559,121"/>
+<area shape="poly" id="edge12_Node000010_Node000002" title=" " alt="" coords="197,195,88,237,86,232,195,190"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="110,240,181,265"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="214,194,170,233,167,229,211,190"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="205,240,270,265"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="230,192,236,226,230,227,225,193"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="295,240,356,265"/>
+<area shape="poly" id="edge14_Node000010_Node000013" title=" " alt="" coords="243,190,299,230,296,234,240,194"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="380,240,449,265"/>
+<area shape="poly" id="edge15_Node000010_Node000014" title=" " alt="" coords="257,190,372,232,370,237,255,195"/>
+<area shape="poly" id="edge18_Node000015_Node000008" title=" " alt="" coords="824,194,769,234,766,230,821,190"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="809,240,868,265"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="841,192,841,226,836,226,836,192"/>
+<area shape="poly" id="edge20_Node000017_Node000002" title=" " alt="" coords="109,120,59,229,54,226,104,118"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="ematch_src/utils/sequence/readers/fasta/FastaInputOptions.hh" name="ematch_src/utils/sequence/readers/fasta/FastaInputOptions.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,259,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="79,167,159,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,48,77,68,58,94,56,111,62,128,75,143,90,156,86,160,71,147,58,130,51,112,54,92,73,64,98,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="69,93,195,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,46,135,79,129,79,129,46"/>
+<area shape="rect" id="Node000004" href="$stringUtils_8hh.html" title=" " alt="" coords="219,93,381,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="173,43,264,85,262,90,171,48"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="272,121,162,164,160,159,270,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="228,167,287,192"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="295,120,273,156,269,154,291,118"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="311,167,374,192"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="309,118,331,154,327,156,305,120"/>
+</map>

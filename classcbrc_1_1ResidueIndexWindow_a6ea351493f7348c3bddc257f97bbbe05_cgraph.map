@@ -1,0 +1,11 @@
+<map id="cbrc::ResidueIndexWindow::increment" name="cbrc::ResidueIndexWindow::increment">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,37,203,77"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1ResidueIndexWindow.html#a270fb96012b5ae1b902d097427799c29" title=" " alt="" coords="251,5,448,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,42,237,37,238,43,203,47"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1ResidueIndexWindow.html#a7af959c2edd1f1df43e4258fc99ebc6b" title=" " alt="" coords="251,69,448,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="203,68,238,72,237,77,203,73"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1ResidueIndexWindow.html#a1110cf175ab6a733b8b2ce21dc67ce40" title=" " alt="" coords="496,5,693,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="448,23,482,23,482,28,448,28"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1ConstResidueIndexSequenceBoundaries.html#a43409c65bd354ce1efd45d24f5632733" title=" " alt="" coords="741,5,987,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="693,23,728,23,728,28,693,28"/>
+</map>

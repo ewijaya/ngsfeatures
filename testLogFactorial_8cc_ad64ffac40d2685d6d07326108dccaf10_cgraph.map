@@ -1,0 +1,10 @@
+<map id="testLogFactorial" name="testLogFactorial">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,131,56"/>
+<area shape="rect" id="Node000002" href="$EstimateTrueCount__EntropyFast_8cc.html#a790922e5ce9415fe72d37406abf168c5" title=" " alt="" coords="179,31,217,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,41,165,41,165,46,131,46"/>
+<area shape="rect" id="Node000003" href="$EstimateTrueCount__EntropyFast_8cc.html#a9dbdc9b883fafd106ea6e9f4f2d18b10" title=" " alt="" coords="265,5,437,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="217,38,261,30,262,36,218,43"/>
+<area shape="rect" id="Node000004" href="$EstimateTrueCount__EntropyFast_8cc.html#a4bc05b3e60ec6578aae305cf37c63377" title=" " alt="" coords="485,31,524,56"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="217,41,472,41,472,46,217,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="429,28,472,35,471,41,428,33"/>
+</map>

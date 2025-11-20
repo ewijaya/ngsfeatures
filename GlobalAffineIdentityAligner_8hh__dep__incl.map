@@ -1,0 +1,9 @@
+<map id="ematch_src/utils/sequence/align/GlobalAffineIdentityAligner.hh" name="ematch_src/utils/sequence/align/GlobalAffineIdentityAligner.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="285,5,543,45"/>
+<area shape="rect" id="Node000002" href="$GlobalAffineIdentityAligner_8cc.html" title=" " alt="" coords="5,101,260,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="345,52,190,103,189,98,343,47"/>
+<area shape="rect" id="Node000003" href="$computeAllPairsIdentity_8cc.html" title=" " alt="" coords="285,101,543,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="417,59,417,101,411,101,411,59"/>
+<area shape="rect" id="Node000004" href="$computeGlobalAffineIdentity_8cc.html" title=" " alt="" coords="567,93,791,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="481,47,605,91,604,96,480,52"/>
+</map>

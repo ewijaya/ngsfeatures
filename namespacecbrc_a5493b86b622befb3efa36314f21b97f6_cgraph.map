@@ -1,0 +1,7 @@
+<map id="cbrc::betai" name="cbrc::betai">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,96,31"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc.html#a8275f8969aee8fd2145e45905be4bec8" title=" " alt="" coords="144,5,243,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,15,130,15,130,21,96,21"/>
+<area shape="rect" id="Node000003" href="$EstimateTrueCount__EntropyFast_8cc.html#a4bc05b3e60ec6578aae305cf37c63377" title=" " alt="" coords="291,5,329,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="243,15,277,15,277,21,243,21"/>
+</map>

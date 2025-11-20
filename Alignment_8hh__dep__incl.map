@@ -1,0 +1,51 @@
+<map id="ematch_src/utils/sequence/align/Alignment.hh" name="ematch_src/utils/sequence/align/Alignment.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="390,5,585,45"/>
+<area shape="rect" id="Node000002" href="$Alignment_8cc.html" title=" " alt="" coords="37,101,231,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="404,51,206,103,205,98,402,46"/>
+<area shape="rect" id="Node000003" href="$GlobalAffineDist_8hh.html" title=" " alt="" coords="255,101,450,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="451,55,381,103,378,98,448,51"/>
+<area shape="rect" id="Node000005" href="$GlobalAffineIdentityAligner_8hh.html" title=" " alt="" coords="417,203,675,243"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="495,58,503,101,515,147,539,202,534,204,510,149,498,102,489,59"/>
+<area shape="rect" id="Node000009" href="$ResidueSimilarityAffineEdit_8hh.html" title=" " alt="" coords="525,93,740,148"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="530,51,593,91,590,95,527,55"/>
+<area shape="rect" id="Node000010" href="$SeqGlobalAffineAligner_8hh.html" title=" " alt="" coords="2013,101,2244,141"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="599,30,2013,110,2013,115,598,36"/>
+<area shape="rect" id="Node000004" href="$GlobalAffineDist_8cc.html" title=" " alt="" coords="198,203,393,243"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="337,154,308,205,304,202,333,151"/>
+<area shape="rect" id="Node000006" href="$GlobalAffineIdentityAligner_8cc.html" title=" " alt="" coords="5,306,260,346"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="456,249,211,309,209,303,455,244"/>
+<area shape="rect" id="Node000007" href="$computeAllPairsIdentity_8cc.html" title=" " alt="" coords="285,306,543,346"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="512,254,440,308,437,304,508,250"/>
+<area shape="rect" id="Node000008" href="$computeGlobalAffineIdentity_8cc.html" title=" " alt="" coords="567,299,791,353"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="584,249,646,296,643,301,580,254"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="603,161,565,205,561,201,599,157"/>
+<area shape="rect" id="Node000011" href="$SeqGlobalAffineAligner_8cc.html" title=" " alt="" coords="1277,203,1506,243"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="2000,137,1775,163,1518,199,1478,206,1477,201,1518,193,1774,157,1999,132"/>
+<area shape="rect" id="Node000012" href="$SimilaritySearchableSequences_8hh.html" title=" " alt="" coords="1531,203,1817,243"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="2031,146,1760,206,1758,201,2030,141"/>
+<area shape="rect" id="Node000018" href="$runSimilaritySearchableSequences_8cc.html" title=" " alt="" coords="2217,299,2459,353"/>
+<area shape="poly" id="edge23_Node000010_Node000018" title=" " alt="" coords="2003,146,1943,164,1895,187,1879,200,1871,215,1872,231,1883,249,1906,266,1942,277,1985,284,2034,288,2131,291,2205,296,2217,298,2216,303,2204,301,2130,296,2033,293,1985,289,1941,282,1904,270,1879,252,1867,232,1866,214,1875,197,1892,182,1941,159,2002,141"/>
+<area shape="rect" id="Node000019" href="$allPairsNearestGlobalAffineScore_8cc.html" title=" " alt="" coords="1893,196,2119,251"/>
+<area shape="poly" id="edge19_Node000010_Node000019" title=" " alt="" coords="2097,151,2040,198,2037,194,2093,147"/>
+<area shape="rect" id="Node000020" href="$clusterByIdentity_8cc.html" title=" " alt="" coords="2144,203,2359,243"/>
+<area shape="poly" id="edge20_Node000010_Node000020" title=" " alt="" coords="2164,147,2230,201,2227,205,2160,151"/>
+<area shape="rect" id="Node000021" href="$hasHighIdentityToDataset_8cc.html" title=" " alt="" coords="2383,203,2656,243"/>
+<area shape="poly" id="edge21_Node000010_Node000021" title=" " alt="" coords="2215,141,2447,201,2445,206,2214,147"/>
+<area shape="rect" id="Node000022" href="$runGlobalAffineAlignment_8cc.html" title=" " alt="" coords="2680,203,2953,243"/>
+<area shape="poly" id="edge22_Node000010_Node000022" title=" " alt="" coords="2258,136,2669,193,2714,201,2713,206,2668,199,2257,141"/>
+<area shape="rect" id="Node000023" href="$allPairsGlobalAffineScore_8cc.html" title=" " alt="" coords="2978,196,3197,251"/>
+<area shape="poly" id="edge24_Node000010_Node000023" title=" " alt="" coords="2258,126,2581,149,2774,168,2966,193,2978,195,2977,200,2966,199,2773,174,2580,154,2258,131"/>
+<area shape="rect" id="Node000024" href="$testSeqGlobalAffineAligner_8cc.html" title=" " alt="" coords="3221,196,3441,251"/>
+<area shape="poly" id="edge25_Node000010_Node000024" title=" " alt="" coords="2258,122,2444,129,2682,142,2945,163,3209,193,3222,195,3221,201,3208,199,2945,168,2681,148,2444,135,2258,128"/>
+<area shape="rect" id="Node000013" href="$SimilaritySearchableSequences_8cc.html" title=" " alt="" coords="815,306,1101,346"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="1553,248,1518,253,1316,277,1113,301,1066,309,1065,303,1112,296,1315,272,1518,248,1552,243"/>
+<area shape="rect" id="Node000014" href="$runAddAlignmentToHtml_8cc.html" title=" " alt="" coords="1125,306,1389,346"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="1584,249,1335,309,1334,303,1582,244"/>
+<area shape="rect" id="Node000015" href="$runAddIdenticalToHtml_8cc.html" title=" " alt="" coords="1413,306,1666,346"/>
+<area shape="poly" id="edge15_Node000012_Node000015" title=" " alt="" coords="1639,254,1566,308,1563,304,1636,249"/>
+<area shape="rect" id="Node000016" href="$runGlobalAffineNearestClass_8cc.html" title=" " alt="" coords="1691,299,1929,353"/>
+<area shape="poly" id="edge16_Node000012_Node000016" title=" " alt="" coords="1712,249,1776,296,1773,301,1709,254"/>
+<area shape="rect" id="Node000017" href="$runGlobalAffineNearestClassDiff_8cc.html" title=" " alt="" coords="1953,299,2192,353"/>
+<area shape="poly" id="edge17_Node000012_Node000017" title=" " alt="" coords="1762,244,1969,296,1968,301,1761,249"/>
+<area shape="poly" id="edge18_Node000012_Node000018" title=" " alt="" coords="1802,243,1837,248,2021,271,2205,296,2217,298,2216,303,2204,301,2020,276,1836,253,1801,248"/>
+</map>

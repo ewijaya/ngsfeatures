@@ -1,0 +1,10 @@
+<map id="cbrc::DNAArrayBit16::DNAArrayBit16" name="cbrc::DNAArrayBit16::DNAArrayBit16">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,160,75"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1DNAArrayBit16.html#ab31ec0bfe28db6270767f24a23e8ea11" title=" " alt="" coords="208,42,391,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,52,194,52,194,57,160,57"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="264,44,256,34,260,24,275,18,299,15,329,19,341,28,338,32,327,24,299,21,276,23,264,28,262,33,268,40"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1DNAArrayBit16.html#a6945e89833855b890843c195fc5146b8" title=" " alt="" coords="439,5,593,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="390,40,425,35,426,40,391,45"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="442,70,590,95"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="391,64,428,69,428,74,390,69"/>
+</map>

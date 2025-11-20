@@ -1,0 +1,10 @@
+<map id="cbrc::sprotToFasta" name="cbrc::sprotToFasta">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,144,80"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEArray.html#a5935847e541b1e70406ea046b2b4e97e" title=" " alt="" coords="192,55,344,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,65,178,65,178,70,144,70"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="392,29,572,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="344,56,378,52,379,57,345,61"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="408,79,556,104"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="345,73,395,79,394,84,344,79"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="447,31,440,21,443,11,458,5,482,3,512,6,523,15,520,20,510,11,482,8,459,10,447,15,445,20,451,28"/>
+</map>

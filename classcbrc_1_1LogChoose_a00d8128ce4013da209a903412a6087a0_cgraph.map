@@ -1,0 +1,10 @@
+<map id="cbrc::LogChoose::LogChoose" name="cbrc::LogChoose::LogChoose">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,212,80"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEArray.html#a5f10f892188c41f2821ef33ee9bcc743" title=" " alt="" coords="260,55,429,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,65,246,65,246,70,212,70"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="477,29,657,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="429,55,464,51,464,56,430,60"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="493,79,641,104"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="430,74,480,79,479,85,430,79"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="531,31,523,21,527,11,542,5,567,3,598,6,610,15,607,20,596,11,567,8,544,10,531,15,529,20,535,28"/>
+</map>

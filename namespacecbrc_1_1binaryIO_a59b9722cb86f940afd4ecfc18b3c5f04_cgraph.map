@@ -1,0 +1,18 @@
+<map id="cbrc::binaryIO::read" name="cbrc::binaryIO::read">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,155,81"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc_1_1perlish.html#a27da775d330fc85aeb67ad7bc5e054d6" title=" " alt="" coords="213,12,343,37"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,53,207,38,208,43,138,59"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ab4f853671d71b67a4771b5199af8d8f8" title=" " alt="" coords="203,92,353,117"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="151,79,195,87,194,92,150,84"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc.html#a0d70f74afe25a87ac43272ff476dcb48" title=" " alt="" coords="438,5,545,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="343,20,424,17,424,23,343,25"/>
+<area shape="poly" id="edge8_Node000004_Node000004" title=" " alt="" coords="245,93,239,84,242,74,256,68,278,65,305,69,316,78,313,82,303,74,278,71,257,73,246,77,244,83,250,90"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#a8255bcefe055e10a4fccd3331b450fee" title=" " alt="" coords="413,55,569,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="351,89,405,80,405,85,352,95"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="629,80,777,105"/>
+<area shape="poly" id="edge9_Node000004_Node000006" title=" " alt="" coords="353,100,615,92,616,98,354,105"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="401,180,581,205"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="311,115,448,172,446,177,309,120"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="570,74,616,80,615,85,569,79"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="457,182,449,172,453,162,468,156,491,153,521,157,532,166,529,170,519,162,491,159,469,161,457,165,455,171,461,178"/>
+</map>

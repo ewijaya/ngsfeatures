@@ -1,0 +1,19 @@
+<map id="ematch_src/utils/sequence/align/AminoScorePam120.hh" name="ematch_src/utils/sequence/align/AminoScorePam120.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="986,5,1198,45"/>
+<area shape="rect" id="Node000002" href="$allPairsNearestGlobalAffineScore_8cc.html" title=" " alt="" coords="5,93,232,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="972,34,643,54,444,72,244,96,233,98,232,92,244,91,443,67,643,49,972,29"/>
+<area shape="rect" id="Node000003" href="$runAddAlignmentToHtml_8cc.html" title=" " alt="" coords="256,101,520,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="973,41,767,65,532,96,487,103,487,98,532,91,766,59,972,36"/>
+<area shape="rect" id="Node000004" href="$runGlobalAffineAlignment_8cc.html" title=" " alt="" coords="545,101,818,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="996,51,765,103,764,98,995,46"/>
+<area shape="rect" id="Node000005" href="$runGlobalAffineNearestClass_8cc.html" title=" " alt="" coords="842,93,1081,148"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1056,55,1000,95,997,91,1053,51"/>
+<area shape="rect" id="Node000006" href="$runGlobalAffineNearestClassDiff_8cc.html" title=" " alt="" coords="1105,93,1343,148"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1131,51,1188,91,1185,95,1128,55"/>
+<area shape="rect" id="Node000007" href="$runSimilaritySearchableSequences_8cc.html" title=" " alt="" coords="1368,93,1611,148"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1186,46,1378,91,1377,96,1185,51"/>
+<area shape="rect" id="Node000008" href="$allPairsGlobalAffineScore_8cc.html" title=" " alt="" coords="1635,93,1853,148"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1212,36,1405,59,1623,91,1635,93,1634,98,1622,96,1405,64,1211,41"/>
+<area shape="rect" id="Node000009" href="$testSeqGlobalAffineAligner_8cc.html" title=" " alt="" coords="1878,93,2098,148"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1212,30,1510,51,1688,68,1866,91,1878,93,1877,98,1865,96,1687,73,1509,56,1211,35"/>
+</map>

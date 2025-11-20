@@ -1,0 +1,9 @@
+<map id="cbrc::RecountTagCounts::min" name="cbrc::RecountTagCounts::min">
+<area shape="rect" id="Node000001" title=" " alt="" coords="364,45,575,70"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1RecountTagCounts.html#ab15f291b590118e4f57277ffff749164" title=" " alt="" coords="123,5,301,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="353,46,301,39,301,34,354,40"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc.html#a437e8e878a94bd2e14d5c5aedb994bea" title=" " alt="" coords="108,69,316,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="354,74,317,79,316,74,353,69"/>
+<area shape="rect" id="Node000004" href="$runRecountExpectationMatchingTagCorrector_8cc.html#ac0f2228420376f4db7e1274f2b41667c" title=" " alt="" coords="5,77,60,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,92,60,92,60,87,94,87"/>
+</map>

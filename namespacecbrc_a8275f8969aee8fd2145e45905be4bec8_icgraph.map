@@ -1,0 +1,13 @@
+<map id="cbrc::betacf" name="cbrc::betacf">
+<area shape="rect" id="Node000001" title=" " alt="" coords="381,55,480,80"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc.html#a5493b86b622befb3efa36314f21b97f6" title=" " alt="" coords="243,29,333,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="367,59,333,53,334,47,368,54"/>
+<area shape="rect" id="Node000006" href="$namespacecbrc.html#a18b8f64fecd2f83d8efc5b42a6837e31" title=" " alt="" coords="243,79,333,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="368,81,334,86,333,81,367,75"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc.html#a019bde704dc9ba93b64688ceb9e9bb37" title=" " alt="" coords="108,5,195,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="229,34,195,28,196,23,230,29"/>
+<area shape="rect" id="Node000005" href="$namespacecbrc.html#a4f2f63efecc215fb8d55100a45541075" title=" " alt="" coords="108,55,195,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="230,55,196,62,195,57,229,50"/>
+<area shape="rect" id="Node000004" href="$testTtable-gmp_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="cbrc::WeightedPoint2D::x" name="cbrc::WeightedPoint2D::x">
+<area shape="rect" id="Node000001" title=" " alt="" coords="251,70,436,95"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1WeightedPoint2D.html#a72963ba1dedf456a3ec64c8c3c05bb05" title=" " alt="" coords="19,5,189,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="276,69,187,48,189,43,277,64"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1WeightedPoint2D.html#a0b3e5ea9945a9cc6aa07ceb76a274c99" title=" " alt="" coords="5,70,203,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,85,203,85,203,80,237,80"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1WeightedPoint2D.html#a2d61be938357ecf21ec4032c256dcff0" title=" " alt="" coords="19,120,189,160"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="277,101,189,123,187,117,276,96"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="cbrc::smoothing::averageYCoordinatesWithNeighboringPointsUntilMinSampleSizeAttained" name="cbrc::smoothing::averageYCoordinatesWithNeighboringPointsUntilMinSampleSizeAttained">
+<area shape="rect" id="Node000001" title=" " alt="" coords="592,81,848,135"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc_1_1smoothing.html#a7841dbf6fb908ba9d4dab17f77387236" title=" " alt="" coords="341,59,544,99"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="578,96,544,92,544,87,579,90"/>
+<area shape="rect" id="Node000006" href="$namespacecbrc.html#a21b3d568b029c61ac627788f2c9f16e8" title=" " alt="" coords="357,123,528,149"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="578,125,529,130,528,125,578,120"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc.html#aef2d0ed299987208c4ea3f95ca35008f" title=" " alt="" coords="108,5,293,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="338,58,291,48,292,43,339,53"/>
+<area shape="rect" id="Node000005" href="$namespacecbrc.html#a2cde2566ec76e051d46f1e427eae9802" title=" " alt="" coords="115,70,286,95"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="328,83,286,84,286,79,328,78"/>
+<area shape="rect" id="Node000004" href="$labeledBlastToOddsRatio_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="95,28,60,28,60,23,95,23"/>
+<area shape="rect" id="Node000007" href="$smoothMinSampleSize_8cc.html#ac0f2228420376f4db7e1274f2b41667c" title=" " alt="" coords="173,123,228,149"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="344,139,228,139,228,133,344,133"/>
+</map>

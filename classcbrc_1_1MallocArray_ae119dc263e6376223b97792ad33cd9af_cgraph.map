@@ -1,0 +1,14 @@
+<map id="cbrc::MallocArray::write" name="cbrc::MallocArray::write">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,148,87"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1MallocArray.html#a8c3d8cc0cbf3469079fa869afea85d96" title=" " alt="" coords="202,5,345,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,49,188,41,189,46,149,54"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#a67f88b1303a55d4e8039da5a9a739203" title=" " alt="" coords="196,94,351,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,78,198,89,197,94,147,84"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1MallocArray.html#ad3c146d3c45554ebcba4be8dd4f53327" title=" " alt="" coords="399,13,567,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="345,23,385,23,385,28,345,28"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="241,95,234,86,238,76,251,70,273,67,300,71,311,80,308,84,298,76,273,73,253,75,242,79,240,85,245,92"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#a8255bcefe055e10a4fccd3331b450fee" title=" " alt="" coords="405,94,561,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="351,104,391,104,391,109,351,109"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="615,94,763,119"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="561,104,601,104,601,109,561,109"/>
+</map>

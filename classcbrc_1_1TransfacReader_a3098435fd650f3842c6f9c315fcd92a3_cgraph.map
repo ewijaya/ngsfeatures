@@ -1,0 +1,11 @@
+<map id="cbrc::TransfacReader::nextNonBlankLine" name="cbrc::TransfacReader::nextNonBlankLine">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,63,163,103"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1TransfacTextLabelInfo.html#a1957a3d86791cc19247510ad77497ff9" title=" " alt="" coords="211,5,409,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,60,217,46,218,51,163,65"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="236,70,384,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,80,222,80,222,85,163,85"/>
+<area shape="rect" id="Node000005" href="$namespacecbrc_1_1perlish.html#a2a0db2c27f3a19dfdcd7ef17ea5a0bcd" title=" " alt="" coords="226,119,394,145"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="163,97,238,114,237,119,162,102"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1TransfacTextLine.html#ad2e943deedfa2453dd9d2d3016c862d9" title=" " alt="" coords="457,5,623,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="410,23,444,23,444,28,410,28"/>
+</map>

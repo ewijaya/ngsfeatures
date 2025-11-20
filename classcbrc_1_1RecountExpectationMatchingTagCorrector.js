@@ -1,0 +1,26 @@
+var classcbrc_1_1RecountExpectationMatchingTagCorrector =
+[
+    [ "RecountExpectationMatchingTagCorrector", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#ac6064bce0de0dae057ca18e8eba8a53d", null ],
+    [ "RecountExpectationMatchingTagCorrector", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#aea1163ebbfd0654659858d7dc5271b85", null ],
+    [ "bestEstCounts", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#a1aefbbf05470a265d3d0e24bfc1479a0", null ],
+    [ "bestEstCounts", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#a1aefbbf05470a265d3d0e24bfc1479a0", null ],
+    [ "bestEstCountsIteration", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#ace88c918e6a1cd05f585510ebd602454", null ],
+    [ "bestEstCountsIteration", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#ace88c918e6a1cd05f585510ebd602454", null ],
+    [ "bestEstCountsTotalFoldChange", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#a14b69aac48753580fb12e66ef9b9b098", null ],
+    [ "bestEstError", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#a0b1a3c2d9982d946f0a23b5131fd11f1", null ],
+    [ "computeCountCorrections", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#a1d6c86c37c56879cfce9ce356f12e5cc", null ],
+    [ "computeCountCorrections_by1stDerivative", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#a82078c238488868f5d17038d66ec4ef2", null ],
+    [ "curIdx", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#a5a1ae053c28dda3d4eb7f585315b822d", null ],
+    [ "curIdx", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#a5a1ae053c28dda3d4eb7f585315b822d", null ],
+    [ "estimatedTrueCounts", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#a855ff3885cbc6881606d5238e2bf56dc", null ],
+    [ "estimatedTrueCounts", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#a855ff3885cbc6881606d5238e2bf56dc", null ],
+    [ "incrementIdx", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#ad212f016a3d78bd4983939f253d14c79", null ],
+    [ "incrementIdx", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#ad212f016a3d78bd4983939f253d14c79", null ],
+    [ "inferTrueTagCounts", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#aef78c91ab7f6f6ece7dd996d1b562074", null ],
+    [ "inferTrueTagCounts", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#aef78c91ab7f6f6ece7dd996d1b562074", null ],
+    [ "learningRate", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#a076143e65ca6b966d769b87948be1aa4", null ],
+    [ "numRoundsToWaitForBetter", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#a51f1ea3b160bd4428be4bbb88bef5fb5", null ],
+    [ "prevIdx", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#ace78a2caa776149f0fceb21a4d40c36e", null ],
+    [ "prevIdx", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#ace78a2caa776149f0fceb21a4d40c36e", null ],
+    [ "totalFoldChangeError", "classcbrc_1_1RecountExpectationMatchingTagCorrector.html#abf31d0629031b04ac0244514c4743d11", null ]
+];

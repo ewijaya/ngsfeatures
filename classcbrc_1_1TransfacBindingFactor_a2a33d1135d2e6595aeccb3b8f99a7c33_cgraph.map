@@ -1,0 +1,28 @@
+<map id="cbrc::TransfacBindingFactor::set" name="cbrc::TransfacBindingFactor::set">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,168,232,193"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEArray.html#a3eba8d1c247ebc9ed3219dd2a3614252" title=" " alt="" coords="312,53,459,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,166,199,128,279,89,306,80,307,85,281,94,201,133,140,170"/>
+<area shape="rect" id="Node000006" href="$namespacecbrc_1_1perlish.html#aa0422c6fee66076db8579a1f2f7b5cf2" title=" " alt="" coords="291,103,480,143"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="178,165,278,144,279,149,179,171"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="566,168,714,193"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="233,178,552,178,552,183,233,183"/>
+<area shape="rect" id="Node000008" href="$namespacecbrc_1_1perlish.html#a87d13a43889b6416f9121f81329348e0" title=" " alt="" coords="280,218,491,258"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="179,191,279,212,278,218,178,196"/>
+<area shape="rect" id="Node000009" href="$namespacecbrc_1_1perlish.html#a101a4746d50e52a00273c6fe533970ec" title=" " alt="" coords="317,307,454,332"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="143,191,281,268,344,298,342,303,279,272,141,196"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a985e9e85d6fc6adf9d3c52a0306361a4" title=" " alt="" coords="539,28,741,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="459,56,524,49,525,55,459,61"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="798,79,978,104"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="459,67,784,83,784,89,459,72"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#a0a06120b85cf875ccff4081918fe0f33" title=" " alt="" coords="789,5,987,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="741,29,776,26,776,31,742,34"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="704,51,812,73,811,78,703,56"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="848,80,839,70,844,60,860,54,888,52,923,56,933,61,937,66,932,69,929,65,922,61,888,57,861,59,847,64,844,70,852,77"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="475,141,570,162,569,168,474,146"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="474,215,569,194,570,199,475,221"/>
+<area shape="poly" id="edge15_Node000009_Node000009" title=" " alt="" coords="344,308,335,298,340,288,357,282,385,280,421,284,431,289,435,294,431,297,428,293,420,289,385,285,358,287,344,292,341,298,348,305"/>
+<area shape="rect" id="Node000010" href="$classcbrc_1_1FLEArray.html#a7e5d0d3bc5c41546620ccff95b55b3fa" title=" " alt="" coords="561,281,719,307"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="454,310,547,301,547,306,454,315"/>
+<area shape="rect" id="Node000011" href="$classcbrc_1_1FLEArray.html#a8c53878dc57e8f666976e041d146a523" title=" " alt="" coords="567,331,713,356"/>
+<area shape="poly" id="edge14_Node000009_Node000011" title=" " alt="" coords="454,323,553,333,553,338,454,328"/>
+</map>

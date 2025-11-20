@@ -1,0 +1,10 @@
+<map id="cbrc::SimilaritySearchableSequences::withinHammingDistance" name="cbrc::SimilaritySearchableSequences::withinHammingDistance">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,51,267,91"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc_1_1HammingDistanceComputer.html#a70ad0c4f651c544af112bd17bf13548e" title=" " alt="" coords="315,22,557,62"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="267,56,301,53,301,58,267,61"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="362,87,510,112"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="267,81,349,89,348,94,267,86"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="605,29,785,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="557,39,592,39,592,45,557,45"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="654,31,644,21,649,11,666,5,695,3,732,7,742,11,746,17,742,20,739,15,730,12,695,8,668,10,653,15,650,20,657,27"/>
+</map>

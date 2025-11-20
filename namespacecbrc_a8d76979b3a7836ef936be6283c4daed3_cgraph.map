@@ -1,0 +1,15 @@
+<map id="cbrc::dumpAminoAcidContentWPformat" name="cbrc::dumpAminoAcidContentWPformat">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,144,220,184"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1ResidueIndexMap.html#a19dec9678d9b82ebf1e8c98151c480b9" title=" " alt="" coords="268,5,441,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,142,195,99,267,55,280,48,283,53,269,60,198,104,141,146"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a7e5d0d3bc5c41546620ccff95b55b3fa" title=" " alt="" coords="275,70,434,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="166,141,267,105,294,97,296,102,269,111,168,146"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1ResidueIndexMap.html#ac7603464d0869102a949604457df96ce" title=" " alt="" coords="268,144,441,184"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="220,161,254,161,254,167,220,167"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="489,181,637,206"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="195,181,268,193,355,197,441,193,476,193,476,198,441,199,355,202,268,199,195,187"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#a8c53878dc57e8f666976e041d146a523" title=" " alt="" coords="281,259,428,285"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="153,182,269,238,305,252,303,257,267,242,151,187"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="316,144,313,134,319,125,333,119,355,117,379,120,392,128,390,132,377,125,355,123,335,125,323,129,318,135,321,143"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="442,174,476,178,475,184,441,179"/>
+</map>

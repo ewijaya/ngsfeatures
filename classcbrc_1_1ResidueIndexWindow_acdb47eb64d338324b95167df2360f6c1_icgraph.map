@@ -1,0 +1,23 @@
+<map id="cbrc::ResidueIndexWindow::windowStartIdx" name="cbrc::ResidueIndexWindow::windowStartIdx">
+<area shape="rect" id="Node000001" title=" " alt="" coords="496,197,693,237"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1ResidueIndexWindow.html#a0ca0a082235c1f2d796373b0202cd2da" title=" " alt="" coords="251,5,448,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="570,187,519,123,484,89,447,60,424,48,427,43,449,55,488,85,522,119,574,184"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1ResidueIndexWindow.html#a310623ed9e7a4bdeca026e65b58d9553" title=" " alt="" coords="5,248,203,288"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="501,243,448,252,321,264,203,270,203,264,320,259,448,247,500,238"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1ResidueIndexWindow.html#af2eb32757eaa7984922f204a8da9327a" title=" " alt="" coords="251,133,448,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="503,196,426,176,427,171,505,191"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1ResidueIndexWindow.html#ad49a43b2121cc824b915110a388add10" title=" " alt="" coords="251,197,448,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="482,220,448,220,448,215,482,215"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1ResidueIndexWindow.html#a96fa74604b071d236212293c6c6545e9" title=" " alt="" coords="251,69,448,109"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="555,191,505,157,447,124,419,112,421,107,449,119,508,152,558,187"/>
+<area shape="rect" id="Node000008" href="$classcbrc_1_1ResidueIndexWindow.html#ad09060963b3e97a62a28dc6d3174ddb2" title=" " alt="" coords="5,376,203,416"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="575,251,523,312,488,342,449,366,388,388,324,401,261,406,203,407,203,402,260,401,323,396,387,383,447,362,485,338,519,308,570,247"/>
+<area shape="rect" id="Node000009" href="$classcbrc_1_1ResidueIndexWindow.html#ac7418c0fac246e0772de5afca6358c41" title=" " alt="" coords="251,312,448,352"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="547,246,449,296,405,314,403,309,447,291,544,242"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1ResidueIndexWindow.html#aa7b18bce16975022e5c61a64cf062c6e" title=" " alt="" coords="5,69,203,109"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="237,92,203,92,203,87,237,87"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="258,311,180,291,182,285,259,306"/>
+<area shape="poly" id="edge11_Node000009_Node000008" title=" " alt="" coords="259,358,182,379,180,373,258,353"/>
+<area shape="rect" id="Node000010" href="$classcbrc_1_1ResidueIndexWindow.html#a79e14260664da6b43d3b242e62cd68dc" title=" " alt="" coords="5,312,203,352"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="237,335,203,335,203,329,237,329"/>
+</map>

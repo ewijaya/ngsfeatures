@@ -1,0 +1,35 @@
+<map id="ematch_src/utils/sequence/readers/fasta/FastaSeqSlurper.hh" name="ematch_src/utils/sequence/readers/fasta/FastaSeqSlurper.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="2061,5,2299,45"/>
+<area shape="rect" id="Node000002" href="$allPairsHammingNeighbors_8cc.html" title=" " alt="" coords="5,101,288,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2047,32,1162,54,664,72,458,84,300,96,246,103,245,98,300,91,457,78,664,67,1162,48,2047,26"/>
+<area shape="rect" id="Node000003" href="$allPairsNearestGlobalAffineScore_8cc.html" title=" " alt="" coords="312,93,539,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="2047,32,1281,53,859,72,684,83,551,96,539,98,539,92,550,91,684,78,859,67,1281,48,2047,27"/>
+<area shape="rect" id="Node000004" href="$clusterByIdentity_8cc.html" title=" " alt="" coords="563,101,778,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="2047,28,1811,30,1498,40,1146,60,966,76,791,96,748,103,747,98,790,91,966,70,1145,55,1498,34,1811,25,2047,23"/>
+<area shape="rect" id="Node000005" href="$computeAllPairsIdentity_8cc.html" title=" " alt="" coords="803,101,1061,141"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="2047,32,1856,38,1613,50,1344,69,1074,96,1025,103,1024,98,1073,91,1344,64,1613,45,1856,33,2047,27"/>
+<area shape="rect" id="Node000006" href="$computeGlobalAffineIdentity_8cc.html" title=" " alt="" coords="1085,93,1309,148"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="2047,34,1716,54,1518,72,1320,96,1310,98,1309,92,1320,91,1517,67,1716,49,2047,29"/>
+<area shape="rect" id="Node000007" href="$hasHighIdentityToDataset_8cc.html" title=" " alt="" coords="1333,101,1606,141"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="2047,43,1845,66,1619,96,1573,103,1572,98,1618,91,1845,61,2047,38"/>
+<area shape="rect" id="Node000008" href="$runAddAlignmentToHtml_8cc.html" title=" " alt="" coords="1631,101,1895,141"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="2083,51,1848,103,1846,98,2082,46"/>
+<area shape="rect" id="Node000009" href="$runAddIdenticalToHtml_8cc.html" title=" " alt="" coords="1919,101,2172,141"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="2143,55,2074,103,2071,98,2140,51"/>
+<area shape="rect" id="Node000010" href="$runGlobalAffineNearestClass_8cc.html" title=" " alt="" coords="2197,93,2435,148"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="2221,51,2279,91,2276,95,2218,55"/>
+<area shape="rect" id="Node000011" href="$runGlobalAffineNearestClassDiff_8cc.html" title=" " alt="" coords="2459,93,2698,148"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="2274,46,2467,91,2466,96,2273,51"/>
+<area shape="rect" id="Node000012" href="$runSimilaritySearchableSequences_8cc.html" title=" " alt="" coords="2723,93,2965,148"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="2313,38,2502,61,2711,91,2723,93,2722,98,2710,96,2501,66,2313,43"/>
+<area shape="rect" id="Node000013" href="$allPairsGlobalAffineScore_8cc.html" title=" " alt="" coords="2989,93,3208,148"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="2313,30,2618,50,2798,68,2978,91,2989,93,2989,98,2977,96,2798,73,2617,56,2313,35"/>
+<area shape="rect" id="Node000014" href="$FastaSeqSlurper_8cc.html" title=" " alt="" coords="3232,101,3469,141"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="2313,27,2493,33,2719,45,2970,64,3220,91,3266,98,3265,103,3220,96,2969,69,2719,50,2492,39,2313,32"/>
+<area shape="rect" id="Node000015" href="$fastaPrintDuplicateSeqs_8cc.html" title=" " alt="" coords="3493,93,3760,148"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="2313,25,2536,30,2827,41,3153,60,3482,91,3494,92,3493,97,3481,96,3153,66,2826,46,2535,35,2313,31"/>
+<area shape="rect" id="Node000016" href="$fastaPrintDuplicateSeqs2Streams_8cc.html" title=" " alt="" coords="3784,93,4051,148"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="2313,24,2581,26,2944,35,3356,55,3566,71,3772,91,3784,92,3784,97,3772,96,3566,76,3355,61,2943,40,2581,31,2313,29"/>
+<area shape="rect" id="Node000017" href="$sortFastaByLength_8cc.html" title=" " alt="" coords="4075,93,4293,148"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="2313,26,2695,32,3200,44,3699,64,3906,76,4063,91,4075,92,4075,98,4062,96,3905,81,3698,69,3200,50,2695,37,2313,31"/>
+</map>

@@ -1,0 +1,30 @@
+<map id="ematch_src/utils/sequence/packedDNA/sigma4bitPackingUtils.hh" name="ematch_src/utils/sequence/packedDNA/sigma4bitPackingUtils.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="129,5,400,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,68,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,48,82,92,80,87,209,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="462,167,542,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="385,43,461,63,490,76,509,92,517,106,519,123,514,154,509,153,514,123,512,108,505,95,487,81,459,68,383,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="144,93,207,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="245,48,201,86,197,82,241,44"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="231,93,298,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="267,46,267,79,262,79,262,46"/>
+<area shape="rect" id="Node000006" href="$universalTypedefs_8hh.html" title=" " alt="" coords="94,167,286,192"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="195,48,160,67,146,80,134,95,130,111,135,127,148,143,163,156,159,160,144,146,131,129,124,111,129,92,142,76,157,62,192,43"/>
+<area shape="rect" id="Node000007" href="$ematch__src_2utils_2gdb_2gdbUtils_8hh.html" title=" " alt="" coords="601,93,757,119"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="364,43,606,88,605,93,363,48"/>
+<area shape="rect" id="Node000012" href="$Sigma4bitPackedIdx_8hh.html" title=" " alt="" coords="322,93,495,119"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="300,43,377,84,374,89,298,48"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="652,121,544,164,542,159,650,116"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="660,167,731,192"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="685,118,692,153,687,154,679,120"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="755,167,820,192"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="698,116,760,157,757,161,695,121"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="845,167,906,192"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="712,116,833,160,831,165,710,121"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="566,167,635,192"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="668,121,625,159,622,156,665,117"/>
+<area shape="poly" id="edge13_Node000012_Node000003" title=" " alt="" coords="425,117,478,156,474,160,422,121"/>
+<area shape="poly" id="edge14_Node000012_Node000006" title=" " alt="" coords="374,121,239,165,238,160,373,116"/>
+<area shape="rect" id="Node000013" href="$sigma4_8hh.html" title=" " alt="" coords="347,167,438,192"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="409,120,401,154,396,153,403,118"/>
+</map>

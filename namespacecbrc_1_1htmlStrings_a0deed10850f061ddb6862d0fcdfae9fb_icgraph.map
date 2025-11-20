@@ -1,0 +1,11 @@
+<map id="cbrc::htmlStrings::header" name="cbrc::htmlStrings::header">
+<area shape="rect" id="Node000001" title=" " alt="" coords="372,23,512,63"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc.html#a25c176ff8263c513731fd2f0a3ce6566" title=" " alt="" coords="108,5,324,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="358,37,324,33,324,27,359,31"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc.html#a7b03c439009db08c0286540087e13476" title=" " alt="" coords="113,55,319,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="359,55,319,59,318,54,358,50"/>
+<area shape="rect" id="Node000003" href="$runAddAlignmentToHtml_8cc.html#ac0f2228420376f4db7e1274f2b41667c" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+<area shape="rect" id="Node000005" href="$runAddIdenticalToHtml_8cc.html#ac0f2228420376f4db7e1274f2b41667c" title=" " alt="" coords="5,55,60,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="100,70,60,70,60,65,100,65"/>
+</map>

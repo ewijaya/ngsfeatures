@@ -1,0 +1,9 @@
+<map id="cbrc::smoothing::monotonicSmoothY" name="cbrc::smoothing::monotonicSmoothY">
+<area shape="rect" id="Node000001" title=" " alt="" coords="341,35,544,75"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc.html#aef2d0ed299987208c4ea3f95ca35008f" title=" " alt="" coords="108,5,293,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="328,43,293,39,294,34,328,38"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc.html#a2cde2566ec76e051d46f1e427eae9802" title=" " alt="" coords="115,70,286,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="328,71,286,75,286,70,328,65"/>
+<area shape="rect" id="Node000003" href="$labeledBlastToOddsRatio_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,28,60,28,60,23,95,23"/>
+</map>

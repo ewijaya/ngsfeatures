@@ -1,0 +1,16 @@
+<map id="ematch_src/utils/sequence/readers/fasta/run" name="ematch_src/utils/sequence/readers/fasta/run">
+<area shape="rect" id="node1" href="dir_c84ab1f95e30256e0678985db4e2248d.html" title="run" alt="" coords="171,52,213,77"/>
+<area shape="rect" id="node2" href="dir_1db078a29e90b1da34f6283dcb52b547.html" title="argvParsing" alt="" coords="5,125,104,151"/>
+<area shape="poly" id="edge1" href="dir_000043_000001.html" alt="" coords="172,79,90,121,88,117,169,75"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000043_000001.html" title="9" alt="" coords="92,117,102,132"/>
+<area shape="rect" id="node3" href="dir_650d54fc89086946a8b4399665da6091.html" title="gdb" alt="" coords="129,125,175,151"/>
+<area shape="poly" id="edge2" href="dir_000043_000016.html" alt="" coords="188,79,168,115,163,112,183,76"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000043_000016.html" title="1" alt="" coords="170,106,179,121"/>
+<area shape="rect" id="node4" href="dir_94d0818a4b74555ee7bd33798201b389.html" title="perlish" alt="" coords="200,125,267,151"/>
+<area shape="poly" id="edge3" href="dir_000043_000029.html" alt="" coords="201,76,222,112,217,115,197,79"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000043_000029.html" title="3" alt="" coords="220,98,229,113"/>
+<area shape="rect" id="node5" href="dir_954a06066d2332611ea55322810a9738.html" title="ResidueIndexMap" alt="" coords="291,125,429,151"/>
+<area shape="poly" id="edge4" href="dir_000043_000034.html" alt="" coords="215,73,321,118,319,122,213,78"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000043_000034.html" title="1" alt="" coords="315,103,324,118"/>
+<area shape="rect" id="clust1" href="dir_6c300e4be674e5a2845e6982d0a78988.html" title="fasta" alt="" coords="160,16,224,88"/>
+</map>

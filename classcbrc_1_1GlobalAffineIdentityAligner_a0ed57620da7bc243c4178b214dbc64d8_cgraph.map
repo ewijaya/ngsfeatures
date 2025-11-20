@@ -1,0 +1,9 @@
+<map id="cbrc::GlobalAffineIdentityAligner::identity" name="cbrc::GlobalAffineIdentityAligner::identity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,59,192,99"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1GlobalAffineIdentityAligner.html#aeb4d5f1afb4549eafce380ff61e874f4" title=" " alt="" coords="240,29,427,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,64,226,60,227,65,192,70"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="475,66,623,91"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="192,78,240,79,427,79,461,78,461,83,427,84,240,84,192,83"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="293,30,291,20,297,10,312,5,333,3,358,6,372,13,369,18,357,11,333,8,313,10,301,15,296,21,298,28"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="427,59,461,64,460,69,426,65"/>
+</map>

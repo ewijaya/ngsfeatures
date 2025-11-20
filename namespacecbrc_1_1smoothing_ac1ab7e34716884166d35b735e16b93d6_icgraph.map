@@ -1,0 +1,18 @@
+<map id="cbrc::smoothing::averageYCoordinateOfPointIWithNeighborPointUntilMinSampleSizeAttained" name="cbrc::smoothing::averageYCoordinateOfPointIWithNeighborPointUntilMinSampleSizeAttained">
+<area shape="rect" id="Node000001" title=" " alt="" coords="896,78,1137,133"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc_1_1smoothing.html#aff57ef2038f4bff5e44f4060dbc89cf0" title=" " alt="" coords="592,110,848,165"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="882,122,849,126,848,121,882,117"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc_1_1smoothing.html#a7841dbf6fb908ba9d4dab17f77387236" title=" " alt="" coords="341,56,544,96"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="882,101,544,84,544,78,882,96"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="582,110,533,99,534,93,583,104"/>
+<area shape="rect" id="Node000007" href="$namespacecbrc.html#a21b3d568b029c61ac627788f2c9f16e8" title=" " alt="" coords="357,125,528,150"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="578,140,528,140,528,135,578,135"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc.html#aef2d0ed299987208c4ea3f95ca35008f" title=" " alt="" coords="108,5,293,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="333,56,293,47,294,42,334,51"/>
+<area shape="rect" id="Node000006" href="$namespacecbrc.html#a2cde2566ec76e051d46f1e427eae9802" title=" " alt="" coords="115,70,286,95"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="328,82,286,83,286,78,328,76"/>
+<area shape="rect" id="Node000005" href="$labeledBlastToOddsRatio_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="95,28,60,28,60,23,95,23"/>
+<area shape="rect" id="Node000008" href="$smoothMinSampleSize_8cc.html#ac0f2228420376f4db7e1274f2b41667c" title=" " alt="" coords="173,125,228,150"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="344,140,228,140,228,135,344,135"/>
+</map>

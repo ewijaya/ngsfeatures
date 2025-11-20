@@ -1,0 +1,13 @@
+<map id="cbrc::SeqGlobalAffineAligner::bestPossibleSuffixScore" name="cbrc::SeqGlobalAffineAligner::bestPossibleSuffixScore">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,97,212,137"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="275,29,455,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,94,259,63,290,55,292,60,261,69,166,99"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#aa646a730d8658d98ed8f3cf378765470" title=" " alt="" coords="260,79,471,104"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="212,104,246,100,247,106,212,109"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="519,104,667,129"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="212,114,505,114,505,119,212,119"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1AminoScore.html#a488fd47bd0a70bfbd36478ef46cc589c" title=" " alt="" coords="261,180,469,205"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="178,134,309,173,307,179,176,139"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="328,31,320,21,325,11,340,5,365,3,397,7,409,16,406,20,395,11,365,8,341,10,328,15,326,20,332,27"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="471,100,505,104,505,110,471,106"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="cbrc::TrivialHistogram::sum" name="cbrc::TrivialHistogram::sum">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,205,80"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLENumArray.html#ad1ec7f04a049a895622a567b1cbafceb" title=" " alt="" coords="253,55,435,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,65,239,65,239,70,205,70"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="483,29,663,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="435,55,469,51,469,56,436,60"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="499,79,647,104"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="436,74,485,80,485,85,435,80"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="536,31,528,21,532,11,547,5,573,3,605,7,617,16,613,20,603,11,573,8,548,10,536,15,533,20,540,27"/>
+</map>

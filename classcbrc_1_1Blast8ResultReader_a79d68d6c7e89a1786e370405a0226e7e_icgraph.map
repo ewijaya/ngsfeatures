@@ -1,0 +1,9 @@
+<map id="cbrc::Blast8ResultReader::maxEValue" name="cbrc::Blast8ResultReader::maxEValue">
+<area shape="rect" id="Node000001" title=" " alt="" coords="597,5,783,45"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1Blast8ResultReader.html#a56b8b523ae16e5d57294c4138f367aa8" title=" " alt="" coords="351,5,549,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="584,28,549,28,549,23,584,23"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc.html#aad6fd013d0424c9e55b29af8e921bf97" title=" " alt="" coords="108,5,303,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="337,28,303,28,303,23,337,23"/>
+<area shape="rect" id="Node000004" href="$printNormalizedBlastSimilarity_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,28,60,28,60,23,94,23"/>
+</map>

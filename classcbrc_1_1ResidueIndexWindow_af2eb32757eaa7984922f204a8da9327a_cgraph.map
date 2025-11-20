@@ -1,0 +1,9 @@
+<map id="cbrc::ResidueIndexWindow::ResidueIndexWindow" name="cbrc::ResidueIndexWindow::ResidueIndexWindow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,37,203,77"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1ConstResidueIndexSequenceBoundaries.html#a43409c65bd354ce1efd45d24f5632733" title=" " alt="" coords="251,5,496,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,43,237,39,237,44,203,48"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1ResidueIndexWindow.html#acdb47eb64d338324b95167df2360f6c1" title=" " alt="" coords="275,69,472,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,66,261,73,261,79,202,72"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1ConstResidueIndexSequenceBoundaries.html#a120d70335d55ed79bffc06b0408c27d0" title=" " alt="" coords="544,69,789,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="472,87,530,87,530,92,472,92"/>
+</map>

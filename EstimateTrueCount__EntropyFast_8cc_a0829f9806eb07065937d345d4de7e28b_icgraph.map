@@ -1,0 +1,16 @@
+<map id="der_h" name="der_h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="773,31,832,56"/>
+<area shape="rect" id="Node000002" href="$EstimateTrueCount__EntropyFast_8cc.html#ac1b5db2c6e40e96f228d41be62b94d7c" title=" " alt="" coords="639,5,725,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="759,37,725,30,726,24,760,32"/>
+<area shape="rect" id="Node000007" href="$EstimateTrueCount__EntropyFast_8cc.html#a11dd0cbf5d9ad473ce12611fa0e469fd" title=" " alt="" coords="647,55,717,80"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="760,54,718,63,717,58,759,49"/>
+<area shape="rect" id="Node000003" href="$EstimateTrueCount__EntropyFast_8cc.html#aee4df16bba58eb40b7e3479ad129aaff" title=" " alt="" coords="512,31,591,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="626,32,592,38,590,33,625,26"/>
+<area shape="rect" id="Node000004" href="$EstimateTrueCount__EntropyFast_8cc.html#a849de12fe72e4dedfdf0f6fdd557b22a" title=" " alt="" coords="329,31,464,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="498,46,464,46,464,41,498,41"/>
+<area shape="rect" id="Node000005" href="$EstimateTrueCount__EntropyFast_8cc.html#abebd4fb586dd8c7cbaca02396a997f7a" title=" " alt="" coords="108,31,281,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="316,46,282,46,282,41,316,41"/>
+<area shape="rect" id="Node000006" href="$EstimateTrueCount__EntropyFast_8cc.html#a517c5941a291f7638e647c2598e62590" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="94,46,60,46,60,41,94,41"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="632,61,590,53,591,48,633,56"/>
+</map>

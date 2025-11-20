@@ -1,0 +1,15 @@
+<map id="cbrc::perlish::openOrDie" name="cbrc::perlish::openOrDie">
+<area shape="rect" id="Node000001" title=" " alt="" coords="371,77,549,102"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc.html#a47c2607cf90acf16b3a4063d35421ef7" title=" " alt="" coords="123,5,307,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="396,76,292,48,293,43,398,70"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc.html#a82f2101be71dc230b882ec72579d85b7" title=" " alt="" coords="111,69,320,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="357,92,320,92,320,87,357,87"/>
+<area shape="rect" id="Node000006" href="$namespacecbrc.html#a06b2f88627854094d5be79a680c7d74c" title=" " alt="" coords="108,134,323,159"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="392,108,271,137,270,131,391,103"/>
+<area shape="rect" id="Node000003" href="$allPairsGlobalAffineScore_8cc.html#ac0f2228420376f4db7e1274f2b41667c" title=" " alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,28,60,28,60,23,110,23"/>
+<area shape="rect" id="Node000005" href="$runGlobalAffineNearestClass_8cc.html#ac0f2228420376f4db7e1274f2b41667c" title=" " alt="" coords="5,77,60,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="97,92,60,92,60,87,97,87"/>
+<area shape="rect" id="Node000007" href="$runGlobalAffineNearestClassDiff_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,134,60,159"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="94,149,60,149,60,144,94,144"/>
+</map>

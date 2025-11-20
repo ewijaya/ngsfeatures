@@ -1,0 +1,18 @@
+<map id="cbrc::smoothing::monotonicSmoothY" name="cbrc::smoothing::monotonicSmoothY">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,147,208,187"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc_1_1smoothing.html#ac1ab7e34716884166d35b735e16b93d6" title=" " alt="" coords="560,50,801,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,144,192,117,255,94,329,79,405,71,546,67,546,73,405,76,330,85,257,99,195,122,142,149"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="849,65,997,90"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="128,145,183,101,218,79,255,62,334,35,403,17,465,7,524,3,584,5,647,11,802,35,843,45,881,58,879,63,841,50,801,40,647,17,584,10,524,8,466,12,404,23,336,41,257,67,220,84,186,105,131,149"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc_1_1smoothing.html#aff57ef2038f4bff5e44f4060dbc89cf0" title=" " alt="" coords="256,108,512,162"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,153,242,149,243,154,209,158"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#a8c53878dc57e8f666976e041d146a523" title=" " alt="" coords="311,186,457,212"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="209,176,297,186,297,192,208,181"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1WeightedPoint2D.html#a40bc244a9b5f51bf9810c22760241214" title=" " alt="" coords="299,236,469,276"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="156,185,257,222,287,231,285,236,255,227,155,190"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1WeightedPoint2D.html#a9e020ea23a4d774a35fe4d4eb50d4c0b" title=" " alt="" coords="299,300,469,340"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="129,186,184,236,219,263,257,286,287,298,285,303,255,291,216,268,180,240,125,189"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="802,75,835,75,835,80,802,80"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="512,108,546,101,547,106,513,113"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="512,136,652,132,727,126,801,115,841,105,878,93,880,98,842,110,802,120,728,131,652,138,512,142"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="cbrc::betai" name="cbrc::betai">
+<area shape="rect" id="Node000001" title=" " alt="" coords="243,31,333,56"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc.html#a019bde704dc9ba93b64688ceb9e9bb37" title=" " alt="" coords="108,5,195,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,35,195,29,196,23,230,30"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc.html#a4f2f63efecc215fb8d55100a45541075" title=" " alt="" coords="108,55,195,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="230,56,196,62,195,57,229,51"/>
+<area shape="rect" id="Node000003" href="$testTtable-gmp_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

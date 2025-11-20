@@ -1,0 +1,9 @@
+<map id="normalizeQualByMismatches1Tag" name="normalizeQualByMismatches1Tag">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,248,56"/>
+<area shape="rect" id="Node000002" href="$FindNeighboursWithQual_8cc.html#a4743c9002d987dbc269d432f45725759" title=" " alt="" coords="296,5,445,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,28,282,25,282,30,249,33"/>
+<area shape="rect" id="Node000003" href="$FindNeighboursWithQual_8cc.html#a74a433fb876b924e00943d1ad0c490c5" title=" " alt="" coords="317,55,424,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,53,304,58,303,63,248,58"/>
+<area shape="rect" id="Node000004" href="$FindNeighboursWithQual_8cc.html#a5cf264cdb54b3b9a6efd1bfd3acb2579" title=" " alt="" coords="493,55,604,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="424,65,480,65,480,70,424,70"/>
+</map>

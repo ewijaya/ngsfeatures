@@ -1,0 +1,12 @@
+<map id="ematch_src/utils/graph/OneEdgePerLineFormat.hh" name="ematch_src/utils/graph/OneEdgePerLineFormat.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,204,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="58,167,138,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,48,50,68,31,94,29,112,36,128,50,144,67,157,63,161,46,148,32,131,24,112,26,92,46,64,71,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="41,93,168,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="107,46,107,79,102,79,102,46"/>
+<area shape="rect" id="Node000004" href="$utils_2graph_2graphTypes_8hh.html" title=" " alt="" coords="193,93,382,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,43,249,85,247,90,147,48"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="258,121,143,164,141,159,256,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="256,167,319,192"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="290,119,290,153,285,153,285,119"/>
+</map>

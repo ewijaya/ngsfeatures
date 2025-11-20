@@ -1,0 +1,8 @@
+<map id="ent" name="ent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,48,56"/>
+<area shape="rect" id="Node000002" href="$EstimateTrueCount__EntropyFast_8cc.html#a9dbdc9b883fafd106ea6e9f4f2d18b10" title=" " alt="" coords="96,5,268,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="48,37,90,30,91,36,49,43"/>
+<area shape="rect" id="Node000003" href="$EstimateTrueCount__EntropyFast_8cc.html#a4bc05b3e60ec6578aae305cf37c63377" title=" " alt="" coords="316,31,355,56"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="48,41,302,41,302,46,48,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="260,28,303,35,302,41,259,33"/>
+</map>

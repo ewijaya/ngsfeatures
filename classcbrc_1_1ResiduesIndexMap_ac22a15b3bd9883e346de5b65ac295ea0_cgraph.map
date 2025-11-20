@@ -1,0 +1,10 @@
+<map id="cbrc::ResiduesIndexMap::toResidues" name="cbrc::ResiduesIndexMap::toResidues">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,185,75"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1ResiduesIndexMap.html#a88a553af656b506cb1ab4506f9f0b351" title=" " alt="" coords="464,5,644,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,46,450,29,451,35,186,52"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1ResiduesIndexMap.html#a26942bbc3bd18c081cfd90685cf38db5" title=" " alt="" coords="233,63,416,103"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,63,220,67,220,73,185,68"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="405,60,460,46,461,51,406,65"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1ResiduesIndexMap.html#a175a4d198c85cb7d17d13ddc62eeca3e" title=" " alt="" coords="464,69,644,109"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="416,83,450,84,450,89,416,88"/>
+</map>

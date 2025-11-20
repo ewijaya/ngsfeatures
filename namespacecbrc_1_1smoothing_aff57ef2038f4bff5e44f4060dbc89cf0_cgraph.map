@@ -1,0 +1,8 @@
+<map id="cbrc::smoothing::averageYCoordinatesWithNeighboringPointsUntilMinSampleSizeAttained" name="cbrc::smoothing::averageYCoordinatesWithNeighboringPointsUntilMinSampleSizeAttained">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,261,93"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc_1_1smoothing.html#ac1ab7e34716884166d35b735e16b93d6" title=" " alt="" coords="309,5,551,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,49,296,45,296,50,262,54"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="599,53,747,79"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="262,68,309,69,551,69,585,68,585,73,551,74,309,74,261,73"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="551,47,585,51,585,57,551,52"/>
+</map>

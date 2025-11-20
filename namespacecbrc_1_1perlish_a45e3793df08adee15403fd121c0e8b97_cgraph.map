@@ -1,0 +1,22 @@
+<map id="cbrc::perlish::splitOnOneMatch" name="cbrc::perlish::splitOnOneMatch">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,125,187,165"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEArray.html#a3eba8d1c247ebc9ed3219dd2a3614252" title=" " alt="" coords="242,56,389,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,122,264,84,265,89,156,127"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#ad003950bdededca7ee3b3dd6cd6ea644" title=" " alt="" coords="235,132,396,157"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="187,142,221,142,221,147,187,147"/>
+<area shape="rect" id="Node000008" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="719,183,867,208"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="187,158,235,166,339,182,444,193,582,197,706,196,706,201,582,202,444,198,339,188,234,171,187,164"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a985e9e85d6fc6adf9d3c52a0306361a4" title=" " alt="" coords="444,5,647,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="373,53,473,31,474,36,375,58"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="703,93,883,119"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="389,72,690,95,689,101,389,77"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#a0a06120b85cf875ccff4081918fe0f33" title=" " alt="" coords="695,5,892,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="647,15,681,15,681,21,647,21"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="589,28,648,47,749,86,747,91,646,53,587,33"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="753,95,744,85,749,75,766,69,793,67,828,71,838,75,842,81,838,84,835,79,827,76,793,72,767,74,753,79,750,84,757,91"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="396,136,689,112,690,117,396,141"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1FLEArray.html#a5f10f892188c41f2821ef33ee9bcc743" title=" " alt="" coords="461,157,630,183"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="396,151,447,157,447,162,396,156"/>
+<area shape="poly" id="edge10_Node000007_Node000005" title=" " alt="" coords="595,155,729,120,731,125,596,160"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="630,176,706,184,705,189,630,181"/>
+</map>

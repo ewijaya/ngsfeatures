@@ -1,0 +1,9 @@
+<map id="ematch_src/utils/sequence/packedDNA/Sigma4bitPackedIdx.hh" name="ematch_src/utils/sequence/packedDNA/Sigma4bitPackedIdx.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="77,5,333,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,85,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,48,82,90,80,85,166,43"/>
+<area shape="rect" id="Node000003" href="$universalTypedefs_8hh.html" title=" " alt="" coords="109,93,301,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,46,208,79,203,79,203,46"/>
+<area shape="rect" id="Node000004" href="$sigma4_8hh.html" title=" " alt="" coords="325,93,416,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="246,43,335,85,333,90,244,48"/>
+</map>

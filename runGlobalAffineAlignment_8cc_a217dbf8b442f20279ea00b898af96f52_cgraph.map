@@ -1,0 +1,7 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,60,31"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc.html#a3144592d3511b6843f26d585e266b24c" title=" " alt="" coords="108,5,333,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,15,94,15,94,21,60,21"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc.html#a682073c2504c505e941cf210970bbcc4" title=" " alt="" coords="381,5,509,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="334,15,367,15,367,21,334,21"/>
+</map>

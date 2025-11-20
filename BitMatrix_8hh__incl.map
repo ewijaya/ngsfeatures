@@ -1,0 +1,9 @@
+<map id="ematch_src/utils/BitMatrix/BitMatrix.hh" name="ematch_src/utils/BitMatrix/BitMatrix.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="47,5,241,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,80,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,48,70,87,67,82,118,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="104,93,184,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="147,46,147,79,141,79,141,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="208,93,275,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="169,43,218,82,215,87,166,48"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="alloc_vect" name="alloc_vect">
+<area shape="rect" id="Node000001" title=" " alt="" coords="737,31,825,56"/>
+<area shape="rect" id="Node000002" href="$EstimateTrueCount__EntropyFast_8cc.html#adc0726cfc1b2ace7c38b40f927f8b6c6" title=" " alt="" coords="512,5,689,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="723,38,689,33,690,28,724,33"/>
+<area shape="rect" id="Node000003" href="$EstimateTrueCount__EntropyFast_8cc.html#a849de12fe72e4dedfdf0f6fdd557b22a" title=" " alt="" coords="329,31,464,56"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="724,46,464,46,464,41,724,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="498,33,465,38,464,32,498,28"/>
+<area shape="rect" id="Node000004" href="$EstimateTrueCount__EntropyFast_8cc.html#abebd4fb586dd8c7cbaca02396a997f7a" title=" " alt="" coords="108,31,281,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="316,46,282,46,282,41,316,41"/>
+<area shape="rect" id="Node000005" href="$EstimateTrueCount__EntropyFast_8cc.html#a517c5941a291f7638e647c2598e62590" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,46,60,46,60,41,94,41"/>
+</map>

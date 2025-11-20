@@ -1,0 +1,9 @@
+<map id="cbrc::RecountTagCounts::sum" name="cbrc::RecountTagCounts::sum">
+<area shape="rect" id="Node000001" title=" " alt="" coords="347,45,560,70"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1RecountTagCounts.html#aa8d44ec021a1eed94cc71c577df9bd1e" title=" " alt="" coords="115,5,292,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="340,46,292,39,293,34,341,40"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc.html#aa3b9b929137a6f28e0e85c38c585b1de" title=" " alt="" coords="108,69,299,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="341,74,299,80,299,74,340,69"/>
+<area shape="rect" id="Node000004" href="$observedMeanStdev__fromTrueCounts_8cc.html#ac0f2228420376f4db7e1274f2b41667c" title=" " alt="" coords="5,77,60,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,92,60,92,60,87,94,87"/>
+</map>

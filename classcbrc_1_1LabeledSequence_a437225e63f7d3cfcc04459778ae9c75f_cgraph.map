@@ -1,0 +1,15 @@
+<map id="cbrc::LabeledSequence::className" name="cbrc::LabeledSequence::className">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,69,176,109"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1LabeledSequence.html#afb7eb56e162e3486ab2cb1fe41968390" title=" " alt="" coords="224,69,395,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,87,210,87,210,92,176,92"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc.html#aa2100cc65c0fb1ac83fe523e3ef8aca9" title=" " alt="" coords="443,5,680,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="388,67,468,46,470,51,390,72"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1LabeledSequence.html#aa6886fb31e820f8c0c30d0fdf6bbc2a6" title=" " alt="" coords="476,69,647,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="395,87,462,87,462,92,395,92"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1LabeledSequence.html#a8b51f934e3c446c7e4fc3a35627ee03c" title=" " alt="" coords="476,133,647,173"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="390,107,470,127,468,133,388,112"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1LabeledSequence.html#a3ed987dbc014de48720535dda84b3796" title=" " alt="" coords="728,104,899,144"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="646,141,714,133,714,138,647,146"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="739,169,887,194"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="647,160,726,169,725,174,646,165"/>
+</map>

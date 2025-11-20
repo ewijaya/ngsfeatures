@@ -1,0 +1,14 @@
+<map id="cbrc::runRecountExpectationMatchingTagCorrector" name="cbrc::runRecountExpectationMatchingTagCorrector">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,63,213,103"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1RecountTagCounts.html#a329a3e18e37f3a43fdb7fdf110565bcf" title=" " alt="" coords="261,29,472,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,63,273,54,274,59,214,69"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#a5935847e541b1e70406ea046b2b4e97e" title=" " alt="" coords="291,94,443,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,90,277,96,276,101,213,95"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1RecountTagCounts.html#ae05c5de97d80fdb60f1ff6a004ffc6ff" title=" " alt="" coords="521,5,699,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="472,32,507,29,508,35,472,37"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="520,94,700,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="443,104,506,104,506,109,443,109"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="536,143,684,169"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="431,117,534,138,533,143,429,122"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="571,96,562,86,567,76,583,70,610,67,644,71,654,76,658,82,653,85,650,80,643,76,610,73,584,75,570,80,567,85,575,92"/>
+</map>

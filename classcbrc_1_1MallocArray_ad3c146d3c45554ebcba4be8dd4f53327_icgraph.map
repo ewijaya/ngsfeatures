@@ -1,0 +1,61 @@
+<map id="cbrc::MallocArray::size" name="cbrc::MallocArray::size">
+<area shape="rect" id="Node000001" title=" " alt="" coords="856,619,1024,645"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1MallocArray.html#a8c3d8cc0cbf3469079fa869afea85d96" title=" " alt="" coords="635,127,778,167"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="936,606,931,526,913,414,897,354,874,294,844,238,806,187,777,166,780,162,810,183,849,235,879,292,902,352,918,413,936,525,941,605"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1MallocArray.html#a45d597a33a7998d3c4d883739279ed51" title=" " alt="" coords="401,5,543,45"/>
+<area shape="poly" id="edge10_Node000001_Node000003" title=" " alt="" coords="934,606,921,491,897,330,879,248,858,173,834,113,821,91,806,74,778,53,746,37,712,26,677,18,606,13,544,17,543,11,606,8,677,13,713,20,748,32,781,48,810,70,825,88,839,111,863,172,884,246,902,329,927,490,939,606"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1MallocArray.html#a413b3c7e2d2b4601dd61a24c5df9030c" title=" " alt="" coords="401,69,543,109"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="933,606,920,498,895,349,877,274,857,206,833,152,820,131,806,117,777,97,745,83,711,74,676,69,606,68,544,76,543,70,606,63,677,63,712,68,747,78,780,92,810,113,824,128,838,149,862,204,882,273,900,348,925,497,939,606"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1MallocArray.html#a38a966a319f9d565171f0a962421df02" title=" " alt="" coords="387,198,557,223"/>
+<area shape="poly" id="edge22_Node000001_Node000005" title=" " alt="" coords="937,605,933,529,927,479,917,425,901,371,877,318,846,271,806,231,773,211,737,198,699,190,660,186,584,190,522,201,521,195,584,185,660,181,700,184,739,193,776,206,810,227,851,268,882,316,906,369,922,424,933,478,939,528,942,605"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1MallocArray.html#a9d239293c3fbe18c774c6270fe97a0c8" title=" " alt="" coords="635,241,778,281"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="933,606,923,543,902,459,885,415,864,372,838,331,806,295,777,277,779,273,810,291,842,328,869,369,890,413,907,458,929,542,939,605"/>
+<area shape="rect" id="Node000008" href="$classcbrc_1_1MallocArray.html#a8340546a03dcca9165cc3cd788c4e725" title=" " alt="" coords="635,305,778,345"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="931,606,917,554,893,488,857,419,833,387,806,359,777,342,779,337,810,355,837,384,861,416,898,486,922,553,936,605"/>
+<area shape="rect" id="Node000009" href="$classcbrc_1_1MallocArray.html#a308369b1b8a713a26f540b531e74ab44" title=" " alt="" coords="635,369,778,409"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="927,607,910,567,884,517,850,467,806,423,777,407,780,403,810,419,854,463,889,515,915,565,932,605"/>
+<area shape="rect" id="Node000010" href="$classcbrc_1_1MallocArray.html#a41ccf60f9a4a9beaa799242c8bb11d40" title=" " alt="" coords="635,433,778,473"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="921,609,874,548,842,516,807,488,777,473,780,468,809,483,846,512,878,545,925,606"/>
+<area shape="rect" id="Node000011" href="$classcbrc_1_1MallocNumArray.html#a02c27d430a5f3bf24bbdd57505ca8bf6" title=" " alt="" coords="605,498,808,523"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="913,612,866,574,807,538,773,526,775,521,809,534,869,570,916,608"/>
+<area shape="rect" id="Node000012" href="$classcbrc_1_1MallocNumArray.html#adc2f528f7f1d53f50a1a7c3fb9aab2fd" title=" " alt="" coords="623,548,790,588"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="879,618,780,591,781,586,880,613"/>
+<area shape="rect" id="Node000013" href="$classcbrc_1_1MallocArray.html#acc122fa346cce91080ced9d2c0f3f6d4" title=" " alt="" coords="635,612,778,652"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="842,635,778,635,778,629,842,629"/>
+<area shape="rect" id="Node000014" href="$classcbrc_1_1MallocNumArray.html#a466c6b131b703e1e1eda3f4cb5d5f07c" title=" " alt="" coords="623,676,790,716"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="880,651,781,678,780,673,879,646"/>
+<area shape="rect" id="Node000015" href="$classcbrc_1_1MallocNumArray.html#a054a0657883fb0c498420efc928bcb52" title=" " alt="" coords="623,740,790,780"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="916,656,868,694,809,730,782,742,780,737,807,726,865,689,912,652"/>
+<area shape="rect" id="Node000016" href="$classcbrc_1_1MallocNumArray.html#a1b87f06bf9dfcea56c7b8bc27789e354" title=" " alt="" coords="623,804,790,844"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="927,658,881,726,848,762,810,794,788,806,785,801,806,790,844,759,876,722,923,655"/>
+<area shape="rect" id="Node000017" href="$classcbrc_1_1MallocArray.html#a639becbe0b340d7557bd1d1a967fb3eb" title=" " alt="" coords="5,876,148,916"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="935,659,920,705,895,760,859,815,836,839,809,858,771,870,706,879,522,891,316,897,148,899,148,893,316,891,522,886,705,874,770,865,807,854,832,835,855,811,890,757,915,703,930,658"/>
+<area shape="rect" id="Node000018" href="$classcbrc_1_1MallocNumArray.html#a4e0b50ac387cb1777dfe7abedd864aee" title=" " alt="" coords="623,983,790,1023"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="939,659,929,722,907,806,890,851,869,895,842,936,810,973,792,986,789,981,806,969,838,933,864,892,885,849,902,805,923,721,933,658"/>
+<area shape="rect" id="Node000019" href="$classcbrc_1_1MallocArray.html#adf373873d2953ae301506d0407bf0a9b" title=" " alt="" coords="635,1047,778,1087"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="941,659,934,733,915,834,898,888,876,942,847,992,810,1037,780,1056,777,1051,806,1033,842,989,871,939,893,886,910,832,929,732,935,658"/>
+<area shape="rect" id="Node000020" href="$classcbrc_1_1MallocArray.html#a218ad22b6131c291e9a14234d7ad9cd8" title=" " alt="" coords="635,1111,778,1151"/>
+<area shape="poly" id="edge21_Node000001_Node000020" title=" " alt="" coords="942,659,939,743,933,799,923,861,906,925,883,988,851,1048,810,1101,780,1120,777,1116,806,1097,847,1045,878,986,901,923,918,859,928,798,934,742,937,658"/>
+<area shape="rect" id="Node000021" href="$classcbrc_1_1MallocArray.html#abea850af7ca8d48019206a5b1b385552" title=" " alt="" coords="635,919,778,959"/>
+<area shape="poly" id="edge23_Node000001_Node000021" title=" " alt="" coords="935,659,921,710,896,774,859,842,836,874,810,902,780,922,777,917,806,898,832,870,855,839,891,772,916,708,930,658"/>
+<area shape="rect" id="Node000027" href="$classcbrc_1_1MallocNumArray.html#a2ccf2746cd851cf6b0273db9f03b296d" title=" " alt="" coords="623,1175,790,1215"/>
+<area shape="poly" id="edge30_Node000001_Node000027" title=" " alt="" coords="938,659,923,767,897,919,879,996,859,1066,836,1124,810,1164,792,1179,789,1174,806,1161,831,1122,854,1065,874,994,891,918,918,767,933,658"/>
+<area shape="rect" id="Node000028" href="$classcbrc_1_1MallocNumArray.html#a9dee40cd4ee75e71fb3812149bc77ad8" title=" " alt="" coords="606,1239,807,1265"/>
+<area shape="poly" id="edge31_Node000001_Node000028" title=" " alt="" coords="939,659,927,780,902,951,884,1038,863,1118,839,1184,825,1209,810,1229,792,1241,789,1237,806,1225,820,1206,834,1181,858,1117,879,1037,897,950,921,780,934,658"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="663,121,613,90,556,60,529,48,531,43,559,55,615,86,666,117"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="621,129,543,109,544,104,623,123"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="623,172,520,200,519,195,621,167"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1MallocArray.html#ae119dc263e6376223b97792ad33cd9af" title=" " alt="" coords="401,133,543,173"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="622,152,544,154,544,149,622,146"/>
+<area shape="rect" id="Node000022" href="$classcbrc_1_1MallocArray.html#ac875afed2203db19d710c99c5d39b525" title=" " alt="" coords="401,919,543,959"/>
+<area shape="poly" id="edge24_Node000021_Node000022" title=" " alt="" coords="622,941,544,941,544,936,622,936"/>
+<area shape="rect" id="Node000023" href="$classcbrc_1_1MallocArray.html#a56ce5040f0bc94ff8bb5f47c9f1de090" title=" " alt="" coords="196,983,339,1023"/>
+<area shape="poly" id="edge25_Node000022_Node000023" title=" " alt="" coords="395,965,333,985,331,980,393,960"/>
+<area shape="rect" id="Node000026" href="$classcbrc_1_1MallocArray.html#a84ca3c0e5d6aa7cae1d0e3d83bfc8716" title=" " alt="" coords="196,919,339,959"/>
+<area shape="poly" id="edge29_Node000022_Node000026" title=" " alt="" coords="387,941,339,941,339,936,387,936"/>
+<area shape="poly" id="edge27_Node000023_Node000017" title=" " alt="" coords="206,979,195,973,106,918,109,914,197,968,209,974"/>
+<area shape="rect" id="Node000024" href="$classcbrc_1_1MallocArray.html#af7f20539a0142d079453eecc9574e3ba" title=" " alt="" coords="5,1032,148,1072"/>
+<area shape="poly" id="edge26_Node000023_Node000024" title=" " alt="" coords="184,1027,149,1036,147,1031,182,1022"/>
+<area shape="rect" id="Node000025" href="$classcbrc_1_1MallocArray.html#a124a0650e816cdf84a3dbf3bc5e562e3" title=" " alt="" coords="5,968,148,1008"/>
+<area shape="poly" id="edge28_Node000023_Node000025" title=" " alt="" coords="182,999,148,996,148,991,183,994"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="cbrc::perlish::slurpAndSplit" name="cbrc::perlish::slurpAndSplit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,43,200,68"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc_1_1perlish.html#a2a0db2c27f3a19dfdcd7ef17ea5a0bcd" title=" " alt="" coords="248,5,416,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,40,240,30,241,36,182,45"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc_1_1perlish.html#a101a4746d50e52a00273c6fe533970ec" title=" " alt="" coords="263,79,401,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,65,250,76,249,81,183,71"/>
+<area shape="poly" id="edge5_Node000003_Node000003" title=" " alt="" coords="297,80,290,70,294,60,308,54,332,52,361,56,373,65,370,69,359,61,332,57,310,59,298,64,295,70,302,77"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#a7e5d0d3bc5c41546620ccff95b55b3fa" title=" " alt="" coords="464,53,623,79"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="401,80,450,75,450,80,401,86"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#a8c53878dc57e8f666976e041d146a523" title=" " alt="" coords="470,103,617,128"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="401,96,457,103,456,108,401,102"/>
+</map>

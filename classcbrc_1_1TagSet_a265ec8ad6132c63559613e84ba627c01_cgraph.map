@@ -1,0 +1,31 @@
+<map id="cbrc::TagSet::TagSet" name="cbrc::TagSet::TagSet">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,187,156,212"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1TagSet.html#ad717886c05465fc7eb3fe975430ca1ee" title=" " alt="" coords="204,147,416,187"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,186,190,181,191,187,157,191"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1TagSet.html#a1971c9ff8bfc61ca844762cd3e8703b5" title=" " alt="" coords="211,211,409,251"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,207,198,213,197,218,156,212"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc_1_1perlish.html#a1179ea19b94d27e1ba5f01f3912f307a" title=" " alt="" coords="485,5,663,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="399,209,414,197,428,179,435,159,437,120,439,80,446,60,462,40,471,33,474,38,466,44,451,62,444,81,442,120,440,160,433,181,418,201,402,213"/>
+<area shape="rect" id="Node000005" href="$namespacecbrc_1_1sigma4bitPackingUtils.html#a79f8b54681e9ede9727151c5e5c58e50" title=" " alt="" coords="473,129,675,169"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="377,209,415,197,498,170,499,175,417,202,379,214"/>
+<area shape="rect" id="Node000008" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="737,188,885,213"/>
+<area shape="poly" id="edge10_Node000003_Node000008" title=" " alt="" coords="409,223,723,203,724,209,409,228"/>
+<area shape="rect" id="Node000009" href="$classcbrc_1_1TagSet.html#a56d26e688b6ce2cc0b8b46aca4194b6f" title=" " alt="" coords="464,244,684,269"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="409,238,450,242,450,247,409,243"/>
+<area shape="rect" id="Node000010" href="$classcbrc_1_1TagSet.html#aefba617c77efd2a537a2ebba52e06678" title=" " alt="" coords="507,293,641,319"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="368,249,465,279,497,288,496,293,463,285,366,254"/>
+<area shape="rect" id="Node000011" href="$namespacecbrc_1_1perlish.html#a2a0db2c27f3a19dfdcd7ef17ea5a0bcd" title=" " alt="" coords="490,343,658,368"/>
+<area shape="poly" id="edge11_Node000003_Node000011" title=" " alt="" coords="337,249,394,290,429,311,465,329,486,336,484,341,463,334,426,316,391,294,334,253"/>
+<area shape="rect" id="Node000012" href="$namespacecbrc_1_1perlish.html#a101a4746d50e52a00273c6fe533970ec" title=" " alt="" coords="505,79,643,104"/>
+<area shape="poly" id="edge12_Node000003_Node000012" title=" " alt="" coords="396,209,414,197,430,178,437,157,444,135,462,115,491,100,493,104,466,119,449,138,442,158,435,180,418,201,398,214"/>
+<area shape="rect" id="Node000013" href="$classcbrc_1_1TagSet.html#a66e4a89091e230dc4ecfa658b80c83a8" title=" " alt="" coords="491,392,657,417"/>
+<area shape="poly" id="edge16_Node000003_Node000013" title=" " alt="" coords="328,250,383,314,422,349,465,378,480,385,477,390,463,383,419,353,379,318,324,253"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#a7e5d0d3bc5c41546620ccff95b55b3fa" title=" " alt="" coords="732,135,891,160"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="676,145,718,145,718,151,676,151"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1FLEArray.html#a8c53878dc57e8f666976e041d146a523" title=" " alt="" coords="738,81,885,107"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="661,126,742,107,743,112,662,131"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="666,166,740,182,739,188,665,171"/>
+<area shape="poly" id="edge13_Node000012_Node000006" title=" " alt="" coords="631,102,685,114,745,129,744,134,683,119,630,107"/>
+<area shape="poly" id="edge14_Node000012_Node000007" title=" " alt="" coords="643,89,724,90,724,96,643,95"/>
+<area shape="poly" id="edge15_Node000012_Node000012" title=" " alt="" coords="535,80,527,70,531,60,547,54,574,52,607,56,620,65,617,70,605,61,574,57,549,59,535,64,532,70,539,77"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="backtrackingLineSearch" name="backtrackingLineSearch">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,183,80"/>
+<area shape="rect" id="Node000002" href="$EstimateTrueCount__EntropyFast_8cc.html#ac345f90b291be79a860d7a95d256290b" title=" " alt="" coords="240,5,328,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,52,226,30,227,35,144,57"/>
+<area shape="rect" id="Node000003" href="$EstimateTrueCount__EntropyFast_8cc.html#a6a16c14555c418f213836de04f4183d4" title=" " alt="" coords="231,55,337,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,65,217,65,217,70,183,70"/>
+<area shape="rect" id="Node000004" href="$EstimateTrueCount__EntropyFast_8cc.html#ae313eea5678e22c3b887b47ed72ccb3f" title=" " alt="" coords="253,104,315,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="144,77,240,103,238,108,143,83"/>
+<area shape="rect" id="Node000005" href="$EstimateTrueCount__EntropyFast_8cc.html#af1014954eb42dcb1cdfd1c7bb24eabb8" title=" " alt="" coords="385,79,428,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="315,108,372,96,373,101,316,113"/>
+<area shape="rect" id="Node000008" href="$EstimateTrueCount__EntropyFast_8cc.html#a790922e5ce9415fe72d37406abf168c5" title=" " alt="" coords="387,128,426,153"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="316,120,374,132,373,137,315,125"/>
+<area shape="rect" id="Node000006" href="$EstimateTrueCount__EntropyFast_8cc.html#a9dbdc9b883fafd106ea6e9f4f2d18b10" title=" " alt="" coords="476,103,648,128"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="429,92,467,98,466,103,428,97"/>
+<area shape="rect" id="Node000007" href="$EstimateTrueCount__EntropyFast_8cc.html#a4bc05b3e60ec6578aae305cf37c63377" title=" " alt="" coords="696,103,735,128"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="428,86,523,79,586,80,649,87,684,98,682,103,647,93,585,85,524,85,428,91"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="648,113,682,113,682,118,648,118"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="426,135,470,128,471,133,427,140"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="426,140,522,146,584,145,647,138,682,127,684,132,649,143,585,151,522,152,426,146"/>
+</map>

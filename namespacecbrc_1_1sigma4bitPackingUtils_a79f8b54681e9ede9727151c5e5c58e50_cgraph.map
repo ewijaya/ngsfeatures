@@ -1,0 +1,9 @@
+<map id="cbrc::sigma4bitPackingUtils::pack" name="cbrc::sigma4bitPackingUtils::pack">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,208,87"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEArray.html#a7e5d0d3bc5c41546620ccff95b55b3fa" title=" " alt="" coords="256,5,415,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,45,262,31,263,36,200,50"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a8c53878dc57e8f666976e041d146a523" title=" " alt="" coords="262,55,409,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,65,248,65,248,70,208,70"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="261,104,409,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="200,85,263,98,262,104,199,90"/>
+</map>

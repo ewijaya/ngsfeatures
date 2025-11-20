@@ -1,0 +1,14 @@
+<map id="ematch_src/utils/math/test/testLogFactorial.cc" name="ematch_src/utils/math/test/testLogFactorial.cc">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,181,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="13,240,93,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,46,80,94,59,227,54,226,75,93,86,45"/>
+<area shape="rect" id="Node000003" href="$LogFactorial_8hh.html" title=" " alt="" coords="90,93,222,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="111,44,140,81,136,84,106,47"/>
+<area shape="rect" id="Node000004" href="$FLArray_8hh.html" title=" " alt="" coords="79,167,257,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="161,119,166,153,161,154,155,119"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="151,194,85,235,82,230,148,190"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="124,240,199,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="170,193,166,227,161,226,164,192"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="223,240,286,265"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="184,190,232,229,228,233,180,194"/>
+</map>

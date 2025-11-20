@@ -1,0 +1,17 @@
+<map id="cbrc::allPairsNearestGlobalAffineScore" name="cbrc::allPairsNearestGlobalAffineScore">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,137,203,177"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEArray.html#a7e5d0d3bc5c41546620ccff95b55b3fa" title=" " alt="" coords="294,5,453,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,134,177,87,212,62,250,41,280,30,282,35,252,46,215,66,180,91,127,138"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1SeqGlobalAffineAligner.html#ae580a1caa6408968a25a6df33815d9bb" title=" " alt="" coords="270,79,477,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,134,265,120,266,125,199,139"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="573,144,721,169"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="203,154,559,154,559,159,203,159"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#a8c53878dc57e8f666976e041d146a523" title=" " alt="" coords="300,195,447,220"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="203,173,292,189,291,195,202,178"/>
+<area shape="rect" id="Node000007" href="$namespacecbrc.html#a0498f0fc177d15ccb25e38c06d5685cd" title=" " alt="" coords="251,244,496,269"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="139,175,191,204,252,230,278,238,277,243,250,235,188,208,136,179"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="323,80,320,70,329,60,346,55,373,53,405,55,422,63,419,68,403,61,373,58,347,60,331,65,326,71,329,78"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1SeqGlobalAffineAligner.html#abfd1556484b4c230c84fe4d1af47003e" title=" " alt="" coords="544,79,751,119"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="477,97,530,97,530,102,477,102"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="470,117,573,139,572,144,469,122"/>
+</map>

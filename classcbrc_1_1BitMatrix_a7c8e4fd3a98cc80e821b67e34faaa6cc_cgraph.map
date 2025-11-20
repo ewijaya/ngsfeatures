@@ -1,0 +1,16 @@
+<map id="cbrc::BitMatrix::writeAsPbm" name="cbrc::BitMatrix::writeAsPbm">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,208,105"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1BitMatrix.html#a99dc4fe5e1aecf096d0af34f2d128552" title=" " alt="" coords="277,5,435,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,77,255,39,285,31,286,37,257,45,143,82"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1BitMatrix.html#a83ec74211d9b66d2ababbe5d66692767" title=" " alt="" coords="277,55,435,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,80,263,74,263,79,209,85"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1BitMatrix.html#a0d367fab4a0e24051180d6f07d3723b1" title=" " alt="" coords="256,104,456,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="209,100,242,103,242,108,208,105"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#a67f88b1303a55d4e8039da5a9a739203" title=" " alt="" coords="279,177,433,203"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="141,103,311,170,309,175,139,108"/>
+<area shape="poly" id="edge7_Node000005_Node000005" title=" " alt="" coords="319,179,312,169,316,159,331,153,356,151,388,155,400,164,396,168,386,159,356,156,332,158,319,163,317,168,324,175"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#a8255bcefe055e10a4fccd3331b450fee" title=" " alt="" coords="504,177,660,203"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="434,187,490,187,490,193,434,193"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="708,177,856,203"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="660,187,694,187,694,193,660,193"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="cbrc::BitMatrixFast::set" name="cbrc::BitMatrixFast::set">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,42,176,67"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="57,44,50,34,54,24,68,18,91,15,119,19,130,28,127,32,117,24,91,21,69,23,58,27,55,33,62,40"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1BitMatrixFast.html#a0e9052ae418747ec527f5e49ebb83f38" title=" " alt="" coords="224,5,367,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,40,210,35,211,40,177,45"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1BitMatrix.html#a0075799958840771cdf6619138706bbe" title=" " alt="" coords="415,42,608,67"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="176,54,224,55,367,55,401,54,401,60,367,60,224,60,176,59"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="367,32,404,37,404,43,367,38"/>
+</map>

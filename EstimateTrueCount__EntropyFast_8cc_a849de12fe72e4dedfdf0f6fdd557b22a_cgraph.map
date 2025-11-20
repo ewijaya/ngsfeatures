@@ -1,0 +1,39 @@
+<map id="gradient_descent" name="gradient_descent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,105,140,131"/>
+<area shape="rect" id="Node000002" href="$EstimateTrueCount__EntropyFast_8cc.html#ac345f90b291be79a860d7a95d256290b" title=" " alt="" coords="423,5,511,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,103,129,70,157,53,187,39,245,24,304,16,409,12,409,17,305,21,246,29,189,45,159,58,132,75,89,107"/>
+<area shape="rect" id="Node000003" href="$EstimateTrueCount__EntropyFast_8cc.html#adc0726cfc1b2ace7c38b40f927f8b6c6" title=" " alt="" coords="188,55,365,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="124,103,211,81,213,86,125,108"/>
+<area shape="rect" id="Node000005" href="$EstimateTrueCount__EntropyFast_8cc.html#ae313eea5678e22c3b887b47ed72ccb3f" title=" " alt="" coords="435,104,498,129"/>
+<area shape="poly" id="edge23_Node000001_Node000005" title=" " alt="" coords="140,115,422,114,422,119,140,120"/>
+<area shape="rect" id="Node000010" href="$EstimateTrueCount__EntropyFast_8cc.html#a7afac320e51cf09717231c7ec2d70fd3" title=" " alt="" coords="233,207,321,232"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="94,128,137,156,189,185,224,199,222,204,187,190,134,161,91,133"/>
+<area shape="rect" id="Node000011" href="$EstimateTrueCount__EntropyFast_8cc.html#aee4df16bba58eb40b7e3479ad129aaff" title=" " alt="" coords="427,156,506,181"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="141,124,414,159,414,165,140,129"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="326,52,409,30,410,35,327,57"/>
+<area shape="rect" id="Node000004" href="$EstimateTrueCount__EntropyFast_8cc.html#a6a16c14555c418f213836de04f4183d4" title=" " alt="" coords="413,55,520,80"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="366,65,399,65,399,70,366,70"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="327,77,422,103,421,108,326,83"/>
+<area shape="rect" id="Node000006" href="$EstimateTrueCount__EntropyFast_8cc.html#af1014954eb42dcb1cdfd1c7bb24eabb8" title=" " alt="" coords="590,55,633,80"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="497,104,576,76,578,81,499,109"/>
+<area shape="rect" id="Node000009" href="$EstimateTrueCount__EntropyFast_8cc.html#a790922e5ce9415fe72d37406abf168c5" title=" " alt="" coords="592,104,631,129"/>
+<area shape="poly" id="edge10_Node000005_Node000009" title=" " alt="" coords="498,114,578,114,578,119,498,119"/>
+<area shape="rect" id="Node000007" href="$EstimateTrueCount__EntropyFast_8cc.html#a9dbdc9b883fafd106ea6e9f4f2d18b10" title=" " alt="" coords="703,104,875,129"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="633,70,730,98,729,103,632,76"/>
+<area shape="rect" id="Node000008" href="$EstimateTrueCount__EntropyFast_8cc.html#a4bc05b3e60ec6578aae305cf37c63377" title=" " alt="" coords="923,104,961,129"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="632,61,677,54,738,50,807,52,876,66,899,78,919,92,916,97,896,82,874,71,806,57,738,55,678,59,633,66"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="875,114,909,114,909,119,875,119"/>
+<area shape="poly" id="edge11_Node000009_Node000007" title=" " alt="" coords="631,114,688,114,688,119,631,119"/>
+<area shape="poly" id="edge12_Node000009_Node000008" title=" " alt="" coords="630,107,663,97,702,89,789,80,827,81,875,89,911,100,909,105,874,94,826,87,789,85,703,94,665,102,632,112"/>
+<area shape="rect" id="Node000012" href="$EstimateTrueCount__EntropyFast_8cc.html#ac1b5db2c6e40e96f228d41be62b94d7c" title=" " alt="" coords="568,204,655,229"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="507,179,560,197,558,202,505,184"/>
+<area shape="rect" id="Node000014" href="$EstimateTrueCount__EntropyFast_8cc.html#a11dd0cbf5d9ad473ce12611fa0e469fd" title=" " alt="" coords="576,155,647,180"/>
+<area shape="poly" id="edge19_Node000011_Node000014" title=" " alt="" coords="506,166,562,165,562,170,506,171"/>
+<area shape="poly" id="edge16_Node000012_Node000007" title=" " alt="" coords="634,202,653,190,752,134,754,139,656,195,636,206"/>
+<area shape="poly" id="edge18_Node000012_Node000008" title=" " alt="" coords="640,227,688,245,748,259,781,262,813,261,844,254,873,241,896,221,913,195,925,167,933,142,938,144,930,169,918,198,900,224,876,246,846,259,814,266,780,267,747,264,686,250,639,232"/>
+<area shape="rect" id="Node000013" href="$EstimateTrueCount__EntropyFast_8cc.html#a0829f9806eb07065937d345d4de7e28b" title=" " alt="" coords="759,205,818,231"/>
+<area shape="poly" id="edge17_Node000012_Node000013" title=" " alt="" coords="655,214,746,215,746,220,655,220"/>
+<area shape="poly" id="edge20_Node000014_Node000007" title=" " alt="" coords="646,155,730,131,731,136,648,160"/>
+<area shape="poly" id="edge22_Node000014_Node000008" title=" " alt="" coords="647,164,749,157,812,150,874,138,909,127,911,132,875,143,813,155,750,162,647,169"/>
+<area shape="poly" id="edge21_Node000014_Node000013" title=" " alt="" coords="648,175,747,203,745,209,646,180"/>
+</map>

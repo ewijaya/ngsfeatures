@@ -1,0 +1,10 @@
+<map id="cbrc::TrivialHistogram::write" name="cbrc::TrivialHistogram::write">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,169,62"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEArray.html#a67f88b1303a55d4e8039da5a9a739203" title=" " alt="" coords="217,29,372,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,39,203,39,203,45,170,45"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="261,31,254,21,258,11,272,5,295,3,323,6,334,16,331,20,321,11,295,8,273,10,262,15,259,20,266,28"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a8255bcefe055e10a4fccd3331b450fee" title=" " alt="" coords="420,29,576,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="372,39,406,39,406,45,372,45"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="624,29,772,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="576,39,610,39,610,45,576,45"/>
+</map>

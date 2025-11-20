@@ -1,0 +1,12 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,59,60,84"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc.html#af0b33c14423458ebd78daf6bc5b4668d" title=" " alt="" coords="108,59,343,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,69,94,69,94,74,60,74"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc_1_1HammingDistanceComputer.html#a70ad0c4f651c544af112bd17bf13548e" title=" " alt="" coords="391,22,633,62"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="343,57,377,53,377,58,343,62"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="438,87,586,112"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="343,80,424,88,424,93,343,85"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="681,29,861,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="633,39,668,39,668,45,633,45"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="730,31,720,21,725,11,742,5,771,3,808,7,818,11,822,17,818,20,815,15,806,12,771,8,744,10,729,15,726,20,733,27"/>
+</map>

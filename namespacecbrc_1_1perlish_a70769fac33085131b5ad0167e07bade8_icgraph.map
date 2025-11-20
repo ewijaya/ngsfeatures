@@ -1,0 +1,15 @@
+<map id="cbrc::perlish::looksLikeUnsignedInt" name="cbrc::perlish::looksLikeUnsignedInt">
+<area shape="rect" id="Node000001" title=" " alt="" coords="543,99,713,139"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1TransfacTextLabelInfo.html#ac92d364a66d83b774e437725803da200" title=" " alt="" coords="278,5,477,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="574,95,494,60,458,48,459,43,496,55,577,90"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc_1_1perlish.html#a1a59a3bc8883c9e160b8cde51e1b4958" title=" " alt="" coords="292,69,463,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="529,110,462,102,463,97,529,104"/>
+<area shape="rect" id="Node000005" href="$namespacecbrc.html#a3405003ddefb627442a2fa3f200c0fb6" title=" " alt="" coords="260,134,495,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="529,132,492,137,491,131,529,127"/>
+<area shape="rect" id="Node000007" href="$namespacecbrc_1_1meminfo.html#aafede38599a54b64aebbb926ca8025ad" title=" " alt="" coords="300,183,455,209"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="571,147,495,175,451,186,450,181,494,169,569,142"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc_1_1perlish.html#a1501cc50a04ca3dc5f7362024cea9b17" title=" " alt="" coords="5,77,212,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="278,92,212,92,212,87,278,87"/>
+<area shape="rect" id="Node000006" href="$testNumberStringFunctions_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="81,134,136,159"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="246,149,136,149,136,144,246,144"/>
+</map>

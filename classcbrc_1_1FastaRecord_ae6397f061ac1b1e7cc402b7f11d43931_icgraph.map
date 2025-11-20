@@ -1,0 +1,9 @@
+<map id="cbrc::FastaRecord::seq" name="cbrc::FastaRecord::seq">
+<area shape="rect" id="Node000001" title=" " alt="" coords="415,42,581,67"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FastaReader.html#a9c6176863204412bae26acf6ff24219f" title=" " alt="" coords="199,13,367,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="401,44,366,39,367,34,401,39"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FastaRecord.html#a9593771f32c6f47e9e73903876bbe70e" title=" " alt="" coords="211,63,355,103"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="401,70,355,76,355,71,401,65"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FastaReader.html#a5c1d5039921b0b3398b11d4beabc1d34" title=" " alt="" coords="5,5,151,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="185,28,151,28,151,23,185,23"/>
+</map>

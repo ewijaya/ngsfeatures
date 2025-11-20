@@ -1,0 +1,11 @@
+<map id="cbrc::TagSet::getSerialNumberOrDie" name="cbrc::TagSet::getSerialNumberOrDie">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,224,87"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1TagSet.html#a62b898d6f4e817ece03e74ca3cddd166" title=" " alt="" coords="272,29,403,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,52,258,48,259,54,224,58"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1TagSet.html#ac6a681543f91a5d29a34e29ca39fb918" title=" " alt="" coords="451,55,660,80"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="224,65,437,65,437,70,224,70"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="302,31,294,21,298,11,313,5,337,3,367,6,379,15,376,20,365,11,337,8,314,10,302,15,300,20,306,28"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="403,47,437,51,437,56,402,52"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1TagSet.html#a56d26e688b6ce2cc0b8b46aca4194b6f" title=" " alt="" coords="708,55,928,80"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="660,65,695,65,695,70,660,70"/>
+</map>

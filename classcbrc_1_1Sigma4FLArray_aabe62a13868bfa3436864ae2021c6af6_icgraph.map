@@ -1,0 +1,10 @@
+<map id="cbrc::Sigma4FLArray::sigma" name="cbrc::Sigma4FLArray::sigma">
+<area shape="rect" id="Node000001" title=" " alt="" coords="416,37,573,77"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1Sigma4FLArray.html#a8ebbd3b0cc48af9ef44d33ebacdda702" title=" " alt="" coords="211,5,368,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="402,46,368,40,369,35,403,40"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1Sigma4FLArray.html#a511ec47e23852ee8b44b018d481e9d95" title=" " alt="" coords="211,69,368,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="403,74,369,80,368,74,402,69"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1Sigma4FLArray.html#a913e3cf5a35cdf575ae77a83194568c0" title=" " alt="" coords="5,69,163,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="197,92,163,92,163,87,197,87"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="119,58,106,51,84,48,64,50,53,55,48,61,50,68,45,70,43,60,49,51,63,45,84,43,108,46,121,53"/>
+</map>

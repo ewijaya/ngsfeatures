@@ -1,0 +1,8 @@
+<map id="cbrc::SeqGlobalAffineAligner::scoreBounded" name="cbrc::SeqGlobalAffineAligner::scoreBounded">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,212,87"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="260,29,440,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,54,246,50,246,56,213,59"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="276,79,424,104"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="213,75,263,80,262,85,212,80"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="311,31,303,21,307,11,323,5,350,3,384,7,397,16,393,20,382,11,350,8,324,10,311,15,308,20,315,27"/>
+</map>

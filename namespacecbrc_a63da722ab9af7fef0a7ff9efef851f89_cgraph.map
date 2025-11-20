@@ -1,0 +1,26 @@
+<map id="cbrc::filterBlast8ResultEValueThreshold" name="cbrc::filterBlast8ResultEValueThreshold">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,175,169"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1Blast8ResultReader.html#a482769c3edf7a8b778a953192710583f" title=" " alt="" coords="223,46,408,86"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,126,222,96,242,88,244,93,224,100,143,131"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="241,111,389,136"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="175,137,227,131,228,136,175,142"/>
+<area shape="rect" id="Node000008" href="$namespacecbrc_1_1perlish.html#a2a0db2c27f3a19dfdcd7ef17ea5a0bcd" title=" " alt="" coords="231,160,399,185"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="175,155,218,160,217,165,175,160"/>
+<area shape="rect" id="Node000009" href="$namespacecbrc_1_1perlish.html#a101a4746d50e52a00273c6fe533970ec" title=" " alt="" coords="247,233,384,259"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="139,166,274,225,272,230,136,171"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a3eba8d1c247ebc9ed3219dd2a3614252" title=" " alt="" coords="462,53,609,79"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="408,63,448,63,448,69,408,69"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#a985e9e85d6fc6adf9d3c52a0306361a4" title=" " alt="" coords="663,28,865,53"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="608,55,648,51,649,56,609,61"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="922,79,1102,104"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="609,67,908,83,908,89,609,73"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#a0a06120b85cf875ccff4081918fe0f33" title=" " alt="" coords="913,5,1111,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="865,29,900,26,900,31,866,34"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="828,51,936,73,935,78,827,56"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="972,80,963,70,968,60,984,54,1012,52,1047,56,1057,61,1061,66,1056,69,1053,65,1046,61,1012,57,985,59,971,64,968,70,976,77"/>
+<area shape="poly" id="edge13_Node000009_Node000009" title=" " alt="" coords="280,235,272,225,276,215,291,209,315,207,346,210,358,219,355,224,344,215,315,212,292,214,280,219,277,224,284,232"/>
+<area shape="rect" id="Node000010" href="$classcbrc_1_1FLEArray.html#a7e5d0d3bc5c41546620ccff95b55b3fa" title=" " alt="" coords="456,208,615,233"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="384,235,442,229,443,234,385,241"/>
+<area shape="rect" id="Node000011" href="$classcbrc_1_1FLEArray.html#a8c53878dc57e8f666976e041d146a523" title=" " alt="" coords="462,257,609,283"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="385,251,448,258,448,263,384,256"/>
+</map>

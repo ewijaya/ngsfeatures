@@ -1,0 +1,18 @@
+<map id="cbrc::SeqGlobalAffineAligner::SeqGlobalAffineAligner" name="cbrc::SeqGlobalAffineAligner::SeqGlobalAffineAligner">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,63,212,103"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1SeqGlobalAffineAligner.html#abfd1556484b4c230c84fe4d1af47003e" title=" " alt="" coords="812,10,1019,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,61,203,41,259,26,331,15,404,8,549,3,685,6,798,14,798,20,684,12,549,8,404,13,331,20,261,31,205,46,155,66"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEMatrix.html#aa24d123dd6d858576c79731bc397dfba" title=" " alt="" coords="296,41,473,67"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,70,282,62,283,67,212,75"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1SeqGlobalAffineAligner.html#ac23190ed7b67ffffd77ae8a7edec7a8a" title=" " alt="" coords="260,91,509,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="212,91,246,95,246,100,212,96"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="841,156,989,181"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="151,101,203,123,261,141,337,156,415,166,571,177,714,178,828,173,828,178,714,183,571,182,415,172,336,161,259,146,201,128,149,106"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="467,89,508,76,532,63,557,53,618,40,681,31,798,25,798,30,681,37,619,45,558,58,534,68,510,80,469,94"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1SeqGlobalAffineAligner.html#adfd8b999555e636f3035fe57a4c9a815" title=" " alt="" coords="557,91,764,131"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="509,109,544,109,544,114,509,114"/>
+<area shape="poly" id="edge9_Node000004_Node000006" title=" " alt="" coords="483,129,558,141,700,155,828,163,827,168,699,160,557,146,482,134"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="723,89,838,52,840,57,725,94"/>
+<area shape="poly" id="edge7_Node000005_Node000005" title=" " alt="" coords="614,92,611,82,618,72,635,67,661,65,690,67,706,75,704,80,689,73,661,70,636,72,621,77,616,83,619,90"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="751,129,846,150,845,156,750,134"/>
+</map>

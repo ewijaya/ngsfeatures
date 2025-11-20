@@ -1,0 +1,9 @@
+<map id="cbrc::perlish::canStatFile" name="cbrc::perlish::canStatFile">
+<area shape="rect" id="Node000001" title=" " alt="" coords="312,31,493,56"/>
+<area shape="rect" id="Node000002" href="$graph_2run_2listConnectedComponents_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="159,5,213,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="298,34,213,24,214,18,299,29"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc.html#ae68b42e25b692d45f0a3a899eca5e6f2" title=" " alt="" coords="108,55,264,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="299,58,265,61,264,56,298,52"/>
+<area shape="rect" id="Node000004" href="$testCanStatFile_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,55,60,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,70,60,70,60,65,94,65"/>
+</map>

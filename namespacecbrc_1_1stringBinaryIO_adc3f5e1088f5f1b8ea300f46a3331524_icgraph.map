@@ -1,0 +1,19 @@
+<map id="cbrc::stringBinaryIO::writeContentsOnly" name="cbrc::stringBinaryIO::writeContentsOnly">
+<area shape="rect" id="Node000001" title=" " alt="" coords="832,101,983,141"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc_1_1stringBinaryIO.html#ac08c9b395d220910943ec47cae012384" title=" " alt="" coords="633,101,784,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="819,124,784,124,784,119,819,119"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1ResidueIndexedSequence.html#acc2c399cc501516d5391f26f82548e86" title=" " alt="" coords="363,5,585,45"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="818,100,783,92,578,48,579,43,785,87,819,95"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1ResidueIndexMap.html#a82fb971ecc2b08d269be1a0fb70b9348" title=" " alt="" coords="387,197,561,237"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="819,147,785,156,561,203,560,198,783,151,818,142"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc_1_1stringBinaryIO.html#af8f76a21b8941bb9fb1d1c7a5a3142f8" title=" " alt="" coords="399,69,549,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="619,112,549,102,550,97,620,107"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="660,97,584,60,551,48,553,43,586,55,663,92"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="660,150,586,188,553,200,551,195,584,183,658,145"/>
+<area shape="rect" id="Node000008" href="$classcbrc_1_1SerialNumbersForStrings.html#aed2fe420ba9bfbe49c802b6321050e9a" title=" " alt="" coords="365,133,583,173"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="620,136,584,141,583,136,620,131"/>
+<area shape="rect" id="Node000006" href="$namespacecbrc.html#a8941b798efd9269f50d8756e1a7d5838" title=" " alt="" coords="108,205,315,230"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="373,220,315,220,315,215,373,215"/>
+<area shape="rect" id="Node000007" href="$writeResidueIndexMap_8cc.html#ac0f2228420376f4db7e1274f2b41667c" title=" " alt="" coords="5,205,60,230"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="94,220,60,220,60,215,94,215"/>
+</map>

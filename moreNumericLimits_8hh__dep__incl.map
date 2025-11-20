@@ -1,0 +1,18 @@
+<map id="ematch_src/utils/math/moreNumericLimits.hh" name="ematch_src/utils/math/moreNumericLimits.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="610,5,785,45"/>
+<area shape="rect" id="Node000002" href="$Point2D_8hh.html" title=" " alt="" coords="531,93,727,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="676,58,646,95,642,91,672,55"/>
+<area shape="rect" id="Node000008" href="$labeledBlastToOddsRatio_8cc.html" title=" " alt="" coords="701,357,933,412"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="721,56,741,92,769,166,790,240,816,357,810,358,785,241,763,167,736,94,716,58"/>
+<area shape="rect" id="Node000003" href="$WeightedPoint2D_8hh.html" title=" " alt="" coords="531,181,727,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="632,147,632,181,627,181,627,147"/>
+<area shape="rect" id="Node000004" href="$smoothing_8hh.html" title=" " alt="" coords="481,269,677,309"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="613,235,592,270,588,268,609,232"/>
+<area shape="rect" id="Node000005" href="$smoothMinSampleSize_8cc.html" title=" " alt="" coords="5,365,224,405"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="468,314,237,360,202,367,201,362,235,355,467,309"/>
+<area shape="rect" id="Node000006" href="$smoothMonotonically_8cc.html" title=" " alt="" coords="248,365,456,405"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="521,317,399,367,397,362,519,312"/>
+<area shape="rect" id="Node000007" href="$smoothing_8cc.html" title=" " alt="" coords="481,365,677,405"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="581,323,581,365,576,365,576,323"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="640,312,751,355,749,360,639,317"/>
+</map>

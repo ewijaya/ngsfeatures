@@ -1,0 +1,13 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,60,56"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc.html#a019bde704dc9ba93b64688ceb9e9bb37" title=" " alt="" coords="108,31,195,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,41,94,41,94,46,60,46"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc.html#a5493b86b622befb3efa36314f21b97f6" title=" " alt="" coords="243,5,333,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="194,33,229,26,230,31,195,38"/>
+<area shape="rect" id="Node000006" href="$Ttable_8hh.html#a53777cb711eeb7e0cc0767d84b734e31" title=" " alt="" coords="259,55,317,80"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="195,48,246,57,245,63,194,53"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc.html#a8275f8969aee8fd2145e45905be4bec8" title=" " alt="" coords="381,5,480,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="334,15,367,15,367,21,334,21"/>
+<area shape="rect" id="Node000005" href="$EstimateTrueCount__EntropyFast_8cc.html#a4bc05b3e60ec6578aae305cf37c63377" title=" " alt="" coords="528,5,567,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="480,15,514,15,514,21,480,21"/>
+</map>

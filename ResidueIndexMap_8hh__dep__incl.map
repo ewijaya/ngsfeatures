@@ -1,0 +1,118 @@
+<map id="ematch_src/utils/sequence/ResidueIndexMap/ResidueIndexMap.hh" name="ematch_src/utils/sequence/ResidueIndexMap/ResidueIndexMap.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="3915,5,4198,45"/>
+<area shape="rect" id="Node000002" href="$SortedTagSet_8hh.html" title=" " alt="" coords="553,108,760,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3901,33,1522,96,761,119,760,113,1522,91,3901,28"/>
+<area shape="rect" id="Node000011" href="$TagSet_8hh.html" title=" " alt="" coords="1535,108,1699,133"/>
+<area shape="poly" id="edge6_Node000001_Node000011" title=" " alt="" coords="3901,31,3059,50,2497,69,1926,96,1700,114,1699,109,1926,91,2497,63,3059,44,3901,26"/>
+<area shape="rect" id="Node000030" href="$DNAExtendedResidueIndexMap_8hh.html" title=" " alt="" coords="1938,93,2226,148"/>
+<area shape="poly" id="edge11_Node000001_Node000030" title=" " alt="" coords="3902,29,3596,31,3185,40,2717,60,2479,76,2245,96,2226,98,2226,93,2244,91,2478,71,2717,55,3185,35,3596,26,3902,23"/>
+<area shape="rect" id="Node000032" href="$KmerCount_8hh.html" title=" " alt="" coords="2261,203,2500,243"/>
+<area shape="poly" id="edge13_Node000001_Node000032" title=" " alt="" coords="3902,29,3480,32,2958,41,2712,50,2505,61,2357,77,2312,86,2290,95,2283,107,2281,119,2291,147,2301,163,2315,178,2346,201,2343,205,2311,182,2297,167,2286,149,2276,119,2278,105,2287,91,2310,81,2356,71,2505,56,2712,45,2958,36,3480,27,3902,24"/>
+<area shape="rect" id="Node000033" href="$KmerIndexer_8hh.html" title=" " alt="" coords="2301,101,2549,141"/>
+<area shape="poly" id="edge14_Node000001_Node000033" title=" " alt="" coords="3901,29,3645,32,3312,41,2937,62,2747,77,2561,96,2513,103,2512,98,2560,91,2747,71,2937,56,3311,36,3645,26,3901,24"/>
+<area shape="rect" id="Node000035" href="$ResidueIndexMap_8cc.html" title=" " alt="" coords="2573,101,2853,141"/>
+<area shape="poly" id="edge17_Node000001_Node000035" title=" " alt="" coords="3902,33,3440,52,3156,70,2872,96,2817,103,2817,98,2871,91,3156,65,3439,46,3902,27"/>
+<area shape="rect" id="Node000036" href="$ResidueIndexMapPredefined_8hh.html" title=" " alt="" coords="3581,93,3844,148"/>
+<area shape="poly" id="edge18_Node000001_Node000036" title=" " alt="" coords="3975,51,3810,96,3809,91,3973,46"/>
+<area shape="rect" id="Node000051" href="$GlobalAffineIdentityAligner_8hh.html" title=" " alt="" coords="3436,504,3693,544"/>
+<area shape="poly" id="edge65_Node000001_Node000051" title=" " alt="" coords="4212,37,4374,57,4460,72,4545,91,4661,113,4719,124,4772,137,4814,154,4830,165,4842,178,4849,193,4850,211,4845,230,4834,252,4803,287,4760,318,4707,347,4644,373,4573,396,4496,417,4328,452,4152,478,3979,498,3694,520,3693,514,3979,492,4151,473,4327,446,4494,412,4571,391,4642,368,4705,342,4758,314,4800,283,4829,249,4840,228,4845,210,4844,195,4838,181,4827,169,4811,159,4770,142,4718,129,4660,118,4544,96,4459,78,4373,63,4211,42"/>
+<area shape="rect" id="Node000072" href="$Alignment_8hh.html" title=" " alt="" coords="2967,306,3162,346"/>
+<area shape="poly" id="edge64_Node000001_Node000072" title=" " alt="" coords="3901,29,3655,37,3513,47,3370,63,3235,84,3116,113,3064,131,3020,151,2984,173,2957,198,2950,210,2948,222,2958,249,2970,266,2985,281,3020,304,3017,308,2981,285,2965,270,2953,252,2943,222,2945,208,2953,194,2981,169,3018,146,3062,126,3114,108,3234,79,3370,57,3513,42,3654,32,3901,24"/>
+<area shape="rect" id="Node000077" href="$SeqGlobalAffineAligner_8hh.html" title=" " alt="" coords="2713,409,2944,449"/>
+<area shape="poly" id="edge66_Node000001_Node000077" title=" " alt="" coords="3901,32,3661,39,3388,51,3153,70,3070,82,3022,96,2979,126,2942,164,2911,208,2886,254,2852,344,2835,409,2830,408,2847,342,2882,252,2907,205,2938,161,2975,122,3020,91,3069,77,3152,65,3388,46,3660,34,3901,27"/>
+<area shape="rect" id="Node000089" href="$ResidueIndexMapPredefinedAlphabets_8hh.html" title=" " alt="" coords="5309,93,5572,148"/>
+<area shape="poly" id="edge47_Node000001_Node000089" title=" " alt="" coords="4212,27,4425,33,4694,44,4992,63,5290,91,5310,93,5309,98,5290,96,4991,68,4694,50,4424,38,4211,32"/>
+<area shape="rect" id="Node000090" href="$ResidueIndexMapTransformer_8hh.html" title=" " alt="" coords="5596,93,5859,148"/>
+<area shape="poly" id="edge48_Node000001_Node000090" title=" " alt="" coords="4212,24,4473,27,4814,37,5198,57,5393,72,5584,91,5596,92,5596,98,5583,96,5392,77,5197,62,4814,42,4473,32,4212,29"/>
+<area shape="rect" id="Node000092" href="$ResidueIndexMapTranslator_8hh.html" title=" " alt="" coords="4271,93,4533,148"/>
+<area shape="poly" id="edge50_Node000001_Node000092" title=" " alt="" coords="4140,46,4305,91,4304,96,4139,51"/>
+<area shape="rect" id="Node000094" href="$ConstResidueIndexSequenceBoundaries_8hh.html" title=" " alt="" coords="4927,93,5234,148"/>
+<area shape="poly" id="edge53_Node000001_Node000094" title=" " alt="" coords="4212,33,4534,55,4909,91,4927,93,4927,98,4908,96,4533,61,4212,38"/>
+<area shape="rect" id="Node000095" href="$ResidueIndexWindow_8hh.html" title=" " alt="" coords="4896,196,5183,251"/>
+<area shape="poly" id="edge59_Node000001_Node000095" title=" " alt="" coords="4212,25,4382,29,4568,40,4738,60,4807,74,4859,91,4878,103,4890,116,4901,131,4917,146,4991,194,4989,198,4914,150,4897,134,4886,120,4875,107,4857,96,4806,79,4738,65,4568,45,4381,35,4212,30"/>
+<area shape="rect" id="Node000097" href="$ResidueIndexWindowFactory_8hh.html" title=" " alt="" coords="5207,299,5493,353"/>
+<area shape="poly" id="edge60_Node000001_Node000097" title=" " alt="" coords="4212,24,4490,27,4811,36,4962,45,5092,56,5191,71,5225,81,5247,91,5272,112,5293,137,5323,194,5341,252,5350,298,5344,299,5335,253,5318,197,5288,140,5268,116,5245,96,5223,86,5190,77,5092,62,4962,50,4811,41,4489,32,4212,29"/>
+<area shape="rect" id="Node000098" href="$writeResidueIndexMap_8cc.html" title=" " alt="" coords="5883,93,6139,148"/>
+<area shape="poly" id="edge61_Node000001_Node000098" title=" " alt="" coords="4212,27,5064,48,5531,67,5724,78,5872,91,5884,92,5883,97,5871,96,5724,83,5530,72,5063,54,4212,32"/>
+<area shape="rect" id="Node000099" href="$ResidueIndexedSequence_8hh.html" title=" " alt="" coords="6164,101,6376,141"/>
+<area shape="poly" id="edge62_Node000001_Node000099" title=" " alt="" coords="4212,25,4638,31,5198,42,5749,61,5978,75,6152,91,6195,98,6194,103,6151,96,5977,80,5749,67,5198,47,4638,36,4212,31"/>
+<area shape="rect" id="Node000003" href="$RecountNeighborProbGraphOnDisk__SortedTagSet_8hh.html" title=" " alt="" coords="5,203,255,243"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="584,138,229,206,228,201,583,133"/>
+<area shape="rect" id="Node000006" href="$RecountNeighborProbGraphWriter__SortedTagSet_8hh.html" title=" " alt="" coords="279,203,522,243"/>
+<area shape="poly" id="edge3_Node000002_Node000006" title=" " alt="" coords="616,141,450,206,448,201,614,136"/>
+<area shape="rect" id="Node000008" href="$RecountTagCounts__SortedTagSet_8hh.html" title=" " alt="" coords="546,203,767,243"/>
+<area shape="poly" id="edge4_Node000002_Node000008" title=" " alt="" coords="659,147,659,203,654,203,654,147"/>
+<area shape="rect" id="Node000010" href="$SortedTagSet_8cc.html" title=" " alt="" coords="792,211,996,236"/>
+<area shape="poly" id="edge5_Node000002_Node000010" title=" " alt="" coords="698,136,868,208,866,213,696,141"/>
+<area shape="rect" id="Node000012" href="$RecountNeighborProbGraphOnDisk_8hh.html" title=" " alt="" coords="1021,203,1234,243"/>
+<area shape="poly" id="edge7_Node000011_Node000012" title=" " alt="" coords="1545,139,1247,199,1213,206,1212,201,1245,193,1544,133"/>
+<area shape="rect" id="Node000024" href="$RecountNeighborProbGraphWriter_8hh.html" title=" " alt="" coords="1258,203,1471,243"/>
+<area shape="poly" id="edge8_Node000011_Node000024" title=" " alt="" coords="1576,141,1413,206,1411,201,1574,136"/>
+<area shape="rect" id="Node000027" href="$RecountTagCounts_8hh.html" title=" " alt="" coords="1496,211,1737,236"/>
+<area shape="poly" id="edge9_Node000011_Node000027" title=" " alt="" coords="1619,147,1619,211,1614,211,1614,147"/>
+<area shape="rect" id="Node000029" href="$TagSet_8cc.html" title=" " alt="" coords="1762,211,1925,236"/>
+<area shape="poly" id="edge10_Node000011_Node000029" title=" " alt="" coords="1657,137,1819,208,1817,213,1654,142"/>
+<area shape="rect" id="Node000031" href="$DNAExtendedResidueIndexMap_8cc.html" title=" " alt="" coords="1949,196,2237,251"/>
+<area shape="poly" id="edge12_Node000030_Node000031" title=" " alt="" coords="2089,161,2093,196,2087,196,2084,162"/>
+<area shape="poly" id="edge15_Node000033_Node000032" title=" " alt="" coords="2413,154,2391,204,2386,202,2409,152"/>
+<area shape="rect" id="Node000034" href="$KmerIndexer_8cc.html" title=" " alt="" coords="2524,203,2771,243"/>
+<area shape="poly" id="edge16_Node000033_Node000034" title=" " alt="" coords="2480,144,2607,201,2605,206,2478,149"/>
+<area shape="rect" id="Node000037" href="$LabeledSequence_8hh.html" title=" " alt="" coords="3985,409,4179,449"/>
+<area shape="poly" id="edge19_Node000036_Node000037" title=" " alt="" coords="3806,151,3847,170,3885,194,3947,248,4001,308,4044,365,4072,407,4068,410,4039,368,3996,312,3943,252,3882,198,3844,175,3804,156"/>
+<area shape="rect" id="Node000054" href="$computeGlobalAffineIdentity_8cc.html" title=" " alt="" coords="2875,592,3099,647"/>
+<area shape="poly" id="edge40_Node000036_Node000054" title=" " alt="" coords="3567,129,3408,137,3231,150,3070,170,3005,183,2956,199,2869,235,2833,253,2803,272,2775,295,2750,323,2726,358,2703,402,2699,429,2697,474,2699,518,2704,543,2730,561,2771,577,2876,600,2875,606,2770,582,2727,566,2700,545,2694,519,2692,474,2694,428,2698,400,2722,356,2746,320,2771,291,2799,268,2831,248,2866,230,2954,193,3004,178,3069,165,3231,145,3407,131,3567,124"/>
+<area shape="rect" id="Node000068" href="$ResidueIndexMapPredefinedTranslators_8hh.html" title=" " alt="" coords="4271,196,4533,251"/>
+<area shape="poly" id="edge24_Node000036_Node000068" title=" " alt="" coords="3858,138,4252,193,4271,196,4270,202,4251,199,3857,143"/>
+<area shape="rect" id="Node000069" href="$ResiduesIndexMap_8hh.html" title=" " alt="" coords="4345,299,4587,353"/>
+<area shape="poly" id="edge25_Node000036_Node000069" title=" " alt="" coords="3858,130,4057,154,4146,172,4209,194,4226,207,4235,221,4245,235,4260,248,4310,276,4363,296,4361,301,4308,280,4256,253,4240,238,4231,224,4222,210,4206,198,4144,177,4056,160,3857,136"/>
+<area shape="rect" id="Node000071" href="$AminoScore_8hh.html" title=" " alt="" coords="2967,203,3162,243"/>
+<area shape="poly" id="edge26_Node000036_Node000071" title=" " alt="" coords="3568,142,3383,166,3181,199,3145,206,3144,201,3180,193,3382,161,3567,136"/>
+<area shape="rect" id="Node000076" href="$ResidueSimilarityAffineEdit_8hh.html" title=" " alt="" coords="3457,401,3672,456"/>
+<area shape="poly" id="edge39_Node000036_Node000076" title=" " alt="" coords="3568,134,3480,143,3393,156,3319,175,3290,186,3269,198,3248,220,3237,241,3226,299,3218,328,3219,339,3225,351,3458,401,3457,407,3222,355,3214,341,3213,328,3221,298,3232,240,3243,217,3266,194,3288,181,3317,170,3392,151,3480,138,3567,128"/>
+<area shape="rect" id="Node000083" href="$AminoScorePam120_8hh.html" title=" " alt="" coords="3236,306,3448,346"/>
+<area shape="poly" id="edge38_Node000036_Node000083" title=" " alt="" coords="3568,130,3482,138,3398,151,3327,171,3302,183,3284,198,3277,210,3275,223,3283,252,3302,281,3323,304,3319,308,3298,284,3278,255,3270,224,3272,208,3280,194,3299,179,3325,166,3397,146,3481,133,3568,125"/>
+<area shape="rect" id="Node000045" href="$runAddAlignmentToHtml_8cc.html" title=" " alt="" coords="3697,409,3961,449"/>
+<area shape="poly" id="edge41_Node000036_Node000045" title=" " alt="" coords="3568,126,3464,136,3415,145,3372,157,3339,173,3319,194,3315,205,3315,218,3319,233,3328,249,3342,265,3355,274,3385,282,3420,285,3460,296,3514,324,3567,351,3659,382,3747,406,3746,411,3658,387,3565,356,3511,329,3458,301,3419,290,3384,287,3353,279,3338,268,3324,252,3314,235,3309,219,3310,204,3315,191,3336,169,3370,152,3414,139,3463,130,3567,121"/>
+<area shape="rect" id="Node000084" href="$DNAArrayBit16_8hh.html" title=" " alt="" coords="3973,203,4196,243"/>
+<area shape="poly" id="edge42_Node000036_Node000084" title=" " alt="" coords="3823,149,4016,201,4014,206,3822,154"/>
+<area shape="rect" id="Node000086" href="$DNAArrayBit8_8hh.html" title=" " alt="" coords="3339,203,3553,243"/>
+<area shape="poly" id="edge43_Node000036_Node000086" title=" " alt="" coords="3631,155,3497,206,3495,201,3630,150"/>
+<area shape="rect" id="Node000087" href="$testDNAArrayBit8_8cc.html" title=" " alt="" coords="3578,306,3845,346"/>
+<area shape="poly" id="edge45_Node000036_Node000087" title=" " alt="" coords="3816,152,3841,171,3862,195,3869,210,3872,223,3869,237,3862,252,3847,271,3828,286,3786,308,3784,304,3825,282,3843,267,3857,249,3864,235,3866,223,3864,211,3857,197,3838,175,3813,157"/>
+<area shape="rect" id="Node000088" href="$fasta__dumpAminoAcidContentWPformat_8cc.html" title=" " alt="" coords="3577,196,3848,251"/>
+<area shape="poly" id="edge46_Node000036_Node000088" title=" " alt="" coords="3715,162,3715,196,3710,196,3710,162"/>
+<area shape="poly" id="edge20_Node000037_Node000051" title=" " alt="" coords="3994,454,3973,459,3694,507,3693,501,3972,453,3993,449"/>
+<area shape="rect" id="Node000052" href="$GlobalAffineIdentityAligner_8cc.html" title=" " alt="" coords="3577,599,3832,639"/>
+<area shape="poly" id="edge21_Node000051_Node000052" title=" " alt="" coords="3606,549,3678,597,3675,601,3603,554"/>
+<area shape="rect" id="Node000053" href="$computeAllPairsIdentity_8cc.html" title=" " alt="" coords="3294,599,3553,639"/>
+<area shape="poly" id="edge22_Node000051_Node000053" title=" " alt="" coords="3526,554,3453,602,3450,597,3523,549"/>
+<area shape="poly" id="edge23_Node000051_Node000054" title=" " alt="" coords="3435,549,3100,603,3099,597,3434,544"/>
+<area shape="poly" id="edge27_Node000071_Node000072" title=" " alt="" coords="3067,257,3067,306,3062,306,3062,257"/>
+<area shape="poly" id="edge37_Node000071_Node000077" title=" " alt="" coords="3023,253,2957,301,2895,359,2847,410,2843,406,2891,355,2954,297,3020,249"/>
+<area shape="poly" id="edge35_Node000071_Node000083" title=" " alt="" coords="3130,246,3291,303,3289,308,3129,251"/>
+<area shape="poly" id="edge30_Node000072_Node000051" title=" " alt="" coords="3110,351,3177,399,3192,415,3201,429,3211,442,3227,454,3277,477,3331,494,3385,506,3436,514,3436,519,3384,511,3329,499,3275,482,3225,458,3208,446,3197,432,3188,418,3174,403,3107,356"/>
+<area shape="rect" id="Node000073" href="$Alignment_8cc.html" title=" " alt="" coords="3238,409,3433,449"/>
+<area shape="poly" id="edge28_Node000072_Node000073" title=" " alt="" coords="3129,348,3286,406,3284,411,3128,353"/>
+<area shape="rect" id="Node000074" href="$GlobalAffineDist_8hh.html" title=" " alt="" coords="2969,409,3163,449"/>
+<area shape="poly" id="edge29_Node000072_Node000074" title=" " alt="" coords="3068,360,3068,409,3063,409,3062,360"/>
+<area shape="poly" id="edge31_Node000072_Node000076" title=" " alt="" coords="3160,346,3181,351,3445,399,3457,401,3456,406,3444,404,3180,356,3159,352"/>
+<area shape="poly" id="edge33_Node000072_Node000077" title=" " alt="" coords="3009,354,2874,411,2872,406,3007,349"/>
+<area shape="poly" id="edge32_Node000076_Node000051" title=" " alt="" coords="3567,470,3567,504,3562,504,3562,470"/>
+<area shape="rect" id="Node000078" href="$SeqGlobalAffineAligner_8cc.html" title=" " alt="" coords="2714,504,2943,544"/>
+<area shape="poly" id="edge34_Node000077_Node000078" title=" " alt="" coords="2831,462,2831,504,2826,504,2826,462"/>
+<area shape="poly" id="edge36_Node000083_Node000045" title=" " alt="" coords="3445,346,3467,351,3737,406,3736,411,3465,356,3444,351"/>
+<area shape="poly" id="edge44_Node000086_Node000087" title=" " alt="" coords="3510,246,3663,303,3661,308,3508,251"/>
+<area shape="rect" id="Node000091" href="$ResidueIndexMapTransformer_8cc.html" title=" " alt="" coords="5596,196,5859,251"/>
+<area shape="poly" id="edge49_Node000090_Node000091" title=" " alt="" coords="5730,162,5730,196,5725,196,5725,162"/>
+<area shape="poly" id="edge51_Node000092_Node000068" title=" " alt="" coords="4405,162,4405,196,4399,196,4399,162"/>
+<area shape="rect" id="Node000093" href="$ResidueIndexMapTranslator_8cc.html" title=" " alt="" coords="4557,196,4820,251"/>
+<area shape="poly" id="edge52_Node000092_Node000093" title=" " alt="" coords="4490,150,4615,193,4613,198,4488,155"/>
+<area shape="poly" id="edge54_Node000094_Node000095" title=" " alt="" coords="5067,162,5053,197,5048,195,5062,160"/>
+<area shape="poly" id="edge58_Node000094_Node000097" title=" " alt="" coords="5137,153,5196,194,5225,221,5254,249,5315,296,5312,301,5251,253,5222,225,5192,198,5134,158"/>
+<area shape="poly" id="edge57_Node000095_Node000069" title=" " alt="" coords="4883,255,4587,306,4586,301,4882,249"/>
+<area shape="rect" id="Node000096" href="$ResidueIndexWindow_8cc.html" title=" " alt="" coords="4896,299,5183,353"/>
+<area shape="poly" id="edge55_Node000095_Node000096" title=" " alt="" coords="5042,264,5042,299,5037,299,5037,264"/>
+<area shape="poly" id="edge56_Node000095_Node000097" title=" " alt="" coords="5134,252,5270,296,5268,301,5133,257"/>
+<area shape="rect" id="Node000100" href="$ResidueIndexedSequence_8cc.html" title=" " alt="" coords="6165,203,6375,243"/>
+<area shape="poly" id="edge63_Node000099_Node000100" title=" " alt="" coords="6273,155,6273,203,6267,203,6267,155"/>
+</map>

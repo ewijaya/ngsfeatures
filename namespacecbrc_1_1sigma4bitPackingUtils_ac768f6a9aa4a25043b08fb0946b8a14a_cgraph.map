@@ -1,0 +1,19 @@
+<map id="cbrc::sigma4bitPackingUtils::unpack" name="cbrc::sigma4bitPackingUtils::unpack">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,88,208,128"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc_1_1sigma4bitPackingUtils.html#a8fa96777f42cebda95d8a41e87a5f6f3" title=" " alt="" coords="256,5,459,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,85,255,55,278,47,280,52,257,60,166,91"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a7e5d0d3bc5c41546620ccff95b55b3fa" title=" " alt="" coords="278,70,437,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,95,264,89,264,95,208,100"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#a8c53878dc57e8f666976e041d146a523" title=" " alt="" coords="284,119,431,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,115,270,121,270,126,208,120"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#ad003950bdededca7ee3b3dd6cd6ea644" title=" " alt="" coords="277,169,438,194"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="168,125,257,153,291,163,289,168,255,159,166,131"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="724,145,904,170"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="438,174,710,160,711,165,438,180"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1FLEArray.html#a5f10f892188c41f2821ef33ee9bcc743" title=" " alt="" coords="507,194,676,219"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="439,187,493,193,492,199,438,193"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="778,146,770,136,774,126,789,120,814,118,845,122,857,131,854,135,843,127,814,123,790,125,778,130,775,136,782,143"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="649,191,742,170,743,176,650,197"/>
+<area shape="rect" id="Node000008" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="740,194,888,219"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="676,204,726,204,726,209,676,209"/>
+</map>

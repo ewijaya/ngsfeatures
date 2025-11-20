@@ -1,0 +1,11 @@
+<map id="cbrc::OneEdgePerLineFormat::numNodesInStream" name="cbrc::OneEdgePerLineFormat::numNodesInStream">
+<area shape="rect" id="Node000001" title=" " alt="" coords="396,27,605,67"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc.html#a69d7192d0249221a368646d4fe103642" title=" " alt="" coords="114,5,342,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="382,37,342,33,342,28,383,32"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc.html#a86fc3ad7bc4b49f407604ce1d0c71e7e" title=" " alt="" coords="108,55,348,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="382,62,349,66,348,60,382,57"/>
+<area shape="rect" id="Node000003" href="$graph_2run_2listConnectedComponents_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,21,60,21,60,15,100,15"/>
+<area shape="rect" id="Node000005" href="$graph_2run_2printRandomRepresentativeFromEachConnectedComponent_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,63,60,88"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,78,60,78,60,73,94,73"/>
+</map>

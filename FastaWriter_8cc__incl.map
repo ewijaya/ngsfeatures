@@ -1,0 +1,24 @@
+<map id="ematch_src/utils/sequence/readers/fasta/FastaWriter.cc" name="ematch_src/utils/sequence/readers/fasta/FastaWriter.cc">
+<area shape="rect" id="Node000001" title=" " alt="" coords="85,5,292,45"/>
+<area shape="rect" id="Node000002" href="$FastaWriter_8hh.html" title=" " alt="" coords="131,93,246,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,46,191,79,186,79,186,46"/>
+<area shape="rect" id="Node000003" href="$fastafmt_8hh.html" title=" " alt="" coords="38,174,137,199"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="175,121,115,167,112,163,172,117"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="174,328,254,353"/>
+<area shape="poly" id="edge13_Node000002_Node000004" title=" " alt="" coords="193,119,214,314,209,315,187,119"/>
+<area shape="rect" id="Node000006" href="$LabeledAsciiSeq_8hh.html" title=" " alt="" coords="257,167,459,207"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="215,116,306,158,304,163,212,121"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="67,202,43,217,21,237,9,258,9,268,14,278,36,294,73,308,161,328,160,334,72,313,33,299,9,282,4,269,4,256,17,233,40,213,64,197"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="24,255,151,280"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="90,200,90,241,85,241,85,200"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="327,209,296,230,267,256,244,287,227,317,223,314,240,284,263,253,293,226,324,205"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="477,328,535,353"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="405,205,440,225,472,253,491,283,503,314,498,316,486,286,468,256,437,229,402,209"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="348,328,411,353"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="401,205,430,225,453,254,456,274,448,293,432,309,414,323,411,319,429,305,443,290,451,273,448,256,426,229,398,209"/>
+<area shape="rect" id="Node000009" href="$stringUtils_8hh.html" title=" " alt="" coords="277,255,439,280"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="361,207,361,241,355,241,355,207"/>
+<area shape="poly" id="edge10_Node000009_Node000004" title=" " alt="" coords="336,282,251,324,249,319,334,278"/>
+<area shape="poly" id="edge11_Node000009_Node000007" title=" " alt="" coords="383,278,471,320,469,324,381,282"/>
+<area shape="poly" id="edge12_Node000009_Node000008" title=" " alt="" coords="364,280,375,314,370,316,359,281"/>
+</map>

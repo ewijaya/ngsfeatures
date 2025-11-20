@@ -1,0 +1,71 @@
+<map id="ematch_src/utils/sequence/align/AminoScore.hh" name="ematch_src/utils/sequence/align/AminoScore.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1046,5,1241,45"/>
+<area shape="rect" id="Node000002" href="$Alignment_8hh.html" title=" " alt="" coords="530,93,725,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1033,48,725,98,725,93,1032,42"/>
+<area shape="rect" id="Node000011" href="$SeqGlobalAffineAligner_8hh.html" title=" " alt="" coords="1205,189,1436,229"/>
+<area shape="poly" id="edge41_Node000001_Node000011" title=" " alt="" coords="1197,50,1227,68,1255,91,1275,115,1292,141,1315,187,1311,190,1287,144,1270,118,1251,95,1224,73,1194,54"/>
+<area shape="rect" id="Node000026" href="$AminoScore_8cc.html" title=" " alt="" coords="1046,93,1241,133"/>
+<area shape="poly" id="edge27_Node000001_Node000026" title=" " alt="" coords="1146,59,1146,93,1141,93,1141,59"/>
+<area shape="rect" id="Node000027" href="$AminoScoreIdentity_8hh.html" title=" " alt="" coords="831,189,1039,229"/>
+<area shape="poly" id="edge28_Node000001_Node000027" title=" " alt="" coords="1096,54,1036,95,987,145,951,190,947,187,983,141,1032,91,1093,50"/>
+<area shape="rect" id="Node000028" href="$AminoScorePam120_8hh.html" title=" " alt="" coords="2568,189,2780,229"/>
+<area shape="poly" id="edge32_Node000001_Node000028" title=" " alt="" coords="1255,37,2568,192,2567,197,1254,42"/>
+<area shape="rect" id="Node000003" href="$Alignment_8cc.html" title=" " alt="" coords="597,189,791,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="651,143,683,187,678,190,647,146"/>
+<area shape="rect" id="Node000004" href="$GlobalAffineDist_8hh.html" title=" " alt="" coords="77,189,271,229"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="519,139,295,184,260,191,259,186,293,179,518,133"/>
+<area shape="rect" id="Node000006" href="$GlobalAffineIdentityAligner_8hh.html" title=" " alt="" coords="285,291,543,331"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="610,147,577,192,534,238,493,269,452,294,450,289,490,265,531,234,573,188,606,143"/>
+<area shape="rect" id="Node000010" href="$ResidueSimilarityAffineEdit_8hh.html" title=" " alt="" coords="307,181,521,236"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="573,141,475,184,473,179,571,136"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="738,127,1206,189,1205,195,738,132"/>
+<area shape="rect" id="Node000005" href="$GlobalAffineDist_8cc.html" title=" " alt="" coords="66,291,261,331"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="173,242,168,292,163,291,168,242"/>
+<area shape="rect" id="Node000007" href="$GlobalAffineIdentityAligner_8cc.html" title=" " alt="" coords="5,394,260,434"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="349,339,186,396,184,391,347,334"/>
+<area shape="rect" id="Node000008" href="$computeAllPairsIdentity_8cc.html" title=" " alt="" coords="285,394,543,434"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="417,345,417,394,411,394,411,345"/>
+<area shape="rect" id="Node000009" href="$computeGlobalAffineIdentity_8cc.html" title=" " alt="" coords="567,387,791,441"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="477,334,611,384,609,389,476,339"/>
+<area shape="poly" id="edge10_Node000010_Node000006" title=" " alt="" coords="417,250,417,291,411,291,411,250"/>
+<area shape="rect" id="Node000012" href="$SeqGlobalAffineAligner_8cc.html" title=" " alt="" coords="1206,291,1435,331"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="1323,243,1323,291,1318,291,1318,243"/>
+<area shape="rect" id="Node000013" href="$SimilaritySearchableSequences_8hh.html" title=" " alt="" coords="1460,291,1747,331"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="1388,231,1551,289,1550,294,1386,236"/>
+<area shape="rect" id="Node000019" href="$runSimilaritySearchableSequences_8cc.html" title=" " alt="" coords="1517,387,1759,441"/>
+<area shape="poly" id="edge24_Node000011_Node000019" title=" " alt="" coords="1252,237,1220,258,1196,285,1186,313,1188,324,1196,337,1219,353,1253,364,1294,371,1341,375,1434,379,1505,384,1517,386,1516,391,1504,389,1433,384,1340,381,1294,377,1251,369,1216,358,1192,340,1183,326,1181,312,1192,283,1217,253,1249,233"/>
+<area shape="rect" id="Node000020" href="$allPairsNearestGlobalAffineScore_8cc.html" title=" " alt="" coords="2015,284,2242,339"/>
+<area shape="poly" id="edge20_Node000011_Node000020" title=" " alt="" coords="1450,218,1707,243,2004,281,2015,283,2015,289,2003,287,1706,248,1450,223"/>
+<area shape="rect" id="Node000021" href="$clusterByIdentity_8cc.html" title=" " alt="" coords="916,291,1131,331"/>
+<area shape="poly" id="edge21_Node000011_Node000021" title=" " alt="" coords="1253,236,1080,294,1078,289,1251,231"/>
+<area shape="rect" id="Node000022" href="$hasHighIdentityToDataset_8cc.html" title=" " alt="" coords="619,291,892,331"/>
+<area shape="poly" id="edge22_Node000011_Node000022" title=" " alt="" coords="1202,234,861,294,861,289,1201,228"/>
+<area shape="rect" id="Node000023" href="$runGlobalAffineAlignment_8cc.html" title=" " alt="" coords="2267,291,2540,331"/>
+<area shape="poly" id="edge23_Node000011_Node000023" title=" " alt="" coords="1450,214,1813,238,2033,257,2254,281,2304,289,2303,294,2254,287,2033,262,1812,243,1450,219"/>
+<area shape="rect" id="Node000024" href="$allPairsGlobalAffineScore_8cc.html" title=" " alt="" coords="2565,284,2783,339"/>
+<area shape="poly" id="edge25_Node000011_Node000024" title=" " alt="" coords="1450,209,1661,214,1936,226,2244,248,2400,263,2553,281,2565,283,2564,288,2552,287,2399,268,2243,253,1936,231,1661,219,1450,214"/>
+<area shape="rect" id="Node000025" href="$testSeqGlobalAffineAligner_8cc.html" title=" " alt="" coords="1771,284,1991,339"/>
+<area shape="poly" id="edge26_Node000011_Node000025" title=" " alt="" coords="1450,228,1760,281,1771,284,1770,289,1759,287,1449,233"/>
+<area shape="rect" id="Node000014" href="$SimilaritySearchableSequences_8cc.html" title=" " alt="" coords="1207,394,1493,434"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="1544,339,1398,396,1396,391,1542,334"/>
+<area shape="rect" id="Node000015" href="$runAddAlignmentToHtml_8cc.html" title=" " alt="" coords="2059,394,2323,434"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="1727,331,2082,391,2081,397,1726,336"/>
+<area shape="rect" id="Node000016" href="$runAddIdenticalToHtml_8cc.html" title=" " alt="" coords="890,394,1143,434"/>
+<area shape="poly" id="edge16_Node000013_Node000016" title=" " alt="" coords="1481,336,1127,397,1126,391,1480,331"/>
+<area shape="rect" id="Node000017" href="$runGlobalAffineNearestClass_8cc.html" title=" " alt="" coords="2487,387,2725,441"/>
+<area shape="poly" id="edge17_Node000013_Node000017" title=" " alt="" coords="1722,331,1760,336,1921,354,2047,363,2336,384,2487,398,2486,404,2335,389,2047,369,1921,359,1759,341,1721,336"/>
+<area shape="rect" id="Node000018" href="$runGlobalAffineNearestClassDiff_8cc.html" title=" " alt="" coords="2819,387,3057,441"/>
+<area shape="poly" id="edge18_Node000013_Node000018" title=" " alt="" coords="1719,331,1760,336,1908,350,2034,358,2248,363,2463,367,2589,373,2738,384,2819,393,2818,398,2738,389,2589,378,2463,372,2248,368,2034,363,1908,355,1759,341,1718,336"/>
+<area shape="poly" id="edge19_Node000013_Node000019" title=" " alt="" coords="1617,343,1631,386,1626,387,1612,345"/>
+<area shape="poly" id="edge31_Node000027_Node000016" title=" " alt="" coords="833,234,686,266,608,286,600,299,597,311,600,324,608,337,620,345,643,353,713,369,890,395,889,401,712,374,641,358,618,349,604,341,595,326,592,311,595,297,604,282,684,261,832,229"/>
+<area shape="poly" id="edge29_Node000027_Node000021" title=" " alt="" coords="963,237,1009,290,1005,293,959,241"/>
+<area shape="poly" id="edge30_Node000027_Node000022" title=" " alt="" coords="891,238,790,294,788,289,888,233"/>
+<area shape="poly" id="edge34_Node000028_Node000015" title=" " alt="" coords="2776,231,2812,252,2841,282,2850,298,2853,312,2850,326,2841,341,2782,352,2649,369,2324,402,2323,397,2648,363,2781,347,2838,336,2846,324,2848,312,2845,300,2837,286,2809,256,2773,236"/>
+<area shape="poly" id="edge36_Node000028_Node000017" title=" " alt="" coords="2794,221,2822,231,2849,244,2872,261,2892,282,2901,297,2904,312,2901,326,2892,340,2866,360,2826,376,2726,399,2725,394,2825,371,2864,355,2888,337,2896,324,2898,312,2896,299,2888,286,2869,265,2846,248,2820,236,2793,226"/>
+<area shape="poly" id="edge37_Node000028_Node000018" title=" " alt="" coords="2794,218,2827,228,2860,241,2890,259,2916,282,2931,307,2940,335,2943,386,2938,387,2935,336,2926,309,2912,286,2887,263,2857,246,2826,233,2793,224"/>
+<area shape="poly" id="edge38_Node000028_Node000019" title=" " alt="" coords="2743,233,2773,254,2798,283,2809,312,2807,327,2797,341,1760,408,1759,402,2794,336,2802,325,2803,313,2793,285,2770,258,2740,237"/>
+<area shape="poly" id="edge33_Node000028_Node000020" title=" " alt="" coords="2555,233,2256,287,2243,289,2242,284,2255,281,2554,228"/>
+<area shape="poly" id="edge35_Node000028_Node000023" title=" " alt="" coords="2611,236,2455,294,2453,289,2609,231"/>
+<area shape="poly" id="edge39_Node000028_Node000024" title=" " alt="" coords="2677,242,2677,284,2671,284,2671,242"/>
+<area shape="poly" id="edge40_Node000028_Node000025" title=" " alt="" coords="2555,222,2301,247,2152,265,2004,287,1991,289,1990,283,2003,281,2151,260,2300,242,2554,217"/>
+</map>

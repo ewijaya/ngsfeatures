@@ -1,0 +1,23 @@
+<map id="cbrc::binaryIO::read" name="cbrc::binaryIO::read">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,73,155,99"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc_1_1perlish.html#a27da775d330fc85aeb67ad7bc5e054d6" title=" " alt="" coords="411,5,540,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,71,149,51,202,34,303,19,397,14,397,20,304,24,203,39,151,56,107,76"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ab4f853671d71b67a4771b5199af8d8f8" title=" " alt="" coords="400,112,551,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="134,96,203,109,297,117,386,121,386,126,297,123,202,114,133,101"/>
+<area shape="rect" id="Node000008" href="$namespacecbrc_1_1binaryIO.html#a181fc6c1b04986051a53ee38649e886e" title=" " alt="" coords="203,73,352,99"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="155,83,189,83,189,89,155,89"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc.html#a0d70f74afe25a87ac43272ff476dcb48" title=" " alt="" coords="635,5,742,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="540,15,622,15,622,21,540,21"/>
+<area shape="poly" id="edge8_Node000004_Node000004" title=" " alt="" coords="443,113,436,104,439,94,453,88,475,85,502,89,514,98,510,102,500,94,475,91,454,93,443,97,441,103,447,110"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#a8255bcefe055e10a4fccd3331b450fee" title=" " alt="" coords="611,61,767,87"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="529,109,621,87,622,92,530,114"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="827,87,975,112"/>
+<area shape="poly" id="edge9_Node000004_Node000006" title=" " alt="" coords="551,118,813,102,813,107,551,123"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="599,187,779,212"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="514,135,640,180,638,185,512,140"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="767,81,813,86,813,92,766,86"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="654,188,647,178,651,168,665,162,689,160,718,164,730,173,726,177,716,169,689,165,666,167,654,172,652,178,658,185"/>
+<area shape="poly" id="edge11_Node000008_Node000002" title=" " alt="" coords="315,71,424,33,425,38,316,76"/>
+<area shape="poly" id="edge12_Node000008_Node000004" title=" " alt="" coords="344,96,397,107,396,112,343,101"/>
+<area shape="poly" id="edge13_Node000008_Node000008" title=" " alt="" coords="245,75,238,65,241,55,255,49,277,47,304,50,316,59,312,63,302,55,277,52,256,54,245,59,243,64,249,72"/>
+</map>

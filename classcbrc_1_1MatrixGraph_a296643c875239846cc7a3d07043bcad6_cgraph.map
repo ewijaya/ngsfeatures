@@ -1,0 +1,18 @@
+<map id="cbrc::MatrixGraph::setEdge" name="cbrc::MatrixGraph::setEdge">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,101,152,141"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1SymmetricBitMatrix.html#aab7167b0a5535b4d63c17476ddbf81b2" title=" " alt="" coords="200,109,416,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,119,186,119,186,124,152,124"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1SymmetricBitMatrix.html#a2b40739e23cf40967d7a9192ba7096b4" title=" " alt="" coords="464,5,652,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="338,106,463,55,483,48,485,53,465,60,340,111"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1SymmetricBitMatrix.html#aff3aa8dc9f39fcdb4a7c76dafebfd0f9" title=" " alt="" coords="464,69,652,109"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="407,106,450,100,451,106,408,111"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1SymmetricBitMatrix.html#a06d30e78ab7d75a4d2ddc7111cbb05d4" title=" " alt="" coords="464,133,652,173"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="408,131,451,137,450,142,407,137"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1SymmetricBitMatrix.html#a73f92543c9b40015ad4c1a0380942ed0" title=" " alt="" coords="464,197,652,237"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="340,132,465,183,485,190,483,195,463,188,338,137"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1SymmetricBitMatrix.html#a8f761e7892edefc46e716ce805b586aa" title=" " alt="" coords="700,37,888,77"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="653,35,687,40,686,45,652,41"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="652,74,686,69,687,75,653,79"/>
+<area shape="rect" id="Node000008" href="$classcbrc_1_1SymmetricBitMatrix.html#aae7e1dc6dd5421c0e42c50fcfc9ba44a" title=" " alt="" coords="700,197,888,237"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="652,215,686,215,686,220,652,220"/>
+</map>

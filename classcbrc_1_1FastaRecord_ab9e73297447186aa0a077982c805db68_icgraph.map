@@ -1,0 +1,16 @@
+<map id="cbrc::FastaRecord::labels" name="cbrc::FastaRecord::labels">
+<area shape="rect" id="Node000001" title=" " alt="" coords="619,99,763,139"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FastaRecord.html#ab37c93636f4ff437b01d52603a7461e6" title=" " alt="" coords="427,5,571,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="638,95,569,60,544,48,547,43,572,55,641,90"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FastaRecord.html#af7d78f08f7633e4adda8ad3b909099aa" title=" " alt="" coords="427,69,571,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="605,108,570,103,571,98,605,103"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FastaRecord.html#ac94df6f51752c2d6b8a1e115b1fc4308" title=" " alt="" coords="216,127,360,167"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="605,127,360,144,360,139,604,122"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1FastaRecord.html#ab4cbc31288ba0a754b2d10f328961cae" title=" " alt="" coords="427,184,571,224"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="634,147,546,186,544,181,631,142"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FastaRecord.html#a6f3af87d6292c33846ddcb9b10077987" title=" " alt="" coords="197,77,379,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="413,92,379,92,379,87,413,87"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="414,115,361,130,359,125,412,110"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FastaRecord.html#aa99d933c06ebd687e0c9b9337ad87efa" title=" " alt="" coords="5,69,149,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="184,92,150,92,150,87,184,87"/>
+</map>

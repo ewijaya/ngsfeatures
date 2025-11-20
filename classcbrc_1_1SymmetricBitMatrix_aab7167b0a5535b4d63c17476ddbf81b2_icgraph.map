@@ -1,0 +1,11 @@
+<map id="cbrc::SymmetricBitMatrix::set" name="cbrc::SymmetricBitMatrix::set">
+<area shape="rect" id="Node000001" title=" " alt="" coords="685,56,901,81"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1MatrixGraph.html#a296643c875239846cc7a3d07043bcad6" title=" " alt="" coords="491,49,637,89"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="672,71,638,71,638,66,672,66"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1MatrixGraph.html#a32a503187de195192db021525be8ac1b" title=" " alt="" coords="216,5,427,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="477,58,427,51,427,46,478,53"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1MatrixGraph.html#ade9e70ed22be1e11a6675ace517c701d" title=" " alt="" coords="200,85,443,125"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="478,84,443,89,443,84,477,79"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1MatrixGraph.html#a253063eb36f1bfdb9739f177e768cab5" title=" " alt="" coords="5,13,152,53"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="202,35,152,35,152,30,202,30"/>
+</map>

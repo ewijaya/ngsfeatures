@@ -1,0 +1,10 @@
+<map id="cbrc::ResidueIndexMap::assignResidueIndices" name="cbrc::ResidueIndexMap::assignResidueIndices">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,179,87"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEArray.html#a5f10f892188c41f2821ef33ee9bcc743" title=" " alt="" coords="227,55,396,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,65,213,65,213,70,179,70"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="444,29,624,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="396,55,430,51,431,56,397,60"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="460,79,608,104"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="397,74,447,79,446,85,396,79"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="498,31,490,21,494,11,509,5,534,3,565,6,577,15,574,20,563,11,534,8,510,10,498,15,495,20,502,28"/>
+</map>

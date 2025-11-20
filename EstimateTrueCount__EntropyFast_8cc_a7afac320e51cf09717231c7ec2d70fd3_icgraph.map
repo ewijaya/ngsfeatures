@@ -1,0 +1,9 @@
+<map id="copy_vect" name="copy_vect">
+<area shape="rect" id="Node000001" title=" " alt="" coords="512,5,600,31"/>
+<area shape="rect" id="Node000002" href="$EstimateTrueCount__EntropyFast_8cc.html#a849de12fe72e4dedfdf0f6fdd557b22a" title=" " alt="" coords="329,5,464,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="498,21,464,21,464,15,498,15"/>
+<area shape="rect" id="Node000003" href="$EstimateTrueCount__EntropyFast_8cc.html#abebd4fb586dd8c7cbaca02396a997f7a" title=" " alt="" coords="108,5,281,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="316,21,282,21,282,15,316,15"/>
+<area shape="rect" id="Node000004" href="$EstimateTrueCount__EntropyFast_8cc.html#a517c5941a291f7638e647c2598e62590" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

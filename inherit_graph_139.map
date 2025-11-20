@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classcbrc_1_1StringUnaryPredicate.html" title=" " alt="" coords="5,109,200,134"/>
+<area shape="rect" id="Node000001" href="$classcbrc_1_1StringUnaryPredicateAlwaysFalse.html" title=" " alt="" coords="248,5,443,45"/>
+<area shape="poly" id="edge47_Node000000_Node000001" title=" " alt="" coords="142,100,247,55,280,43,282,48,249,60,144,105"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1StringUnaryPredicateAlwaysTrue.html" title=" " alt="" coords="248,69,443,109"/>
+<area shape="poly" id="edge48_Node000000_Node000002" title=" " alt="" coords="212,104,247,100,248,105,213,109"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1StringUnaryPredicateContainsNotSimpleMatch.html" title=" " alt="" coords="248,133,443,173"/>
+<area shape="poly" id="edge49_Node000000_Node000003" title=" " alt="" coords="213,133,248,138,247,143,212,138"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1StringUnaryPredicateContainsSimpleMatch.html" title=" " alt="" coords="248,197,443,237"/>
+<area shape="poly" id="edge50_Node000000_Node000004" title=" " alt="" coords="144,137,249,183,282,195,280,200,247,188,142,142"/>
+</map>

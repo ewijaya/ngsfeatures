@@ -1,0 +1,25 @@
+<map id="ematch_src/utils/geometry/smoothing.cc" name="ematch_src/utils/geometry/smoothing.cc">
+<area shape="rect" id="Node000001" title=" " alt="" coords="87,5,283,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="74,93,137,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,47,129,85,125,82,164,44"/>
+<area shape="rect" id="Node000003" href="$smoothing_8hh.html" title=" " alt="" coords="160,93,371,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,44,245,82,242,85,203,47"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,167,91,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="231,121,97,165,95,160,230,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="115,167,178,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="248,121,179,162,177,157,245,116"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="203,167,245,192"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="261,120,240,156,235,153,256,118"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="269,167,344,192"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="274,118,295,153,291,156,270,120"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="368,167,448,192"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="289,116,374,158,371,163,287,121"/>
+<area shape="rect" id="Node000009" href="$WeightedPoint2D_8hh.html" title=" " alt="" coords="472,167,725,192"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="319,116,532,161,531,166,318,121"/>
+<area shape="rect" id="Node000010" href="$Point2D_8hh.html" title=" " alt="" coords="503,240,695,265"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="601,192,601,226,596,226,596,192"/>
+<area shape="rect" id="Node000011" href="$moreNumericLimits_8hh.html" title=" " alt="" coords="478,313,719,339"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="601,266,601,300,596,300,596,266"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="569,387,628,412"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="601,339,601,373,596,373,596,339"/>
+</map>

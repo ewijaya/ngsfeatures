@@ -1,0 +1,12 @@
+<map id="cbrc::HammingDistanceComputer::computeBoundedGapAtBeg" name="cbrc::HammingDistanceComputer::computeBoundedGapAtBeg">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,85,248,125"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEArray.html#a7e5d0d3bc5c41546620ccff95b55b3fa" title=" " alt="" coords="307,5,465,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,82,295,39,320,32,322,37,297,45,179,87"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a8c53878dc57e8f666976e041d146a523" title=" " alt="" coords="313,55,459,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,85,299,77,299,82,248,90"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#a5368c7c0434bd5c119d2cbb39f4b399e" title=" " alt="" coords="296,128,476,153"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="248,119,283,124,282,129,248,124"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="312,177,460,203"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="182,122,297,162,326,171,324,176,295,167,181,127"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="344,130,335,120,340,110,357,103,386,101,423,105,433,110,437,116,432,119,429,114,421,110,386,107,358,109,343,114,340,119,348,126"/>
+</map>

@@ -1,0 +1,35 @@
+<map id="cbrc::TransfacTextLine::label" name="cbrc::TransfacTextLine::label">
+<area shape="rect" id="Node000001" title=" " alt="" coords="704,245,869,285"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1TransfacTextLabelInfo.html#a380f28ac0f7ef0e679d55be649f19e39" title=" " alt="" coords="211,229,409,269"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="690,265,409,255,409,250,690,260"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1TransfacTextLabelInfo.html#a759f847dd546331e237f11d9411ddc41" title=" " alt="" coords="211,5,409,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="774,233,758,189,734,138,699,89,678,68,655,50,626,36,596,25,532,11,469,8,410,11,409,6,469,3,533,6,598,19,628,31,657,46,682,64,703,86,738,136,763,187,779,231"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1TransfacTextLabelInfo.html#a1957a3d86791cc19247510ad77497ff9" title=" " alt="" coords="457,353,656,393"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="739,295,657,337,613,356,611,351,655,332,737,290"/>
+<area shape="rect" id="Node000008" href="$classcbrc_1_1TransfacTextLabelInfo.html#a4e7ee61b0bf9306b6a1f082376c66d9d" title=" " alt="" coords="457,60,656,100"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="764,236,719,174,689,142,655,114,633,103,636,98,657,110,692,138,723,171,769,233"/>
+<area shape="rect" id="Node000009" href="$classcbrc_1_1TransfacTextLabelInfo.html#a309a56490cefe89bca854bc6858d442d" title=" " alt="" coords="457,124,656,164"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="749,239,705,208,655,179,627,167,629,162,657,174,708,203,752,235"/>
+<area shape="rect" id="Node000010" href="$classcbrc_1_1TransfacTextLabelInfo.html#ac92d364a66d83b774e437725803da200" title=" " alt="" coords="457,468,656,508"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="772,299,728,375,695,416,658,452,626,470,623,466,654,447,691,412,723,372,768,296"/>
+<area shape="rect" id="Node000011" href="$classcbrc_1_1TransfacTextLabelInfo.html#a934a802872252c794a4c4eb8770b20b5" title=" " alt="" coords="457,188,656,228"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="692,245,637,231,638,226,693,240"/>
+<area shape="rect" id="Node000012" href="$classcbrc_1_1TransfacTextLabelInfo.html#a90f9e3d5672dbf346b343376948dcd10" title=" " alt="" coords="211,293,409,333"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="691,278,410,306,409,301,690,272"/>
+<area shape="rect" id="Node000013" href="$classcbrc_1_1TransfacTextLabelInfo.html#a42fd69a6d4212aecfbb9ebd168278eb8" title=" " alt="" coords="211,421,409,461"/>
+<area shape="poly" id="edge19_Node000001_Node000013" title=" " alt="" coords="768,298,723,356,692,385,657,408,596,431,532,445,468,451,410,452,410,447,468,446,531,440,595,426,655,403,689,381,719,353,764,295"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1TransfacReader.html#a0b57f4fd735dffc81814974f7e398600" title=" " alt="" coords="5,172,163,212"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="217,229,162,215,164,209,218,223"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="240,53,212,69,179,94,149,122,103,174,99,170,145,119,176,90,209,65,237,49"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1TransfacReader.html#a3098435fd650f3842c6f9c315fcd92a3" title=" " alt="" coords="231,357,389,397"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="444,378,389,379,389,374,444,373"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="219,354,209,348,171,316,139,279,94,214,99,211,143,276,175,312,212,343,221,349"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1TransfacReader.html#a3ed093ad4430cbb06ab8f58473f88ca3" title=" " alt="" coords="5,357,163,397"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="217,380,163,380,163,375,217,375"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="445,102,331,125,211,153,142,175,141,169,210,148,330,120,443,97"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="443,158,163,187,163,182,443,153"/>
+<area shape="poly" id="edge15_Node000011_Node000003" title=" " alt="" coords="443,207,163,197,163,192,443,202"/>
+<area shape="poly" id="edge17_Node000012_Node000003" title=" " alt="" coords="225,291,209,284,153,249,107,214,111,210,156,245,212,279,227,286"/>
+<area shape="poly" id="edge18_Node000012_Node000007" title=" " alt="" coords="226,340,156,360,154,355,225,335"/>
+<area shape="poly" id="edge20_Node000013_Node000007" title=" " alt="" coords="225,420,154,400,156,395,226,415"/>
+</map>

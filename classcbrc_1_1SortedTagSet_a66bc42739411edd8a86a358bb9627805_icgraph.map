@@ -1,0 +1,15 @@
+<map id="cbrc::SortedTagSet::residueIndexMap" name="cbrc::SortedTagSet::residueIndexMap">
+<area shape="rect" id="Node000001" title=" " alt="" coords="445,69,588,109"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1SortedTagSet.html#afb8e8a80ac993c965a5c4354b020acfe" title=" " alt="" coords="231,5,397,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="439,68,377,48,379,43,440,63"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1SortedTagSet.html#a25980aecd8d106bc45e3a2d09f7f0d95" title=" " alt="" coords="243,69,385,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="431,92,386,92,386,87,431,87"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1SortedTagSet.html#a86f00f8074ea7439f51d957408c393c1" title=" " alt="" coords="243,133,385,173"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="440,116,379,136,377,131,439,111"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1SortedTagSet.html#a59533c6a3ce4fff13dd297396468e721" title=" " alt="" coords="23,5,165,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="217,28,166,28,166,23,217,23"/>
+<area shape="rect" id="Node000005" href="$namespacecbrc.html#a2524f40eb428d99c26119b71bee694c2" title=" " alt="" coords="6,77,182,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="228,92,182,92,182,87,228,87"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1RecountTagCounts.html#ad11bd14698ea4628067edf0059a25c68" title=" " alt="" coords="5,133,183,173"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="229,156,183,156,183,151,229,151"/>
+</map>

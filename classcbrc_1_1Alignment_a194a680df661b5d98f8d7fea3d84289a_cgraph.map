@@ -1,0 +1,18 @@
+<map id="cbrc::Alignment::outputMarkSame" name="cbrc::Alignment::outputMarkSame">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,249,97"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1Alignment.html#a8a02d77813c9c9ded5550b235bb15fe3" title=" " alt="" coords="297,97,504,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,95,284,100,283,106,236,100"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1Alignment.html#a0a90df2f6b0988867cfdbb349bd04005" title=" " alt="" coords="300,33,501,73"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="236,69,286,63,286,69,236,75"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1Alignment.html#af7cebeea2029c06cdab2e7fecacf1f52" title=" " alt="" coords="552,5,747,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="478,94,503,82,517,72,526,61,536,50,551,40,566,33,568,38,553,44,539,54,530,65,520,76,505,87,480,99"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="575,153,723,179"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="503,134,572,148,571,153,502,139"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1Alignment.html#a847f4f76eefea4024da506102ca7c661" title=" " alt="" coords="570,55,729,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="502,94,571,80,572,85,503,99"/>
+<area shape="rect" id="Node000006" href="$namespacecbrc_1_1perlish.html#a93996e9d6b16ad1f0fa91309d4960afc" title=" " alt="" coords="569,104,729,129"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="504,114,555,114,555,119,504,119"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="501,36,544,30,545,35,502,41"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="502,56,556,59,556,65,501,61"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="480,70,587,98,585,103,478,75"/>
+</map>

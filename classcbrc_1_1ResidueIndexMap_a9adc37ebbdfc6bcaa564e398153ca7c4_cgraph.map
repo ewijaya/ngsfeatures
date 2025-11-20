@@ -1,0 +1,13 @@
+<map id="cbrc::ResidueIndexMap::ResidueIndexMap" name="cbrc::ResidueIndexMap::ResidueIndexMap">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,179,45"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1ResidueIndexMap.html#a4786107032b60621400e59800db8c256" title=" " alt="" coords="227,5,400,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,23,213,23,213,28,179,28"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc_1_1perlish.html#a27da775d330fc85aeb67ad7bc5e054d6" title=" " alt="" coords="647,13,776,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="400,11,448,7,523,3,599,7,633,10,633,15,598,12,523,9,448,12,400,16"/>
+<area shape="rect" id="Node000005" href="$namespacecbrc_1_1stringBinaryIO.html#afc482362ef00e77b98366ad3e68fa76b" title=" " alt="" coords="448,45,599,85"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="401,39,435,46,434,51,400,44"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc.html#a0d70f74afe25a87ac43272ff476dcb48" title=" " alt="" coords="824,13,931,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="776,23,810,23,810,28,776,28"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="598,47,637,38,639,43,600,52"/>
+<area shape="poly" id="edge6_Node000005_Node000005" title=" " alt="" coords="488,46,486,36,492,27,504,21,523,19,545,22,557,29,555,33,544,27,523,24,506,26,495,31,491,37,493,44"/>
+</map>

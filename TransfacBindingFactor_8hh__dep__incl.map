@@ -1,0 +1,9 @@
+<map id="ematch_src/utils/sequence/readers/transfac/TransfacBindingFactor.hh" name="ematch_src/utils/sequence/readers/transfac/TransfacBindingFactor.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="140,5,379,60"/>
+<area shape="rect" id="Node000002" href="$TransfacBindingFactor_8cc.html" title=" " alt="" coords="5,108,244,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,70,162,110,158,106,212,66"/>
+<area shape="rect" id="Node000003" href="$TransfacReader_8hh.html" title=" " alt="" coords="268,115,523,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="307,66,371,113,368,117,304,70"/>
+<area shape="rect" id="Node000004" href="$TransfacReader_8cc.html" title=" " alt="" coords="269,211,522,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="398,169,398,211,393,211,393,169"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="cbrc::TagSet::residueIndexMap" name="cbrc::TagSet::residueIndexMap">
+<area shape="rect" id="Node000001" title=" " alt="" coords="976,73,1196,98"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1TagSet.html#a1971c9ff8bfc61ca844762cd3e8703b5" title=" " alt="" coords="725,5,922,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1016,72,911,48,912,43,1017,67"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1TagSet.html#a0473b7809061522a9db2dbcb842db1f3" title=" " alt="" coords="744,73,903,98"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="962,88,903,88,903,83,962,83"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1TagSet.html#ac6a681543f91a5d29a34e29ca39fb918" title=" " alt="" coords="719,126,928,151"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1010,103,887,129,886,123,1008,98"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1TagSet.html#a265ec8ad6132c63559613e84ba627c01" title=" " alt="" coords="509,10,659,35"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="711,27,660,26,660,21,711,21"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1TagSet.html#a508d31c0fb9cfe0e9004be2434d99ce7" title=" " alt="" coords="231,91,449,131"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="762,125,670,101,614,96,557,95,450,100,450,95,557,90,614,91,671,96,764,120"/>
+<area shape="rect" id="Node000008" href="$classcbrc_1_1TagSet.html#a62b898d6f4e817ece03e74ca3cddd166" title=" " alt="" coords="519,135,649,161"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="705,146,650,148,649,143,705,141"/>
+<area shape="rect" id="Node000009" href="$classcbrc_1_1TagSet.html#a6d7f20d75ae8b9d5a4a74f1476bddcb6" title=" " alt="" coords="497,185,671,210"/>
+<area shape="poly" id="edge10_Node000005_Node000009" title=" " alt="" coords="758,157,637,187,636,182,757,152"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1RecountTagCounts.html#a5e025f710ef06a603501aeead7a98924" title=" " alt="" coords="5,91,183,131"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="217,113,183,113,183,108,217,108"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="505,139,449,130,450,125,506,133"/>
+<area shape="poly" id="edge9_Node000008_Node000008" title=" " alt="" coords="627,126,615,117,584,114,559,116,545,121,542,126,549,133,545,137,537,127,541,117,557,111,584,109,617,113,630,122"/>
+</map>

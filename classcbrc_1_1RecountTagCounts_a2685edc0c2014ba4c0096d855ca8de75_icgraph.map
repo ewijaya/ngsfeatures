@@ -1,0 +1,13 @@
+<map id="cbrc::RecountTagCounts::size" name="cbrc::RecountTagCounts::size">
+<area shape="rect" id="Node000001" title=" " alt="" coords="348,133,525,173"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1RecountComputerForGraphOnDisk.html#aee9119b27415ef994a51e9fd079b8439" title=" " alt="" coords="23,5,282,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="401,127,354,91,299,60,267,48,268,43,301,55,357,87,404,122"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1RecountComputerForGraphOnDisk.html#a88d2ea948f615339b406e08768f41029" title=" " alt="" coords="23,69,282,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="338,133,299,124,246,112,247,107,301,119,339,128"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1RecountTagCounts.html#acd1777fe0146b66edf2e93a42f3be23f" title=" " alt="" coords="64,133,241,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="334,156,241,156,241,151,334,151"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1RecountExpectationMatchingTagCorrector.html#ac6064bce0de0dae057ca18e8eba8a53d" title=" " alt="" coords="5,198,300,253"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="344,179,262,201,260,195,343,174"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1RecountExpectationMatchingTagCorrector.html#aea1163ebbfd0654659858d7dc5271b85" title=" " alt="" coords="5,277,300,331"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="408,185,360,227,301,266,272,279,270,274,299,262,357,223,405,181"/>
+</map>

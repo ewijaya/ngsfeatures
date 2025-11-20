@@ -1,0 +1,12 @@
+<map id="cbrc::GlobalAffineDist::oneSequenceBasedUpperBound" name="cbrc::GlobalAffineDist::oneSequenceBasedUpperBound">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,109,243,149"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1GlobalAffineDist.html#ab23672914cfff53daa2e8d95f762840b" title=" " alt="" coords="291,80,453,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,113,277,109,277,114,243,118"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="712,94,860,119"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="243,129,291,129,372,131,453,129,698,112,699,118,453,135,372,136,291,135,243,134"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1GlobalAffineDist.html#a1af85861050e6d0162c5e7f7df1a3c86" title=" " alt="" coords="501,29,664,69"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="453,78,487,70,489,75,454,83"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="454,99,698,103,698,108,454,104"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="544,30,542,20,548,11,562,5,583,3,606,6,619,13,617,18,605,11,583,8,563,10,552,15,547,21,550,28"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="655,67,728,88,726,93,653,72"/>
+</map>

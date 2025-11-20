@@ -1,0 +1,15 @@
+<map id="cbrc::stringBinaryIO::write" name="cbrc::stringBinaryIO::write">
+<area shape="rect" id="Node000001" title=" " alt="" coords="633,101,784,141"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc_1_1stringBinaryIO.html#af8f76a21b8941bb9fb1d1c7a5a3142f8" title=" " alt="" coords="399,5,549,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="660,97,584,60,549,47,550,42,586,55,663,92"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1ResidueIndexedSequence.html#acc2c399cc501516d5391f26f82548e86" title=" " alt="" coords="363,69,585,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="619,112,585,107,586,102,620,107"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1ResidueIndexMap.html#a82fb971ecc2b08d269be1a0fb70b9348" title=" " alt="" coords="387,133,561,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="620,136,561,144,560,139,620,131"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1SerialNumbersForStrings.html#aed2fe420ba9bfbe49c802b6321050e9a" title=" " alt="" coords="365,197,583,237"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="663,151,586,188,553,200,551,195,584,183,660,146"/>
+<area shape="rect" id="Node000005" href="$namespacecbrc.html#a8941b798efd9269f50d8756e1a7d5838" title=" " alt="" coords="108,141,315,166"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="373,156,315,156,315,151,373,151"/>
+<area shape="rect" id="Node000006" href="$writeResidueIndexMap_8cc.html#ac0f2228420376f4db7e1274f2b41667c" title=" " alt="" coords="5,141,60,166"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="94,156,60,156,60,151,94,151"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="cbrc::stringBinaryIO::read" name="cbrc::stringBinaryIO::read">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,156,45"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc_1_1perlish.html#a27da775d330fc85aeb67ad7bc5e054d6" title=" " alt="" coords="403,13,532,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,11,204,7,279,3,355,7,389,10,389,15,354,12,279,9,204,12,156,17"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc_1_1stringBinaryIO.html#afc482362ef00e77b98366ad3e68fa76b" title=" " alt="" coords="204,45,355,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="157,38,191,45,190,50,156,43"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc.html#a0d70f74afe25a87ac43272ff476dcb48" title=" " alt="" coords="580,13,687,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="532,23,566,23,566,28,532,28"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="354,47,393,38,395,43,356,52"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="244,46,242,36,248,27,260,21,279,19,301,22,313,29,311,33,300,27,279,24,262,26,251,31,247,37,249,44"/>
+</map>

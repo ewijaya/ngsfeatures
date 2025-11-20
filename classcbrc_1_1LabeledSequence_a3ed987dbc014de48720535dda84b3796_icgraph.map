@@ -1,0 +1,19 @@
+<map id="cbrc::LabeledSequence::residueIndices" name="cbrc::LabeledSequence::residueIndices">
+<area shape="rect" id="Node000001" title=" " alt="" coords="941,74,1112,114"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1SimilaritySearchableSequences.html#ab3046f18f90ac2e6783e72b5cc2a4870" title=" " alt="" coords="5,41,197,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="980,70,938,50,893,36,799,19,702,11,605,8,510,10,335,25,198,45,197,40,335,20,509,5,605,3,702,5,799,14,894,30,940,45,982,65"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1SimilaritySearchableSequences.html#acbf4e1393acceb6780f232682a03bffe" title=" " alt="" coords="683,45,893,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="927,85,893,81,894,75,928,80"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1LabeledSequence.html#a6b558ed61729679eddbbcb4abd8ae365" title=" " alt="" coords="464,70,635,110"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="928,100,683,100,635,98,635,93,683,94,928,94"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1LabeledSequence.html#a8b51f934e3c446c7e4fc3a35627ee03c" title=" " alt="" coords="703,160,873,200"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="958,122,846,162,844,157,956,117"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="450,87,197,70,198,65,450,81"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1LabeledSequence.html#afb7eb56e162e3486ab2cb1fe41968390" title=" " alt="" coords="464,160,635,200"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="689,182,635,182,635,177,689,177"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1LabeledSequence.html#a437225e63f7d3cfcc04459778ae9c75f" title=" " alt="" coords="245,98,416,138"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="463,158,402,141,403,136,465,153"/>
+<area shape="rect" id="Node000008" href="$classcbrc_1_1LabeledSequence.html#a14086b67123c48d696a9a9556c19d21b" title=" " alt="" coords="245,162,416,202"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="450,184,416,184,416,179,450,178"/>
+<area shape="poly" id="edge9_Node000008_Node000002" title=" " alt="" coords="259,160,244,153,182,118,130,84,133,79,185,113,247,148,261,155"/>
+</map>

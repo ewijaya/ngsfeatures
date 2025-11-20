@@ -1,0 +1,11 @@
+<map id="ematch_src/utils/sequence/ResidueIndexMap/ResidueIndexWindow/ResidueIndexWindow.hh" name="ematch_src/utils/sequence/ResidueIndexMap/ResidueIndexWindow/ResidueIndexWindow.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="316,5,603,60"/>
+<area shape="rect" id="Node000002" href="$ResidueIndexWindow_8cc.html" title=" " alt="" coords="5,108,292,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="366,67,230,110,229,105,365,62"/>
+<area shape="rect" id="Node000003" href="$ResidueIndexWindowFactory_8hh.html" title=" " alt="" coords="316,108,603,163"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="462,74,462,108,457,108,457,74"/>
+<area shape="rect" id="Node000004" href="$ResiduesIndexMap_8hh.html" title=" " alt="" coords="627,108,868,163"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="548,62,673,105,671,110,546,67"/>
+<area shape="rect" id="Node000005" href="$ResiduesIndexMap_8cc.html" title=" " alt="" coords="627,211,868,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="750,176,750,211,745,211,745,176"/>
+</map>

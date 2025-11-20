@@ -1,0 +1,8 @@
+<map id="cbrc::FastaSeqSlurper::getLabeledSequence" name="cbrc::FastaSeqSlurper::getLabeledSequence">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,171,45"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FastaRecordReader.html#a6cd438baba1467a5202a101c35993114" title=" " alt="" coords="480,5,663,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,23,466,23,466,28,171,28"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FastaRecordReader.html#adf606fa54cde4e23b2cef9d3af89434f" title=" " alt="" coords="219,38,432,63"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,31,205,35,205,40,170,37"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="432,37,466,33,466,39,433,42"/>
+</map>

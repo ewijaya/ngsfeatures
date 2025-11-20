@@ -1,0 +1,13 @@
+<map id="cbrc::FastaInputOptions::isComment" name="cbrc::FastaInputOptions::isComment">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,63,180,103"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FastaInputOptions.html#ad5b9acfb99f2dc9d81836492dcbbcd98" title=" " alt="" coords="228,5,403,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,60,223,46,225,51,172,65"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="241,70,389,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,80,228,80,228,85,180,85"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc_1_1stringUtils.html#a425c8820a459ddb74c3e7165086634c4" title=" " alt="" coords="249,120,381,160"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,100,237,117,236,122,170,105"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#a7e5d0d3bc5c41546620ccff95b55b3fa" title=" " alt="" coords="451,102,609,127"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="381,130,437,123,437,128,382,135"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#a8c53878dc57e8f666976e041d146a523" title=" " alt="" coords="457,151,603,177"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="382,145,443,152,443,157,381,150"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="ematch_src/utils/BitMatrix/SymmetricBitMatrix.hh" name="ematch_src/utils/BitMatrix/SymmetricBitMatrix.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="679,5,872,45"/>
+<area shape="rect" id="Node000002" href="$graph_2MatrixGraph_8hh.html" title=" " alt="" coords="363,101,606,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="699,52,524,103,523,98,698,47"/>
+<area shape="rect" id="Node000006" href="$SymmetricBitMatrix_8cc.html" title=" " alt="" coords="679,93,872,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="778,59,778,93,773,93,773,59"/>
+<area shape="rect" id="Node000007" href="$utils_2graph_2MatrixGraph_8hh.html" title=" " alt="" coords="921,93,1091,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="839,48,956,91,955,96,838,53"/>
+<area shape="rect" id="Node000003" href="$graph_2MatrixGraph_8cc.html" title=" " alt="" coords="5,196,247,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="428,132,171,198,170,193,427,127"/>
+<area shape="rect" id="Node000004" href="$graph_2test_2testConnectedComponentOnlineComputer_8cc.html" title=" " alt="" coords="271,181,509,236"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="465,137,419,183,415,179,462,133"/>
+<area shape="rect" id="Node000005" href="$graph_2test_2testMatrixGraph_8cc.html" title=" " alt="" coords="532,189,699,229"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="514,132,590,186,587,191,511,136"/>
+<area shape="rect" id="Node000008" href="$utils_2graph_2MatrixGraph_8cc.html" title=" " alt="" coords="723,189,894,229"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="955,142,850,191,847,186,953,137"/>
+<area shape="rect" id="Node000009" href="$utils_2graph_2test_2testConnectedComponentOnlineComputer_8cc.html" title=" " alt="" coords="918,181,1142,236"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="1017,146,1026,181,1021,182,1012,147"/>
+<area shape="rect" id="Node000010" href="$utils_2graph_2test_2testMatrixGraph_8cc.html" title=" " alt="" coords="1166,189,1345,229"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="1070,136,1206,186,1204,191,1068,141"/>
+</map>

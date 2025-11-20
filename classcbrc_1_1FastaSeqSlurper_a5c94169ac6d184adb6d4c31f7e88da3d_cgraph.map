@@ -1,0 +1,15 @@
+<map id="cbrc::FastaSeqSlurper::slurpLabeledAsciiSeqs" name="cbrc::FastaSeqSlurper::slurpLabeledAsciiSeqs">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,59,180,99"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FastaSeqSlurper.html#acbe322299909a73a02031b15d81dae07" title=" " alt="" coords="239,15,400,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,59,225,50,226,56,181,64"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FastaRecordReader.html#a06334ca2e2c9aa9a48c40fa4646c9b0f" title=" " alt="" coords="228,103,411,143"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="181,93,215,100,214,105,180,98"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FastaRecordReader.html#a6cd438baba1467a5202a101c35993114" title=" " alt="" coords="720,5,903,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="400,26,459,23,706,21,706,26,459,28,400,31"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FastaRecordReader.html#adf606fa54cde4e23b2cef9d3af89434f" title=" " alt="" coords="459,38,672,63"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="400,37,445,40,445,46,400,43"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="672,37,706,33,706,39,673,42"/>
+<area shape="poly" id="edge7_Node000005_Node000005" title=" " alt="" coords="277,103,274,93,281,84,296,78,319,76,346,79,360,86,358,91,344,84,319,81,298,83,284,88,280,94,282,102"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FastaRecordReader.html#ade04427b88de0da89d7559d80ca86cc2" title=" " alt="" coords="474,103,657,143"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="411,120,460,120,460,125,411,125"/>
+</map>

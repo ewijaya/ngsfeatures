@@ -1,0 +1,14 @@
+<map id="cbrc::GlobalAffineDist::GlobalAffineDist" name="cbrc::GlobalAffineDist::GlobalAffineDist">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,137,168,177"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1GlobalAffineDist.html#ab23672914cfff53daa2e8d95f762840b" title=" " alt="" coords="219,80,382,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,135,212,121,213,126,163,140"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="644,94,792,119"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="168,148,630,111,631,116,168,154"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLMatrix.html#a4de3f9b88e92dba49876fb6cbadedb4d" title=" " alt="" coords="216,195,385,221"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="169,174,233,189,232,195,168,179"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1GlobalAffineDist.html#a1af85861050e6d0162c5e7f7df1a3c86" title=" " alt="" coords="433,29,596,69"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="382,78,419,69,420,74,383,83"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="382,99,630,103,630,108,382,104"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="476,30,474,20,480,11,494,5,515,3,538,6,551,13,549,18,537,11,515,8,495,10,484,15,479,21,482,28"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="587,67,660,88,658,93,585,72"/>
+</map>

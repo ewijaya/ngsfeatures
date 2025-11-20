@@ -1,0 +1,16 @@
+<map id="cbrc::calculatePermutationSumOfSquaredDifferencesDistribution" name="cbrc::calculatePermutationSumOfSquaredDifferencesDistribution">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,74,275,114"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc.html#a68caeb39eed6c0cd446cbee92b1c8b36" title=" " alt="" coords="323,5,565,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,71,378,31,380,37,222,77"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="873,107,1021,132"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="275,88,323,87,574,79,685,80,826,91,883,101,882,106,825,97,684,85,575,84,323,93,275,93"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc.html#a6be6fe85219432090bbe0449b1f90e59" title=" " alt="" coords="613,107,825,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="275,97,600,111,599,117,275,103"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FLEArray.html#a31b7db1817b5eec4d9cbb10bfe07d58a" title=" " alt="" coords="369,168,519,193"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="212,112,386,162,384,167,210,117"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="825,117,860,117,860,122,825,122"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FLEArray.html#ab3482d140dd947c2d956fa5620da84ab" title=" " alt="" coords="650,180,789,205"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="520,181,637,186,636,192,519,187"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="759,177,893,134,895,139,761,182"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="682,182,674,172,679,162,694,156,719,153,751,157,763,167,760,171,749,162,719,159,695,161,682,166,680,171,686,178"/>
+</map>

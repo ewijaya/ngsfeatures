@@ -1,0 +1,10 @@
+<map id="cbrc::GlobalAffineIdentityAligner::GlobalAffineIdentityAligner" name="cbrc::GlobalAffineIdentityAligner::GlobalAffineIdentityAligner">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,257,95"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FLEMatrix.html#aa24d123dd6d858576c79731bc397dfba" title=" " alt="" coords="364,5,541,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,53,305,41,363,30,364,36,306,46,240,58"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1GlobalAffineIdentityAligner.html#ac82097f86bdbe355b3a35669da9c0459" title=" " alt="" coords="305,55,600,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,73,292,73,292,78,258,78"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FLEArray.html#ad71311380d762114c9e0f3b0dda38b7c" title=" " alt="" coords="648,92,796,117"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="224,93,306,105,388,110,452,110,600,105,634,104,634,109,600,110,453,115,388,115,305,110,223,98"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="600,89,635,93,634,98,600,94"/>
+</map>

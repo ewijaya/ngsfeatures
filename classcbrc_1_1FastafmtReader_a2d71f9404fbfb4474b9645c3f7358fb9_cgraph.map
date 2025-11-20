@@ -1,0 +1,13 @@
+<map id="cbrc::FastafmtReader::readRecord" name="cbrc::FastafmtReader::readRecord">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,91,165,131"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1FastafmtReader.html#af7530db892b98a4f8d85d0dbed7f1298" title=" " alt="" coords="213,41,404,66"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,88,244,67,246,72,165,93"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1FastafmtRecord.html#acd9bc800e825d0ec720782dfc885ad09" title=" " alt="" coords="229,91,388,131"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="166,108,215,108,215,113,166,113"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1FastafmtConstants.html#a967c10a6964653ee3ae0b06c552d037b" title=" " alt="" coords="219,155,398,195"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="157,128,226,148,224,153,155,133"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FastafmtReader.html#a341dc86059a39825f4cab08c61ea8c96" title=" " alt="" coords="467,5,627,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="404,39,453,34,454,39,405,45"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1FastafmtRecord.html#a7beaaa31fdcca58af6f2813b8ee39bbc" title=" " alt="" coords="452,70,643,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="405,62,439,67,438,72,404,68"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="cbrc::TagSet::toUnpackedSeq" name="cbrc::TagSet::toUnpackedSeq">
+<area shape="rect" id="Node000001" title=" " alt="" coords="719,50,928,75"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1TagSet.html#a508d31c0fb9cfe0e9004be2434d99ce7" title=" " alt="" coords="231,5,449,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="779,48,728,30,670,16,614,10,557,8,450,14,449,8,557,3,615,5,671,11,729,25,781,43"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1TagSet.html#a62b898d6f4e817ece03e74ca3cddd166" title=" " alt="" coords="519,50,649,75"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="705,65,649,65,649,60,705,60"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1TagSet.html#a6d7f20d75ae8b9d5a4a74f1476bddcb6" title=" " alt="" coords="497,99,671,125"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="748,81,647,102,646,97,747,76"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1RecountTagCounts.html#a5e025f710ef06a603501aeead7a98924" title=" " alt="" coords="5,5,183,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="217,28,183,28,183,23,217,23"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="505,53,449,45,450,39,506,48"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="627,41,615,32,584,29,559,31,545,36,542,41,549,48,545,52,537,42,541,32,557,26,584,23,617,27,630,37"/>
+</map>

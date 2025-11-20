@@ -1,0 +1,15 @@
+<map id="cbrc::FLEMatrix::setSize" name="cbrc::FLEMatrix::setSize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="655,109,832,134"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1GlobalAffineIdentityAligner.html#a6885a36852a9d3735f33eda0922a3e8e" title=" " alt="" coords="345,5,597,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="706,105,659,82,606,60,566,48,568,43,608,55,661,77,708,100"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1LabeledSquareFLENumMatrix.html#a4ea2d25fe7b6a0b5effba6051154f0e8" title=" " alt="" coords="339,69,603,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="641,112,603,107,603,102,641,107"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1SeqGlobalAffineAligner.html#a44df088e82a4e00feccb43761986d334" title=" " alt="" coords="367,133,574,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="641,136,575,144,574,139,641,131"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1ConstantLabeledSquareDoubleFLENumMatrix.html#ad7db3f1395829b77b3c9ad8b5edb7d21" title=" " alt="" coords="335,197,607,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="708,143,661,166,608,188,568,200,566,195,606,183,659,161,706,138"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1ConstantLabeledSquareDoubleFLENumMatrix.html#ab4382a4662ed8b6685ed8609586590ea" title=" " alt="" coords="5,150,287,205"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="321,202,287,197,288,192,322,196"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1ConstantLabeledSquareDoubleFLENumMatrix.html#ae744cd721a1c3ec56ecf854092e90543" title=" " alt="" coords="5,229,287,283"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="322,238,288,242,287,237,321,232"/>
+</map>

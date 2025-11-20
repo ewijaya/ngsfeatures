@@ -1,0 +1,19 @@
+<map id="cbrc::RecountExpectationMatchingTagCorrector::computeCountCorrections" name="cbrc::RecountExpectationMatchingTagCorrector::computeCountCorrections">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,113,196,168"/>
+<area shape="rect" id="Node000002" href="$classcbrc_1_1RecountTagCounts.html#a2a3bd7afd658a30793f69987841b12f5" title=" " alt="" coords="260,39,437,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,111,243,89,267,81,269,86,245,94,180,116"/>
+<area shape="rect" id="Node000003" href="$classcbrc_1_1FLEArray.html#a6b4512b0dfaf8e8274bee6b4782805ae" title=" " alt="" coords="501,19,696,44"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="124,111,175,64,208,42,243,25,316,8,392,3,463,6,525,14,524,19,463,11,392,8,317,13,245,30,210,46,178,68,128,115"/>
+<area shape="rect" id="Node000005" href="$classcbrc_1_1RecountExpectationMatchingTagCorrector.html#a5a1ae053c28dda3d4eb7f585315b822d" title=" " alt="" coords="505,185,692,240"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="197,155,244,162,492,197,491,202,244,167,196,160"/>
+<area shape="rect" id="Node000006" href="$classcbrc_1_1RecountTagCounts.html#ad5bd7595c36db40b44a48a0154c837de" title=" " alt="" coords="244,128,453,153"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="196,138,230,138,230,143,196,143"/>
+<area shape="rect" id="Node000007" href="$classcbrc_1_1RecountExpectationMatchingTagCorrector.html#ace78a2caa776149f0fceb21a4d40c36e" title=" " alt="" coords="255,229,442,284"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="158,166,245,208,275,221,272,226,243,213,156,171"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="437,47,487,41,488,47,438,52"/>
+<area shape="rect" id="Node000004" href="$classcbrc_1_1RecountTagCounts.html#ae05c5de97d80fdb60f1ff6a004ffc6ff" title=" " alt="" coords="510,99,687,139"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="433,77,502,94,501,99,432,82"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="453,129,496,126,497,131,454,135"/>
+<area shape="poly" id="edge8_Node000006_Node000006" title=" " alt="" coords="308,130,300,120,304,110,321,104,349,101,384,105,394,110,397,116,393,119,390,114,382,111,349,107,322,109,308,114,305,119,312,126"/>
+<area shape="poly" id="edge10_Node000007_Node000005" title=" " alt="" coords="442,238,492,229,492,234,443,243"/>
+</map>

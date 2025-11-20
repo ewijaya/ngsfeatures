@@ -1,0 +1,10 @@
+<map id="cbrc::SerialNumbersForStrings::read" name="cbrc::SerialNumbersForStrings::read">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,224,69"/>
+<area shape="rect" id="Node000002" href="$namespacecbrc_1_1stringBinaryIO.html#afc482362ef00e77b98366ad3e68fa76b" title=" " alt="" coords="272,29,423,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,47,258,47,258,52,224,52"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="312,30,310,20,316,11,328,5,347,3,369,6,381,13,379,17,368,11,347,8,330,10,319,15,315,21,317,28"/>
+<area shape="rect" id="Node000003" href="$namespacecbrc_1_1perlish.html#a27da775d330fc85aeb67ad7bc5e054d6" title=" " alt="" coords="471,37,600,62"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="423,47,457,47,457,52,423,52"/>
+<area shape="rect" id="Node000004" href="$namespacecbrc.html#a0d70f74afe25a87ac43272ff476dcb48" title=" " alt="" coords="648,37,755,62"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="600,47,634,47,634,52,600,52"/>
+</map>
