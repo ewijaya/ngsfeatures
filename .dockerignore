@@ -1,0 +1,115 @@
+# Docker ignore file - exclude unnecessary files from Docker build context
+# This speeds up builds and reduces image size
+
+# Build directories
+build/
+.build/
+build-*/
+cmake-build-*/
+
+# IDE and editor files
+.vscode/
+.idea/
+.vim/
+.clangd/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Version control
+.git/
+.gitignore
+.gitattributes
+.github/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+.tox/
+.venv/
+venv/
+ENV/
+
+# C++ build artifacts
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+compile_commands.json
+
+# Documentation
+docs/html/
+docs/latex/
+docs/xml/
+*.pdf
+
+# Coverage
+*.gcov
+*.gcda
+*.gcno
+coverage.info
+coverage_html/
+
+# Profiling
+gmon.out
+perf.data
+perf.data.old
+*.prof
+
+# Test results
+test_results/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+tmp/
+temp/
+
+# Data files (usually large)
+*.fastq
+*.fasta
+*.bam
+*.sam
+*.vcf
+data/
+output/
+results/
+
+# CI/CD (not needed in container)
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Pre-commit
+.pre-commit-config.yaml
+.secrets.baseline
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Documentation that's not needed at runtime
+README.md
+BUILD.md
+PRE_COMMIT_HOOKS.md
+REFACTORING_SUMMARY.md
+CURRENT_STATUS.md
+PHASE2_EXECUTION_PLAN.md
+PYTHON_PORT_README.md
