@@ -1,0 +1,397 @@
+# NGSFeatures .gitignore
+# Comprehensive ignore file for C++/Python bioinformatics project
+
+# ============================================================================
+# Build artifacts and binaries
+# ============================================================================
+
+# Compiled binaries (from src/)
+src/GenerateProportion
+src/FindNeighboursWithQual
+src/AverageTagsQuals_27
+src/AverageTagsQuals_36
+src/PickBaseQual
+src/EstimateTrueCount
+src/EstimateTrueCount_llratio
+src/EstimateTrueCount_EntropyFast
+src/EstimateTrueCount_Capacity
+
+# Expectation-Matching binaries
+ematch_src/FindNeighboursWithQualJuxt
+ematch_src/runRecountExpectationMatchingTagCorrector
+ematch_src/writeRecountNeighborProbGraph
+ematch_src/dumpRecountNeighborProbGraphOnDisk_ConnectedComponentSize
+ematch_src/dumpRecountNeighborProbGraphOnDisk
+ematch_src/dumpRecountNeighborProbGraphOnDisk_SortedTagSet
+ematch_src/observedMeanStdev_fromTrueCounts
+ematch_src/observedMeanStdev_fromTrueCounts_SortedTagSet
+
+# Knapsack binaries
+knapsack_src/tryKnapsackEnumeratorMultiProbes
+
+# Graph utilities binaries
+ematch_src/graph/run/convertMultipleEdgePerLineToOneEdgePerLineFormat
+ematch_src/graph/run/listConnectedComponents
+ematch_src/graph/run/printRandomRepresentativeFromEachConnectedComponent
+ematch_src/graph/run/runAllShortestEdgeLengthPaths
+
+# Test binaries
+ematch_src/graph/test/testMatrixGraph
+ematch_src/graph/test/testConnectedComponentOnlineComputer
+ematch_src/utils/*/test/*_test
+ematch_src/utils/*/try/try*
+
+# All test/try binaries (catch-all)
+**/test/test[A-Z]*
+**/try/try[A-Z]*
+
+# ============================================================================
+# C++ compilation artifacts
+# ============================================================================
+
+# Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Shared libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Static libraries
+*.a
+*.la
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Profile-guided optimization
+*.gcda
+*.gcno
+*.gcov
+pgdata/
+*.profdata
+*.profraw
+
+# Link-time optimization
+*.lto
+
+# Core dumps
+core
+core.*
+vgcore.*
+
+# ============================================================================
+# Build directories
+# ============================================================================
+
+build/
+Build/
+BUILD/
+cmake-build-*/
+out/
+bin/
+obj/
+lib/
+_build/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+compile_commands.json
+
+# Make
+*.d
+.deps/
+
+# ============================================================================
+# Python artifacts
+# ============================================================================
+
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# ============================================================================
+# Intermediate and temporary data files
+# ============================================================================
+
+# NGS intermediate files
+*.nb
+*.nbq
+*.prop
+*_temp*.txt
+*.neighbors
+*.proportion
+
+# Temporary files with capacity suffix
+*_[0-9]*.nb
+*_[0-9]*.nbq
+*_[0-9]*.prop
+
+# Output files (customize based on your needs)
+# *.out.txt
+# results/
+
+# ============================================================================
+# IDE and editor files
+# ============================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj*
+
+# CLion / IntelliJ
+.idea/
+*.iml
+cmake-build-*/
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+
+# Emacs
+*~
+\#*\#
+.\#*
+.dir-locals.el
+
+# Vim
+*.swp
+*.swo
+*.swn
+.*.sw[a-z]
+Session.vim
+.netrwhist
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# Eclipse
+.cproject
+.project
+.settings/
+
+# Kate
+*.kate-swp
+.kateconfig
+
+# ============================================================================
+# OS-specific files
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================================================
+# Documentation build artifacts
+# ============================================================================
+
+# Doxygen
+docs/html/
+docs/latex/
+docs/xml/
+Doxyfile.bak
+
+# Sphinx
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# ============================================================================
+# Profiling and debugging
+# ============================================================================
+
+# Valgrind
+*.log
+vgcore.*
+callgrind.out.*
+cachegrind.out.*
+massif.out.*
+
+# gdb
+.gdb_history
+
+# perf
+perf.data
+perf.data.old
+
+# Google Performance Tools
+*.prof
+
+# ============================================================================
+# Package managers
+# ============================================================================
+
+# vcpkg
+vcpkg_installed/
+
+# Conan
+conan.lock
+conanbuildinfo.*
+conaninfo.txt
+
+# ============================================================================
+# CI/CD artifacts
+# ============================================================================
+
+# Test results
+test_results/
+*.xml
+junit.xml
+
+# Benchmark results
+benchmark_results/
+*.json
+
+# ============================================================================
+# Miscellaneous
+# ============================================================================
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*.rej
+*.swp
+
+# Compressed files (unless part of the project)
+# *.tar.gz
+# *.zip
+
+# Log files
+*.log
+logs/
+
+# Tags files
+tags
+TAGS
+.tags
+.TAGS
+GPATH
+GRTAGS
+GTAGS
+
+# ctags/cscope
+cscope.out
+cscope.files
+cscope.in.out
+cscope.po.out
+
+# clangd
+.clangd/
+.cache/
+
+# ccls
+.ccls-cache/
+
+# ============================================================================
+# Project-specific exclusions
+# ============================================================================
+
+# Keep example data
+!small-len10-50.txt
+
+# Keep documentation source
+!docs/*.md
+!*.md
+
+# Keep makefiles
+!makefile
+!Makefile
+!*.mk
