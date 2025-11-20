@@ -1,0 +1,223 @@
+name: C++ Linting
+
+on:
+  push:
+    branches: [ master, main, develop ]
+    paths:
+      - '**.cc'
+      - '**.cpp'
+      - '**.h'
+      - '**.hh'
+      - '**.hpp'
+      - '.clang-format'
+      - '.github/workflows/cpp-lint.yml'
+  pull_request:
+    branches: [ master, main, develop ]
+    paths:
+      - '**.cc'
+      - '**.cpp'
+      - '**.h'
+      - '**.hh'
+      - '**.hpp'
+      - '.clang-format'
+      - '.github/workflows/cpp-lint.yml'
+
+jobs:
+  # ============================================================================
+  # Clang-Format Check
+  # ============================================================================
+  clang-format:
+    name: Check C++ formatting
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install clang-format
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y clang-format
+
+    - name: Check formatting
+      run: |
+        # Find all C++ files and check formatting
+        find src ematch_src knapsack_src \
+          \( -name "*.cc" -o -name "*.cpp" -o -name "*.h" -o -name "*.hh" -o -name "*.hpp" \) \
+          -not -path "*/test/*" \
+          -not -path "*/try/*" \
+          -exec clang-format --dry-run --Werror {} +
+
+    - name: Show formatting diff (if any)
+      if: failure()
+      run: |
+        echo "## Formatting Issues Found" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "Run the following to fix:" >> $GITHUB_STEP_SUMMARY
+        echo '```bash' >> $GITHUB_STEP_SUMMARY
+        echo 'clang-format -i src/*.cc src/*.hh' >> $GITHUB_STEP_SUMMARY
+        echo '```' >> $GITHUB_STEP_SUMMARY
+
+  # ============================================================================
+  # Clang-Tidy Static Analysis
+  # ============================================================================
+  clang-tidy:
+    name: Clang-Tidy analysis
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          clang-tidy \
+          libboost-all-dev \
+          cmake \
+          ninja-build
+
+    - name: Configure CMake (generate compile_commands.json)
+      run: |
+        cmake -B build \
+          -G Ninja \
+          -DCMAKE_BUILD_TYPE=Debug \
+          -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+
+    - name: Run clang-tidy on main sources
+      run: |
+        # Run on a subset of files to avoid timeout
+        clang-tidy \
+          src/FindNeighboursWithQual.cc \
+          src/EstimateTrueCount.cc \
+          src/Utilities.cc \
+          -p build \
+          --warnings-as-errors='' \
+          || true
+      continue-on-error: true
+
+  # ============================================================================
+  # CppCheck Static Analysis
+  # ============================================================================
+  cppcheck:
+    name: CppCheck analysis
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install cppcheck
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y cppcheck
+
+    - name: Run cppcheck
+      run: |
+        cppcheck \
+          --enable=warning,style,performance,portability \
+          --std=c++20 \
+          --language=c++ \
+          --suppress=missingIncludeSystem \
+          --suppress=unusedFunction \
+          --inline-suppr \
+          --error-exitcode=0 \
+          --xml \
+          --xml-version=2 \
+          src/ ematch_src/ knapsack_src/ \
+          2> cppcheck-report.xml
+
+    - name: Upload cppcheck results
+      uses: actions/upload-artifact@v4
+      with:
+        name: cppcheck-report
+        path: cppcheck-report.xml
+        retention-days: 30
+
+  # ============================================================================
+  # Include What You Use (IWYU)
+  # ============================================================================
+  iwyu:
+    name: Include-What-You-Use
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          iwyu \
+          libboost-all-dev \
+          cmake \
+          ninja-build
+
+    - name: Configure CMake
+      run: |
+        cmake -B build \
+          -G Ninja \
+          -DCMAKE_BUILD_TYPE=Debug \
+          -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+
+    - name: Run IWYU
+      run: |
+        # Run on a few key files
+        iwyu_tool.py -p build src/FindNeighboursWithQual.cc || true
+      continue-on-error: true
+
+  # ============================================================================
+  # Code Complexity Analysis
+  # ============================================================================
+  complexity:
+    name: Code complexity check
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install lizard
+      run: pip install lizard
+
+    - name: Run complexity analysis
+      run: |
+        lizard src/ ematch_src/ knapsack_src/ \
+          -l cpp \
+          --csv > complexity.csv \
+          || true
+
+        echo "## Complexity Metrics" >> $GITHUB_STEP_SUMMARY
+        lizard src/ ematch_src/ knapsack_src/ -l cpp >> $GITHUB_STEP_SUMMARY || true
+
+    - name: Upload complexity report
+      uses: actions/upload-artifact@v4
+      with:
+        name: complexity-report
+        path: complexity.csv
+        retention-days: 30
+
+  # ============================================================================
+  # Memory Safety Check (if possible without execution)
+  # ============================================================================
+  safety-check:
+    name: Basic safety checks
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Check for common issues
+      run: |
+        echo "Checking for common unsafe patterns..."
+
+        # Check for potential buffer overflows
+        grep -rn "strcpy\|strcat\|sprintf\|gets" src/ ematch_src/ knapsack_src/ || echo "✓ No obvious unsafe C functions"
+
+        # Check for raw pointer new/delete
+        grep -rn "new \|delete " src/ ematch_src/ knapsack_src/ | grep -v "// " || echo "✓ No raw new/delete found"
+
+        echo "Safety check complete"

@@ -1,0 +1,49 @@
+# Auto-labeling configuration for pull requests
+# Labels are applied based on which files are modified
+
+'C++':
+  - '**/*.cc'
+  - '**/*.cpp'
+  - '**/*.h'
+  - '**/*.hh'
+  - '**/*.hpp'
+
+'Python':
+  - '**/*.py'
+  - 'pyproject.toml'
+  - 'requirements.txt'
+
+'Build System':
+  - 'CMakeLists.txt'
+  - '**/CMakeLists.txt'
+  - 'makefile'
+  - '**/makefile'
+  - 'build.sh'
+  - '*.sh'
+
+'Documentation':
+  - '**/*.md'
+  - 'Doxyfile'
+  - 'docs/**/*'
+
+'CI/CD':
+  - '.github/workflows/**/*'
+  - '.github/**/*'
+
+'Tests':
+  - 'tests/**/*'
+  - '**/test/**/*'
+  - '**/*_test.*'
+  - '**/test_*.*'
+
+'Configuration':
+  - '.clang-format'
+  - '.gitignore'
+  - '.ruffignore'
+  - '.editorconfig'
+  - 'pyproject.toml'
+
+'Dependencies':
+  - 'requirements.txt'
+  - 'pyproject.toml'
+  - '**/CMakeLists.txt'
