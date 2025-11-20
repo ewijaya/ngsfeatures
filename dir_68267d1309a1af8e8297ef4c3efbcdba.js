@@ -6,6 +6,7 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "EstimateTrueCount_Capacity.cc", "EstimateTrueCount__Capacity_8cc.html", "EstimateTrueCount__Capacity_8cc" ],
     [ "EstimateTrueCount_EntropyFast.cc", "EstimateTrueCount__EntropyFast_8cc.html", "EstimateTrueCount__EntropyFast_8cc" ],
     [ "EstimateTrueCount_llratio.cc", "EstimateTrueCount__llratio_8cc.html", "EstimateTrueCount__llratio_8cc" ],
+    [ "EstimateTrueCount_optimized.cc", "EstimateTrueCount__optimized_8cc.html", "EstimateTrueCount__optimized_8cc" ],
     [ "FindNeighboursWithQual.cc", "FindNeighboursWithQual_8cc.html", "FindNeighboursWithQual_8cc" ],
     [ "GenerateProportion.cc", "GenerateProportion_8cc.html", "GenerateProportion_8cc" ],
     [ "PickBaseQual.cc", "PickBaseQual_8cc.html", "PickBaseQual_8cc" ],
