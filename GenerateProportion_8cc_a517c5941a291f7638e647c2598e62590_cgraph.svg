@@ -48,7 +48,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="Utilities_8cc.html#a788db92ab5ea8c023e37b399531f1273" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="Utilities_8cc.html#a788db92ab5ea8c023e37b399531f1273" target="_top" xlink:title="Convert numeric ID to DNA tag representation.">
 <polygon fill="white" stroke="#666666" points="160.5,-56 91.5,-56 91.5,-37 160.5,-37 160.5,-56"/>
 <text text-anchor="middle" x="126" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">id2tagnum</text>
 </a>

@@ -124,8 +124,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a9c6d0e665a5d078a368927ae885117e5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="FindNeighboursWithQualJuxt_8cc.html#a9c6d0e665a5d078a368927ae885117e5">prn_vec</a> (const std::vector&lt; T &gt; &amp;arg, string sep=&quot;&quot;)</td></tr>
 <tr class="separator:a9c6d0e665a5d078a368927ae885117e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9bb88af1264a25fd39cf392bf03c7cf" id="r_ab9bb88af1264a25fd39cf392bf03c7cf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FindNeighboursWithQualJuxt_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf">GetBaseNameFromFilename</a> (const std::string &amp;fileName)</td></tr>
+<tr class="memdesc:ab9bb88af1264a25fd39cf392bf03c7cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract base filename from a full file path.  <br /></td></tr>
 <tr class="separator:ab9bb88af1264a25fd39cf392bf03c7cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affc79188d35e92555ba7ec508730dc54" id="r_affc79188d35e92555ba7ec508730dc54"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FindNeighboursWithQualJuxt_8cc.html#affc79188d35e92555ba7ec508730dc54">GetPathNameFromFilename</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:affc79188d35e92555ba7ec508730dc54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract directory path from a full file path.  <br /></td></tr>
 <tr class="separator:affc79188d35e92555ba7ec508730dc54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cf264cdb54b3b9a6efd1bfd3acb2579" id="r_a5cf264cdb54b3b9a6efd1bfd3acb2579"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FindNeighboursWithQualJuxt_8cc.html#a5cf264cdb54b3b9a6efd1bfd3acb2579">Solexa2Phred</a> (double sQ)</td></tr>
 <tr class="separator:a5cf264cdb54b3b9a6efd1bfd3acb2579"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,6 +194,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Extract base filename from a full file path. </p>
+<p>Removes the directory path and file extension, returning only the base name.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fileName</td><td>Full file path (e.g., "/path/to/file.txt") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Base filename without path or extension (e.g., "file")</dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::string path = <span class="stringliteral">&quot;/home/user/data/sequences.fastq&quot;</span>;</div>
+<div class="line">std::string base = <a class="code hl_function" href="Utilities_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf">GetBaseNameFromFilename</a>(path);</div>
+<div class="line"><span class="comment">// base == &quot;sequences&quot;</span></div>
+<div class="ttc" id="aUtilities_8cc_html_ab9bb88af1264a25fd39cf392bf03c7cf"><div class="ttname"><a href="Utilities_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf">GetBaseNameFromFilename</a></div><div class="ttdeci">std::string GetBaseNameFromFilename(const std::string &amp;fileName)</div><div class="ttdoc">Extract base filename from a full file path.</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8cc_source.html#l00012">Utilities.cc:12</a></div></div>
+</div><!-- fragment --> </dd></dl>
+
 <p class="definition">Definition at line <a class="el" href="FindNeighboursWithQualJuxt_8cc_source.html#l00043">43</a> of file <a class="el" href="FindNeighboursWithQualJuxt_8cc_source.html">FindNeighboursWithQualJuxt.cc</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="FindNeighboursWithQualJuxt_8cc_source.html#l00156">main()</a>.</p>
@@ -220,6 +237,21 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Extract directory path from a full file path. </p>
+<p>Returns the directory portion of a file path, excluding the filename.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Full file path (e.g., "/path/to/file.txt") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Directory path with trailing slash (e.g., "/path/to/")</dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::string path = <span class="stringliteral">&quot;/home/user/data/sequences.fastq&quot;</span>;</div>
+<div class="line">std::string dir = <a class="code hl_function" href="Utilities_8cc.html#affc79188d35e92555ba7ec508730dc54">GetPathNameFromFilename</a>(path);</div>
+<div class="line"><span class="comment">// dir == &quot;/home/user/data/&quot;</span></div>
+<div class="ttc" id="aUtilities_8cc_html_affc79188d35e92555ba7ec508730dc54"><div class="ttname"><a href="Utilities_8cc.html#affc79188d35e92555ba7ec508730dc54">GetPathNameFromFilename</a></div><div class="ttdeci">std::string GetPathNameFromFilename(const std::string &amp;filename)</div><div class="ttdoc">Extract directory path from a full file path.</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8cc_source.html#l00023">Utilities.cc:23</a></div></div>
+</div><!-- fragment --> </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="FindNeighboursWithQualJuxt_8cc_source.html#l00054">54</a> of file <a class="el" href="FindNeighboursWithQualJuxt_8cc_source.html">FindNeighboursWithQualJuxt.cc</a>.</p>
 
@@ -670,7 +702,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_2dd633be4375888df4856496b34c13a5.html">ematch_src</a></li><li class="navelem"><a class="el" href="FindNeighboursWithQualJuxt_8cc.html">FindNeighboursWithQualJuxt.cc</a></li>
-    <li class="footer">Generated on Thu Nov 20 2025 07:05:44 for NGSFeatures by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Nov 20 2025 07:18:58 for NGSFeatures by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

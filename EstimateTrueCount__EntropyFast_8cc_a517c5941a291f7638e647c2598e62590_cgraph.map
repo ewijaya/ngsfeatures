@@ -6,7 +6,7 @@
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="31,350,31,301,39,231,48,193,62,155,81,120,106,89,121,78,124,83,110,93,85,123,67,158,53,195,44,232,36,302,36,350"/>
 <area shape="rect" id="Node000004" href="$EstimateTrueCount__EntropyFast_8cc.html#a9a8ba30adfd469ec3c61619eb2993cad" title=" " alt="" coords="125,104,300,129"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="32,350,35,309,45,252,67,191,84,163,106,139,112,134,115,138,110,143,89,166,72,194,50,254,40,310,37,351"/>
-<area shape="rect" id="Node000005" href="$Utilities_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf" title=" " alt="" coords="108,153,317,179"/>
+<area shape="rect" id="Node000005" href="$Utilities_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf" title="Extract base filename from a full file path." alt="" coords="108,153,317,179"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="33,350,39,317,52,273,73,227,88,206,106,188,112,184,115,188,110,192,92,210,78,230,57,275,44,319,38,351"/>
 <area shape="rect" id="Node000006" href="$EstimateTrueCount__EntropyFast_8cc.html#a3c4b2e9c9659506f145b782175babc96" title=" " alt="" coords="143,203,283,228"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="35,349,59,295,80,264,106,237,128,225,131,230,110,241,84,267,64,297,40,352"/>
@@ -18,7 +18,7 @@
 <area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="60,361,96,361,96,366,60,366"/>
 <area shape="rect" id="Node000010" href="$EstimateTrueCount__EntropyFast_8cc.html#aa2585fa46695a172f44f96da34647035" title=" " alt="" coords="150,400,275,425"/>
 <area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="61,370,109,385,144,394,143,399,107,390,59,375"/>
-<area shape="rect" id="Node000011" href="$Utilities_8cc.html#affc79188d35e92555ba7ec508730dc54" title=" " alt="" coords="110,449,315,475"/>
+<area shape="rect" id="Node000011" href="$Utilities_8cc.html#affc79188d35e92555ba7ec508730dc54" title="Extract directory path from a full file path." alt="" coords="110,449,315,475"/>
 <area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="45,375,72,405,109,434,126,442,124,447,107,439,68,409,41,378"/>
 <area shape="rect" id="Node000012" href="$EstimateTrueCount__EntropyFast_8cc.html#acca1e39b66c2f8414f4c27a7c3721980" title=" " alt="" coords="162,499,263,524"/>
 <area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="40,375,64,428,84,459,110,484,128,495,150,502,148,507,126,499,106,488,80,462,59,431,36,377"/>

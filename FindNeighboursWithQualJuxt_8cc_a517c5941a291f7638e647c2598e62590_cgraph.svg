@@ -66,7 +66,7 @@ var sectionId = 'dynsection-4';
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="FindNeighboursWithQualJuxt_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="FindNeighboursWithQualJuxt_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf" target="_top" xlink:title="Extract base filename from a full file path.">
 <polygon fill="white" stroke="#666666" points="246.5,-185 89.5,-185 89.5,-166 246.5,-166 246.5,-185"/>
 <text text-anchor="middle" x="168" y="-173" font-family="Helvetica,sans-Serif" font-size="10.00">GetBaseNameFromFilename</text>
 </a>
@@ -102,7 +102,7 @@ var sectionId = 'dynsection-4';
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="FindNeighboursWithQualJuxt_8cc.html#affc79188d35e92555ba7ec508730dc54" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="FindNeighboursWithQualJuxt_8cc.html#affc79188d35e92555ba7ec508730dc54" target="_top" xlink:title="Extract directory path from a full file path.">
 <polygon fill="white" stroke="#666666" points="245,-111 91,-111 91,-92 245,-92 245,-111"/>
 <text text-anchor="middle" x="168" y="-99" font-family="Helvetica,sans-Serif" font-size="10.00">GetPathNameFromFilename</text>
 </a>

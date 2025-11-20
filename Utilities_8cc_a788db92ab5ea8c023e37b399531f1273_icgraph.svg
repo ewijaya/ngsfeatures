@@ -21,7 +21,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Convert numeric ID to DNA tag representation.">
 <polygon fill="#999999" stroke="#666666" points="146,-19 77,-19 77,0 146,0 146,-19"/>
 <text text-anchor="middle" x="111.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">id2tagnum</text>
 </a>

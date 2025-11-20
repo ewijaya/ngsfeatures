@@ -120,7 +120,7 @@ var sectionId = 'dynsection-9';
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="Utilities_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="Utilities_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf" target="_top" xlink:title="Extract base filename from a full file path.">
 <polygon fill="white" stroke="#666666" points="234,-389 77,-389 77,-370 234,-370 234,-389"/>
 <text text-anchor="middle" x="155.5" y="-377" font-family="Helvetica,sans-Serif" font-size="10.00">GetBaseNameFromFilename</text>
 </a>
@@ -228,7 +228,7 @@ var sectionId = 'dynsection-9';
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="Utilities_8cc.html#affc79188d35e92555ba7ec508730dc54" target="_top" xlink:title=" ">
+<g id="a_Node000011"><a xlink:href="Utilities_8cc.html#affc79188d35e92555ba7ec508730dc54" target="_top" xlink:title="Extract directory path from a full file path.">
 <polygon fill="white" stroke="#666666" points="232.5,-167 78.5,-167 78.5,-148 232.5,-148 232.5,-167"/>
 <text text-anchor="middle" x="155.5" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">GetPathNameFromFilename</text>
 </a>

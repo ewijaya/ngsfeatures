@@ -95,17 +95,20 @@ $(document).ready(function(){initNavTree('Utilities_8hh.html',''); initResizable
   <div class="headertitle"><div class="title">Utilities.hh File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;string&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;iostream&gt;</code><br />
+
+<p>Utility functions for NGS sequence processing and DNA manipulation.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;cstdlib&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for Utilities.hh:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="Utilities_8hh__incl.svg" width="427" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="Utilities_8hh__incl.svg" width="426" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
@@ -120,35 +123,60 @@ $(document).ready(function(){initNavTree('Utilities_8hh.html',''); initResizable
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ab9bb88af1264a25fd39cf392bf03c7cf" id="r_ab9bb88af1264a25fd39cf392bf03c7cf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utilities_8hh.html#ab9bb88af1264a25fd39cf392bf03c7cf">GetBaseNameFromFilename</a> (const std::string &amp;fileName)</td></tr>
+<tr class="memdesc:ab9bb88af1264a25fd39cf392bf03c7cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract base filename from a full file path.  <br /></td></tr>
 <tr class="separator:ab9bb88af1264a25fd39cf392bf03c7cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affc79188d35e92555ba7ec508730dc54" id="r_affc79188d35e92555ba7ec508730dc54"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utilities_8hh.html#affc79188d35e92555ba7ec508730dc54">GetPathNameFromFilename</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:affc79188d35e92555ba7ec508730dc54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract directory path from a full file path.  <br /></td></tr>
 <tr class="separator:affc79188d35e92555ba7ec508730dc54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0060ea3e18416f8a8c253f576e3bc003" id="r_a0060ea3e18416f8a8c253f576e3bc003"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utilities_8hh.html#a0060ea3e18416f8a8c253f576e3bc003">id2tagnum</a> (int id, int tgl)</td></tr>
+<tr class="memdesc:a0060ea3e18416f8a8c253f576e3bc003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert numeric ID to DNA tag representation.  <br /></td></tr>
 <tr class="separator:a0060ea3e18416f8a8c253f576e3bc003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b118b9f784f2b1c356ca3bb832c3a9e" id="r_a4b118b9f784f2b1c356ca3bb832c3a9e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utilities_8hh.html#a4b118b9f784f2b1c356ca3bb832c3a9e">acgt2tagnum</a> (const std::string &amp;arg)</td></tr>
+<tr class="memdesc:a4b118b9f784f2b1c356ca3bb832c3a9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert ACGT string to numeric representation.  <br /></td></tr>
 <tr class="separator:a4b118b9f784f2b1c356ca3bb832c3a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27addec122e6d087da4ffc41c21b922e" id="r_a27addec122e6d087da4ffc41c21b922e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utilities_8hh.html#a27addec122e6d087da4ffc41c21b922e">tagnum2acgt</a> (const std::vector&lt; int &gt; &amp;arg)</td></tr>
+<tr class="memdesc:a27addec122e6d087da4ffc41c21b922e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert numeric representation back to ACGT characters.  <br /></td></tr>
 <tr class="separator:a27addec122e6d087da4ffc41c21b922e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a762317addaa2d4ecaf5a554b4b97d078" id="r_a762317addaa2d4ecaf5a554b4b97d078"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a762317addaa2d4ecaf5a554b4b97d078"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="Utilities_8hh.html#a762317addaa2d4ecaf5a554b4b97d078">prn_vec_oneval</a> (const std::vector&lt; T &gt; &amp;arg, const std::string &amp;sep=&quot;&quot;, unsigned lim=0)</td></tr>
+<tr class="memdesc:a762317addaa2d4ecaf5a554b4b97d078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print single value from vector at specified index.  <br /></td></tr>
 <tr class="separator:a762317addaa2d4ecaf5a554b4b97d078"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bae6a5dff9d1108748accf4731ceacc" id="r_a6bae6a5dff9d1108748accf4731ceacc"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a6bae6a5dff9d1108748accf4731ceacc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="Utilities_8hh.html#a6bae6a5dff9d1108748accf4731ceacc">prn_vec</a> (const std::vector&lt; T &gt; &amp;arg, const std::string &amp;sep=&quot;&quot;)</td></tr>
+<tr class="memdesc:a6bae6a5dff9d1108748accf4731ceacc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print all elements of a vector to stdout.  <br /></td></tr>
 <tr class="separator:a6bae6a5dff9d1108748accf4731ceacc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd7cde523013019fa561e35e46bf3533" id="r_abd7cde523013019fa561e35e46bf3533"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:abd7cde523013019fa561e35e46bf3533"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="Utilities_8hh.html#abd7cde523013019fa561e35e46bf3533">prn_vec_binos</a> (const std::vector&lt; T &gt; &amp;arg, std::ostream &amp;fn, const std::string &amp;sep=&quot;&quot;)</td></tr>
+<tr class="memdesc:abd7cde523013019fa561e35e46bf3533"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print vector elements to a specified output stream.  <br /></td></tr>
 <tr class="separator:abd7cde523013019fa561e35e46bf3533"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c53155b8d9b5383125d5a83beaa28f3" id="r_a8c53155b8d9b5383125d5a83beaa28f3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a8c53155b8d9b5383125d5a83beaa28f3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="Utilities_8hh.html#a8c53155b8d9b5383125d5a83beaa28f3">prn_vec_err</a> (const std::vector&lt; T &gt; &amp;arg, const std::string &amp;sep=&quot;&quot;)</td></tr>
+<tr class="memdesc:a8c53155b8d9b5383125d5a83beaa28f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print vector elements to stderr.  <br /></td></tr>
 <tr class="separator:a8c53155b8d9b5383125d5a83beaa28f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c74cfe67d499bd94c0d91f2f2a0c279" id="r_a6c74cfe67d499bd94c0d91f2f2a0c279"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
 <tr class="memitem:a6c74cfe67d499bd94c0d91f2f2a0c279"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="Utilities_8hh.html#a6c74cfe67d499bd94c0d91f2f2a0c279">prn_map</a> (const std::map&lt; T1, T2 &gt; &amp;arg, const std::string &amp;sep=&quot;&quot;)</td></tr>
+<tr class="memdesc:a6c74cfe67d499bd94c0d91f2f2a0c279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print all key-value pairs from a map.  <br /></td></tr>
 <tr class="separator:a6c74cfe67d499bd94c0d91f2f2a0c279"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7e2597a3234ce3c5d49b65f68bc5992" id="r_ae7e2597a3234ce3c5d49b65f68bc5992"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ae7e2597a3234ce3c5d49b65f68bc5992"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="Utilities_8hh.html#ae7e2597a3234ce3c5d49b65f68bc5992">prnf_vec</a> (const std::vector&lt; T &gt; &amp;arg)</td></tr>
+<tr class="memdesc:ae7e2597a3234ce3c5d49b65f68bc5992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print vector of floating-point numbers with fixed precision.  <br /></td></tr>
 <tr class="separator:ae7e2597a3234ce3c5d49b65f68bc5992"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Utility functions for NGS sequence processing and DNA manipulation. </p>
+<p>This header provides core utility functions for:</p><ul>
+<li>File path operations</li>
+<li>DNA sequence conversions (ACGT &lt;-&gt; numeric)</li>
+<li>Vector and map printing utilities</li>
+<li>Template-based generic printing functions</li>
+</ul>
+<dl class="section note"><dt>Note</dt><dd>IMPORTANT: This is a header file. Never use 'using namespace std;' in headers! It pollutes the namespace of all files that include this header. All standard library types use explicit std:: prefix.</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Edward Wijaya </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2009-2025 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright 2009-2025, NGSFeatures Project </dd></dl>
+
+<p class="definition">Definition in file <a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a4b118b9f784f2b1c356ca3bb832c3a9e" name="a4b118b9f784f2b1c356ca3bb832c3a9e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b118b9f784f2b1c356ca3bb832c3a9e">&#9670;&#160;</a></span>acgt2tagnum()</h2>
 
@@ -164,6 +192,21 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Convert ACGT string to numeric representation. </p>
+<p>Converts DNA sequence string (ACGT) to vector of integers. Mapping: A=0, C=1, G=2, T=3</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>DNA sequence string (e.g., "ACGT") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of integers representing each base</dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::string seq = <span class="stringliteral">&quot;ACGT&quot;</span>;</div>
+<div class="line">std::vector&lt;int&gt; nums = <a class="code hl_function" href="Utilities_8cc.html#adfd34ea43a80b9839732410af2cefd68">acgt2tagnum</a>(seq);</div>
+<div class="line"><span class="comment">// nums == {0, 1, 2, 3}</span></div>
+<div class="ttc" id="aUtilities_8cc_html_adfd34ea43a80b9839732410af2cefd68"><div class="ttname"><a href="Utilities_8cc.html#adfd34ea43a80b9839732410af2cefd68">acgt2tagnum</a></div><div class="ttdeci">vector&lt; int &gt; acgt2tagnum(string arg)</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8cc_source.html#l00058">Utilities.cc:58</a></div></div>
+</div><!-- fragment --> </dd></dl>
 
 </div>
 </div>
@@ -182,6 +225,21 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Extract base filename from a full file path. </p>
+<p>Removes the directory path and file extension, returning only the base name.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fileName</td><td>Full file path (e.g., "/path/to/file.txt") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Base filename without path or extension (e.g., "file")</dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::string path = <span class="stringliteral">&quot;/home/user/data/sequences.fastq&quot;</span>;</div>
+<div class="line">std::string base = <a class="code hl_function" href="Utilities_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf">GetBaseNameFromFilename</a>(path);</div>
+<div class="line"><span class="comment">// base == &quot;sequences&quot;</span></div>
+<div class="ttc" id="aUtilities_8cc_html_ab9bb88af1264a25fd39cf392bf03c7cf"><div class="ttname"><a href="Utilities_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf">GetBaseNameFromFilename</a></div><div class="ttdeci">std::string GetBaseNameFromFilename(const std::string &amp;fileName)</div><div class="ttdoc">Extract base filename from a full file path.</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8cc_source.html#l00012">Utilities.cc:12</a></div></div>
+</div><!-- fragment --> </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="Utilities_8cc_source.html#l00012">12</a> of file <a class="el" href="Utilities_8cc_source.html">Utilities.cc</a>.</p>
 
@@ -211,6 +269,21 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Extract directory path from a full file path. </p>
+<p>Returns the directory portion of a file path, excluding the filename.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Full file path (e.g., "/path/to/file.txt") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Directory path with trailing slash (e.g., "/path/to/")</dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::string path = <span class="stringliteral">&quot;/home/user/data/sequences.fastq&quot;</span>;</div>
+<div class="line">std::string dir = <a class="code hl_function" href="Utilities_8cc.html#affc79188d35e92555ba7ec508730dc54">GetPathNameFromFilename</a>(path);</div>
+<div class="line"><span class="comment">// dir == &quot;/home/user/data/&quot;</span></div>
+<div class="ttc" id="aUtilities_8cc_html_affc79188d35e92555ba7ec508730dc54"><div class="ttname"><a href="Utilities_8cc.html#affc79188d35e92555ba7ec508730dc54">GetPathNameFromFilename</a></div><div class="ttdeci">std::string GetPathNameFromFilename(const std::string &amp;filename)</div><div class="ttdoc">Extract directory path from a full file path.</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8cc_source.html#l00023">Utilities.cc:23</a></div></div>
+</div><!-- fragment --> </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="Utilities_8cc_source.html#l00023">23</a> of file <a class="el" href="Utilities_8cc_source.html">Utilities.cc</a>.</p>
 
@@ -250,6 +323,21 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Convert numeric ID to DNA tag representation. </p>
+<p>Converts a numeric identifier to its corresponding DNA sequence representation as a vector of integers (A=0, C=1, G=2, T=3).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Numeric identifier to convert </td></tr>
+    <tr><td class="paramname">tgl</td><td>Tag length (sequence length) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of integers representing DNA bases</dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::vector&lt;int&gt; tag = <a class="code hl_function" href="Utilities_8cc.html#a788db92ab5ea8c023e37b399531f1273">id2tagnum</a>(5, 3);</div>
+<div class="line"><span class="comment">// Returns numeric representation of DNA sequence</span></div>
+<div class="ttc" id="aUtilities_8cc_html_a788db92ab5ea8c023e37b399531f1273"><div class="ttname"><a href="Utilities_8cc.html#a788db92ab5ea8c023e37b399531f1273">id2tagnum</a></div><div class="ttdeci">vector&lt; int &gt; id2tagnum(int id, int tgl)</div><div class="ttdoc">Convert numeric ID to DNA tag representation.</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8cc_source.html#l00079">Utilities.cc:79</a></div></div>
+</div><!-- fragment --> </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="Utilities_8cc_source.html#l00079">79</a> of file <a class="el" href="Utilities_8cc_source.html">Utilities.cc</a>.</p>
 
@@ -292,7 +380,28 @@ template&lt;typename T1 , typename T2 &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Utilities_8hh_source.html#l00063">63</a> of file <a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>.</p>
+<p>Print all key-value pairs from a map. </p>
+<p>Prints map contents in "key-&gt;value" format with optional separator.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T1</td><td>Key type (must support operator&lt;&lt;) </td></tr>
+    <tr><td class="paramname">T2</td><td>Value type (must support operator&lt;&lt;) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>Map to print </td></tr>
+    <tr><td class="paramname">sep</td><td>Separator string between pairs (default: "")</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::map&lt;std::string, int&gt; m = {{<span class="stringliteral">&quot;A&quot;</span>, 1}, {<span class="stringliteral">&quot;C&quot;</span>, 2}};</div>
+<div class="line"><a class="code hl_function" href="Utilities_8hh.html#a6c74cfe67d499bd94c0d91f2f2a0c279">prn_map</a>(m, <span class="stringliteral">&quot; &quot;</span>);  <span class="comment">// Prints: A-&gt;1 C-&gt;2</span></div>
+<div class="ttc" id="aUtilities_8hh_html_a6c74cfe67d499bd94c0d91f2f2a0c279"><div class="ttname"><a href="Utilities_8hh.html#a6c74cfe67d499bd94c0d91f2f2a0c279">prn_map</a></div><div class="ttdeci">void prn_map(const std::map&lt; T1, T2 &gt; &amp;arg, const std::string &amp;sep=&quot;&quot;)</div><div class="ttdoc">Print all key-value pairs from a map.</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8hh_source.html#l00228">Utilities.hh:228</a></div></div>
+</div><!-- fragment --> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Utilities_8hh_source.html#l00228">228</a> of file <a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>.</p>
 
 </div>
 </div>
@@ -324,7 +433,27 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Utilities_8hh_source.html#l00037">37</a> of file <a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>.</p>
+<p>Print all elements of a vector to stdout. </p>
+<p>Generic template function to print vector elements with optional separator.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Element type (must support operator&lt;&lt;) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>Vector to print </td></tr>
+    <tr><td class="paramname">sep</td><td>Separator string between elements (default: "")</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::vector&lt;int&gt; vec = {1, 2, 3, 4, 5};</div>
+<div class="line"><a class="code hl_function" href="AverageTagsQuals__27_8cc.html#a2ccce2d919d7576688a7cfe6e50d4b64">prn_vec</a>(vec, <span class="stringliteral">&quot;, &quot;</span>);  <span class="comment">// Prints: 1, 2, 3, 4, 5,</span></div>
+<div class="ttc" id="aAverageTagsQuals__27_8cc_html_a2ccce2d919d7576688a7cfe6e50d4b64"><div class="ttname"><a href="AverageTagsQuals__27_8cc.html#a2ccce2d919d7576688a7cfe6e50d4b64">prn_vec</a></div><div class="ttdeci">void prn_vec(std::vector&lt; t &gt; &amp;arg, string sep=&quot;&quot;)</div><div class="ttdef"><b>Definition</b> <a href="AverageTagsQuals__27_8cc_source.html#l00019">AverageTagsQuals_27.cc:19</a></div></div>
+</div><!-- fragment --> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Utilities_8hh_source.html#l00159">159</a> of file <a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>.</p>
 
 </div>
 </div>
@@ -362,7 +491,29 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Utilities_8hh_source.html#l00045">45</a> of file <a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>.</p>
+<p>Print vector elements to a specified output stream. </p>
+<p>Generic template function to print vector to any output stream (file, cout, etc.).</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Element type (must support operator&lt;&lt;) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>Vector to print </td></tr>
+    <tr><td class="paramname">fn</td><td>Output stream to write to </td></tr>
+    <tr><td class="paramname">sep</td><td>Separator string between elements (default: "")</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::ofstream file(<span class="stringliteral">&quot;output.txt&quot;</span>);</div>
+<div class="line">std::vector&lt;double&gt; vec = {1.5, 2.5, 3.5};</div>
+<div class="line"><a class="code hl_function" href="Utilities_8hh.html#abd7cde523013019fa561e35e46bf3533">prn_vec_binos</a>(vec, file, <span class="stringliteral">&quot;\n&quot;</span>);  <span class="comment">// Write to file with newlines</span></div>
+<div class="ttc" id="aUtilities_8hh_html_abd7cde523013019fa561e35e46bf3533"><div class="ttname"><a href="Utilities_8hh.html#abd7cde523013019fa561e35e46bf3533">prn_vec_binos</a></div><div class="ttdeci">void prn_vec_binos(const std::vector&lt; T &gt; &amp;arg, std::ostream &amp;fn, const std::string &amp;sep=&quot;&quot;)</div><div class="ttdoc">Print vector elements to a specified output stream.</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8hh_source.html#l00183">Utilities.hh:183</a></div></div>
+</div><!-- fragment --> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Utilities_8hh_source.html#l00183">183</a> of file <a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>.</p>
 
 </div>
 </div>
@@ -394,7 +545,27 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Utilities_8hh_source.html#l00054">54</a> of file <a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>.</p>
+<p>Print vector elements to stderr. </p>
+<p>Prints vector elements to standard error stream, useful for debugging and logging.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Element type (must support operator&lt;&lt;) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>Vector to print </td></tr>
+    <tr><td class="paramname">sep</td><td>Separator string between elements (default: "")</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::vector&lt;std::string&gt; errors = {<span class="stringliteral">&quot;Error1&quot;</span>, <span class="stringliteral">&quot;Error2&quot;</span>};</div>
+<div class="line"><a class="code hl_function" href="Utilities_8hh.html#a8c53155b8d9b5383125d5a83beaa28f3">prn_vec_err</a>(errors, <span class="stringliteral">&quot;\n&quot;</span>);  <span class="comment">// Print errors to stderr</span></div>
+<div class="ttc" id="aUtilities_8hh_html_a8c53155b8d9b5383125d5a83beaa28f3"><div class="ttname"><a href="Utilities_8hh.html#a8c53155b8d9b5383125d5a83beaa28f3">prn_vec_err</a></div><div class="ttdeci">void prn_vec_err(const std::vector&lt; T &gt; &amp;arg, const std::string &amp;sep=&quot;&quot;)</div><div class="ttdoc">Print vector elements to stderr.</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8hh_source.html#l00205">Utilities.hh:205</a></div></div>
+</div><!-- fragment --> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Utilities_8hh_source.html#l00205">205</a> of file <a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>.</p>
 
 </div>
 </div>
@@ -432,7 +603,28 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Utilities_8hh_source.html#l00027">27</a> of file <a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>.</p>
+<p>Print single value from vector at specified index. </p>
+<p>Prints one or two elements from a vector at the specified limit index.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Element type (must support operator&lt;&lt;) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>Vector to print from </td></tr>
+    <tr><td class="paramname">sep</td><td>Separator string (default: "") </td></tr>
+    <tr><td class="paramname">lim</td><td>Index to print (prints elements at lim and lim+1)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::vector&lt;int&gt; vec = {1, 2, 3, 4, 5};</div>
+<div class="line"><a class="code hl_function" href="Utilities_8hh.html#a762317addaa2d4ecaf5a554b4b97d078">prn_vec_oneval</a>(vec, <span class="stringliteral">&quot; &quot;</span>, 2);  <span class="comment">// Prints: 3 4</span></div>
+<div class="ttc" id="aUtilities_8hh_html_a762317addaa2d4ecaf5a554b4b97d078"><div class="ttname"><a href="Utilities_8hh.html#a762317addaa2d4ecaf5a554b4b97d078">prn_vec_oneval</a></div><div class="ttdeci">void prn_vec_oneval(const std::vector&lt; T &gt; &amp;arg, const std::string &amp;sep=&quot;&quot;, unsigned lim=0)</div><div class="ttdoc">Print single value from vector at specified index.</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8hh_source.html#l00135">Utilities.hh:135</a></div></div>
+</div><!-- fragment --> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Utilities_8hh_source.html#l00135">135</a> of file <a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>.</p>
 
 </div>
 </div>
@@ -454,7 +646,26 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Utilities_8hh_source.html#l00071">71</a> of file <a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>.</p>
+<p>Print vector of floating-point numbers with fixed precision. </p>
+<p>Prints floating-point vector elements using printf with 7 decimal places.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Numeric type (typically double or float) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>Vector of numeric values to print</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::vector&lt;double&gt; values = {1.234567, 2.345678, 3.456789};</div>
+<div class="line"><a class="code hl_function" href="Utilities_8hh.html#ae7e2597a3234ce3c5d49b65f68bc5992">prnf_vec</a>(values);  <span class="comment">// Prints: 1.2345670 2.3456780 3.4567890</span></div>
+<div class="ttc" id="aUtilities_8hh_html_ae7e2597a3234ce3c5d49b65f68bc5992"><div class="ttname"><a href="Utilities_8hh.html#ae7e2597a3234ce3c5d49b65f68bc5992">prnf_vec</a></div><div class="ttdeci">void prnf_vec(const std::vector&lt; T &gt; &amp;arg)</div><div class="ttdoc">Print vector of floating-point numbers with fixed precision.</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8hh_source.html#l00249">Utilities.hh:249</a></div></div>
+</div><!-- fragment --> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Utilities_8hh_source.html#l00249">249</a> of file <a class="el" href="Utilities_8hh_source.html">Utilities.hh</a>.</p>
 
 </div>
 </div>
@@ -474,6 +685,21 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Convert numeric representation back to ACGT characters. </p>
+<p>Converts vector of integers back to DNA sequence characters. Mapping: 0=A, 1=C, 2=G, 3=T</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>Vector of integers representing DNA bases </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of characters (ACGT)</dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::vector&lt;int&gt; nums = {0, 1, 2, 3};</div>
+<div class="line">std::vector&lt;char&gt; seq = <a class="code hl_function" href="Utilities_8cc.html#a1f4462946d560ad06bdac232bccd1fb0">tagnum2acgt</a>(nums);</div>
+<div class="line"><span class="comment">// seq == {&#39;A&#39;, &#39;C&#39;, &#39;G&#39;, &#39;T&#39;}</span></div>
+<div class="ttc" id="aUtilities_8cc_html_a1f4462946d560ad06bdac232bccd1fb0"><div class="ttname"><a href="Utilities_8cc.html#a1f4462946d560ad06bdac232bccd1fb0">tagnum2acgt</a></div><div class="ttdeci">vector&lt; char &gt; tagnum2acgt(vector&lt; int &gt;arg)</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8cc_source.html#l00042">Utilities.cc:42</a></div></div>
+</div><!-- fragment --> </dd></dl>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -482,7 +708,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="Utilities_8hh.html">Utilities.hh</a></li>
-    <li class="footer">Generated on Thu Nov 20 2025 07:05:44 for NGSFeatures by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Nov 20 2025 07:18:59 for NGSFeatures by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

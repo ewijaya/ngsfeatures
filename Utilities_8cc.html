@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('Utilities_8cc.html',''); initResizable
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="Utilities_8cc__incl.svg" width="479" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="Utilities_8cc__incl.svg" width="488" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="Utilities_8cc_source.html">Go to the source code of this file.</a></p>
@@ -115,14 +115,17 @@ $(document).ready(function(){initNavTree('Utilities_8cc.html',''); initResizable
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ab9bb88af1264a25fd39cf392bf03c7cf" id="r_ab9bb88af1264a25fd39cf392bf03c7cf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utilities_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf">GetBaseNameFromFilename</a> (const std::string &amp;fileName)</td></tr>
+<tr class="memdesc:ab9bb88af1264a25fd39cf392bf03c7cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract base filename from a full file path.  <br /></td></tr>
 <tr class="separator:ab9bb88af1264a25fd39cf392bf03c7cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affc79188d35e92555ba7ec508730dc54" id="r_affc79188d35e92555ba7ec508730dc54"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utilities_8cc.html#affc79188d35e92555ba7ec508730dc54">GetPathNameFromFilename</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:affc79188d35e92555ba7ec508730dc54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract directory path from a full file path.  <br /></td></tr>
 <tr class="separator:affc79188d35e92555ba7ec508730dc54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f4462946d560ad06bdac232bccd1fb0" id="r_a1f4462946d560ad06bdac232bccd1fb0"><td class="memItemLeft" align="right" valign="top">vector&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utilities_8cc.html#a1f4462946d560ad06bdac232bccd1fb0">tagnum2acgt</a> (vector&lt; int &gt;arg)</td></tr>
 <tr class="separator:a1f4462946d560ad06bdac232bccd1fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfd34ea43a80b9839732410af2cefd68" id="r_adfd34ea43a80b9839732410af2cefd68"><td class="memItemLeft" align="right" valign="top">vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utilities_8cc.html#adfd34ea43a80b9839732410af2cefd68">acgt2tagnum</a> (string arg)</td></tr>
 <tr class="separator:adfd34ea43a80b9839732410af2cefd68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a788db92ab5ea8c023e37b399531f1273" id="r_a788db92ab5ea8c023e37b399531f1273"><td class="memItemLeft" align="right" valign="top">vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Utilities_8cc.html#a788db92ab5ea8c023e37b399531f1273">id2tagnum</a> (int id, int tgl)</td></tr>
+<tr class="memdesc:a788db92ab5ea8c023e37b399531f1273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert numeric ID to DNA tag representation.  <br /></td></tr>
 <tr class="separator:a788db92ab5ea8c023e37b399531f1273"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -162,6 +165,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Extract base filename from a full file path. </p>
+<p>Removes the directory path and file extension, returning only the base name.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fileName</td><td>Full file path (e.g., "/path/to/file.txt") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Base filename without path or extension (e.g., "file")</dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::string path = <span class="stringliteral">&quot;/home/user/data/sequences.fastq&quot;</span>;</div>
+<div class="line">std::string base = <a class="code hl_function" href="Utilities_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf">GetBaseNameFromFilename</a>(path);</div>
+<div class="line"><span class="comment">// base == &quot;sequences&quot;</span></div>
+<div class="ttc" id="aUtilities_8cc_html_ab9bb88af1264a25fd39cf392bf03c7cf"><div class="ttname"><a href="Utilities_8cc.html#ab9bb88af1264a25fd39cf392bf03c7cf">GetBaseNameFromFilename</a></div><div class="ttdeci">std::string GetBaseNameFromFilename(const std::string &amp;fileName)</div><div class="ttdoc">Extract base filename from a full file path.</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8cc_source.html#l00012">Utilities.cc:12</a></div></div>
+</div><!-- fragment --> </dd></dl>
+
 <p class="definition">Definition at line <a class="el" href="Utilities_8cc_source.html#l00012">12</a> of file <a class="el" href="Utilities_8cc_source.html">Utilities.cc</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="EstimateTrueCount_8cc_source.html#l00228">main()</a>.</p>
@@ -190,6 +208,21 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Extract directory path from a full file path. </p>
+<p>Returns the directory portion of a file path, excluding the filename.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Full file path (e.g., "/path/to/file.txt") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Directory path with trailing slash (e.g., "/path/to/")</dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::string path = <span class="stringliteral">&quot;/home/user/data/sequences.fastq&quot;</span>;</div>
+<div class="line">std::string dir = <a class="code hl_function" href="Utilities_8cc.html#affc79188d35e92555ba7ec508730dc54">GetPathNameFromFilename</a>(path);</div>
+<div class="line"><span class="comment">// dir == &quot;/home/user/data/&quot;</span></div>
+<div class="ttc" id="aUtilities_8cc_html_affc79188d35e92555ba7ec508730dc54"><div class="ttname"><a href="Utilities_8cc.html#affc79188d35e92555ba7ec508730dc54">GetPathNameFromFilename</a></div><div class="ttdeci">std::string GetPathNameFromFilename(const std::string &amp;filename)</div><div class="ttdoc">Extract directory path from a full file path.</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8cc_source.html#l00023">Utilities.cc:23</a></div></div>
+</div><!-- fragment --> </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="Utilities_8cc_source.html#l00023">23</a> of file <a class="el" href="Utilities_8cc_source.html">Utilities.cc</a>.</p>
 
@@ -230,6 +263,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Convert numeric ID to DNA tag representation. </p>
+<p>Converts a numeric identifier to its corresponding DNA sequence representation as a vector of integers (A=0, C=1, G=2, T=3).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Numeric identifier to convert </td></tr>
+    <tr><td class="paramname">tgl</td><td>Tag length (sequence length) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of integers representing DNA bases</dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line">std::vector&lt;int&gt; tag = <a class="code hl_function" href="Utilities_8cc.html#a788db92ab5ea8c023e37b399531f1273">id2tagnum</a>(5, 3);</div>
+<div class="line"><span class="comment">// Returns numeric representation of DNA sequence</span></div>
+<div class="ttc" id="aUtilities_8cc_html_a788db92ab5ea8c023e37b399531f1273"><div class="ttname"><a href="Utilities_8cc.html#a788db92ab5ea8c023e37b399531f1273">id2tagnum</a></div><div class="ttdeci">vector&lt; int &gt; id2tagnum(int id, int tgl)</div><div class="ttdoc">Convert numeric ID to DNA tag representation.</div><div class="ttdef"><b>Definition</b> <a href="Utilities_8cc_source.html#l00079">Utilities.cc:79</a></div></div>
+</div><!-- fragment --> </dd></dl>
+
 <p class="definition">Definition at line <a class="el" href="Utilities_8cc_source.html#l00079">79</a> of file <a class="el" href="Utilities_8cc_source.html">Utilities.cc</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="GenerateProportion_8cc_source.html#l00044">main()</a>.</p>
@@ -269,7 +317,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="Utilities_8cc.html">Utilities.cc</a></li>
-    <li class="footer">Generated on Thu Nov 20 2025 07:05:44 for NGSFeatures by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Thu Nov 20 2025 07:18:59 for NGSFeatures by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
