@@ -1,0 +1,84 @@
+# Docker Compose configuration for NGSFeatures
+version: '3.8'
+
+services:
+  # Runtime service - minimal production environment
+  ngsfeatures:
+    build:
+      context: .
+      target: runtime
+      dockerfile: Dockerfile
+    image: ngsfeatures:latest
+    container_name: ngsfeatures-runtime
+    volumes:
+      - ./data:/data:ro
+      - ./output:/output
+    working_dir: /app
+    command: /bin/bash
+    stdin_open: true
+    tty: true
+
+  # Development service - full development environment
+  ngsfeatures-dev:
+    build:
+      context: .
+      target: development
+      dockerfile: Dockerfile
+    image: ngsfeatures:dev
+    container_name: ngsfeatures-dev
+    volumes:
+      - .:/build
+      - ngsfeatures-build:/build/build
+    working_dir: /build
+    command: /bin/bash
+    stdin_open: true
+    tty: true
+    environment:
+      - CMAKE_BUILD_TYPE=Debug
+      - ENABLE_COVERAGE=ON
+
+  # Benchmarking service - for performance testing
+  ngsfeatures-bench:
+    build:
+      context: .
+      target: runtime
+      dockerfile: Dockerfile
+    image: ngsfeatures:latest
+    container_name: ngsfeatures-bench
+    volumes:
+      - ./benchmarks:/benchmarks:ro
+      - ./results:/results
+    working_dir: /app
+    command: /app/bin/benchmark_em
+    cpus: '4.0'
+    mem_limit: 8g
+
+volumes:
+  ngsfeatures-build:
+    driver: local
+
+# ============================================================================
+# Usage Examples:
+#
+# Start runtime environment:
+#   docker-compose run --rm ngsfeatures
+#
+# Start development environment:
+#   docker-compose run --rm ngsfeatures-dev
+#
+# Run benchmarks:
+#   docker-compose run --rm ngsfeatures-bench
+#
+# Build all images:
+#   docker-compose build
+#
+# Run tests in development container:
+#   docker-compose run --rm ngsfeatures-dev bash -c "cd build && ctest"
+#
+# Interactive development:
+#   docker-compose run --rm ngsfeatures-dev
+#   # Inside container:
+#   cmake -B build -DCMAKE_BUILD_TYPE=Debug
+#   cmake --build build
+#   ctest --test-dir build
+# ============================================================================
