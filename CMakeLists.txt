@@ -124,7 +124,7 @@ add_subdirectory(knapsack_src)
 if(BUILD_TESTS)
     enable_testing()
     message(STATUS "Building tests: ENABLED")
-    # Test subdirectories will be added here
+    add_subdirectory(tests)
 endif()
 
 # ============================================================================
