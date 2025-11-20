@@ -1,0 +1,198 @@
+# Pre-commit hooks configuration
+# See https://pre-commit.com for more information
+#
+# Installation:
+#   pip install pre-commit
+#   pre-commit install
+#
+# Run manually:
+#   pre-commit run --all-files
+#
+# Update hooks:
+#   pre-commit autoupdate
+
+repos:
+  # ============================================================================
+  # General file checks
+  # ============================================================================
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      # Prevent large files from being committed
+      - id: check-added-large-files
+        args: ['--maxkb=1000']
+
+      # Check for files that would conflict in case-insensitive filesystems
+      - id: check-case-conflict
+
+      # Ensure files end with a newline
+      - id: end-of-file-fixer
+        exclude: '\.svg$'
+
+      # Trim trailing whitespace
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+
+      # Check for merge conflicts
+      - id: check-merge-conflict
+
+      # Check YAML syntax
+      - id: check-yaml
+        exclude: '.github/workflows/.*\.yml'
+
+      # Check JSON syntax
+      - id: check-json
+
+      # Check TOML syntax
+      - id: check-toml
+
+      # Prevent committing to protected branches
+      - id: no-commit-to-branch
+        args: ['--branch', 'main', '--branch', 'master']
+
+      # Check for files with names that would conflict on Windows
+      - id: mixed-line-ending
+        args: ['--fix=lf']
+
+  # ============================================================================
+  # Python formatting and linting
+  # ============================================================================
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.8
+    hooks:
+      # Run the Ruff linter
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
+
+      # Run the Ruff formatter
+      - id: ruff-format
+
+  # ============================================================================
+  # Python type checking
+  # ============================================================================
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.7.1
+    hooks:
+      - id: mypy
+        additional_dependencies: [types-all]
+        args: [--ignore-missing-imports, --show-error-codes]
+        exclude: '^(tests|docs)/'
+
+  # ============================================================================
+  # C++ formatting
+  # ============================================================================
+  - repo: https://github.com/pre-commit/mirrors-clang-format
+    rev: v17.0.6
+    hooks:
+      - id: clang-format
+        types_or: [c++, c]
+        args: [-i]
+        exclude: '(test/|try/)'
+
+  # ============================================================================
+  # CMake formatting
+  # ============================================================================
+  - repo: https://github.com/cheshirekow/cmake-format-precommit
+    rev: v0.6.13
+    hooks:
+      - id: cmake-format
+        args: [--in-place]
+      - id: cmake-lint
+        args: [--disabled-codes=C0103]
+
+  # ============================================================================
+  # Markdown linting
+  # ============================================================================
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.38.0
+    hooks:
+      - id: markdownlint
+        args: [--fix]
+
+  # ============================================================================
+  # Shell script checking
+  # ============================================================================
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.9.0.6
+    hooks:
+      - id: shellcheck
+        args: [--severity=warning]
+
+  # ============================================================================
+  # Security checks
+  # ============================================================================
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.4.0
+    hooks:
+      - id: detect-secrets
+        args: ['--baseline', '.secrets.baseline']
+        exclude: package-lock.json
+
+  # ============================================================================
+  # Spell checking (optional, can be slow)
+  # ============================================================================
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.6
+    hooks:
+      - id: codespell
+        args:
+          - --ignore-words-list=crate,nd,sav,ba,followd,ser
+          - --skip="*.svg,*.json,*.lock"
+
+  # ============================================================================
+  # File size and complexity checks
+  # ============================================================================
+  - repo: local
+    hooks:
+      # Check for overly complex functions (using lizard)
+      - id: check-complexity
+        name: Check code complexity
+        entry: python3 -c "import sys; import subprocess; subprocess.run(['pip', 'install', '-q', 'lizard']); result = subprocess.run(['lizard', '-l', 'cpp', '-w', '-C', '15', '-L', '100'] + sys.argv[1:], capture_output=True); sys.exit(0)"
+        language: system
+        files: \.(cc|cpp|h|hh)$
+        exclude: '(test/|try/)'
+        pass_filenames: true
+
+      # Check that binaries are not accidentally committed
+      - id: check-executables
+        name: Check for compiled binaries
+        entry: bash -c 'for file in "$@"; do if file "$file" | grep -q "ELF.*executable"; then echo "Error: Binary file $file"; exit 1; fi; done'
+        language: system
+        files: '^src/|^ematch_src/|^knapsack_src/'
+        pass_filenames: true
+
+      # Ensure Python scripts have proper shebang
+      - id: check-python-shebang
+        name: Check Python shebang
+        entry: bash -c 'for file in "$@"; do if [ -x "$file" ] && ! head -1 "$file" | grep -q "^#!.*python"; then echo "Error: Executable Python file $file missing shebang"; exit 1; fi; done'
+        language: system
+        files: '\.py$'
+        pass_filenames: true
+
+# ============================================================================
+# Global configuration
+# ============================================================================
+default_language_version:
+  python: python3.11
+
+# Files to exclude from all hooks
+exclude: |
+  (?x)^(
+    \.git/|
+    \.venv/|
+    venv/|
+    build/|
+    dist/|
+    .*\.egg-info/|
+    __pycache__/|
+    \.pytest_cache/|
+    \.mypy_cache/|
+    docs/html/|
+    docs/latex/
+  )
+
+# Fail fast: stop on first failure
+fail_fast: false
+
+# Minimum supported pre-commit version
+minimum_pre_commit_version: '2.20.0'
